@@ -7,7 +7,6 @@ This card is still in development, so please be carefull if you create your own 
 
 ### Actual Points on the ToDo list ###
 
-* Nedd to add a logo
-* Need to add some space for the serial number
 * Write some documentation and how-to's
+* fix wiring between SPI busses and Connector. Connections made in PCB, buggy in schematic?
 
