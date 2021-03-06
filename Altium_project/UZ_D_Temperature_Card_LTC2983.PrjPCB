@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=2
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component$ChannelAlpha
@@ -176,29 +176,33 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\Design Rule Check - UZ_D_Temperature_Card_LTC2983.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Author
-Value=T. Wendt
+Name=ProjectRevision
+Value=1v00
 
 [Parameter2]
-Name=AuthorParam
-Value=T. Wendt
-
-[Parameter3]
-Name=Date
-Value=11/2019
-
-[Parameter4]
-Name=FinDate
-Value=2020/01
-
-[Parameter5]
 Name=ProjectNameCustom
 Value=UltraZohm_DigitalVoltage
 
+[Parameter3]
+Name=FinDate
+Value=2020/01
+
+[Parameter4]
+Name=Date
+Value=11/2019
+
+[Parameter5]
+Name=AuthorParam
+Value=T. Wendt
+
 [Parameter6]
-Name=ProjectRevision
-Value=1v00
+Name=Author
+Value=T. Wendt
 
 [Configuration1]
 Name=Sources
@@ -358,7 +362,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=ECOSYS P6026cdn
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
