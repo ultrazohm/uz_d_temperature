@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=All_Thermocouple
 
 [Preferences]
 PrefsVaultGUID=
@@ -201,6 +202,77 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[ProjectVariant1]
+UniqueID=73CDDD4C-6A71-47F1-8322-5F509E5F4DC4
+Description=All_Thermocouple
+AllowFabrication=1
+ParameterCount=0
+VariationCount=62
+AllowVariationPastMask=1
+Variation1=Designator=R24A|UniqueId=\1TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
+Variation2=Designator=R24B|UniqueId=\2TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
+Variation3=Designator=R24C|UniqueId=\3TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
+Variation4=Designator=R25A|UniqueId=\1TYAXSBJQ\DSXONJVF|Kind=1|AlternatePart= 
+Variation5=Designator=R25B|UniqueId=\2TYAXSBJQ\DSXONJVF|Kind=1|AlternatePart= 
+Variation6=Designator=R26A|UniqueId=\1TYAXSBJQ\UZAOMUAZ|Kind=1|AlternatePart= 
+Variation7=Designator=R26B|UniqueId=\2TYAXSBJQ\UZAOMUAZ|Kind=1|AlternatePart= 
+Variation8=Designator=R26C|UniqueId=\3TYAXSBJQ\UZAOMUAZ|Kind=1|AlternatePart= 
+Variation9=Designator=R27A|UniqueId=\1TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart= 
+Variation10=Designator=R27B|UniqueId=\2TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart= 
+Variation11=Designator=R27C|UniqueId=\3TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart= 
+Variation12=Designator=R28A|UniqueId=\1TYAXSBJQ\BTQGZVZQ|Kind=1|AlternatePart= 
+Variation13=Designator=R28C|UniqueId=\3TYAXSBJQ\BTQGZVZQ|Kind=1|AlternatePart= 
+Variation14=Designator=R28B|UniqueId=\2TYAXSBJQ\BTQGZVZQ|Kind=1|AlternatePart= 
+Variation15=Designator=R25C|UniqueId=\3TYAXSBJQ\DSXONJVF|Kind=1|AlternatePart= 
+Variation16=Designator=R31B|UniqueId=\2TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart= 
+Variation17=Designator=R31A|UniqueId=\1TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart= 
+Variation18=Designator=R30C|UniqueId=\3TYAXSBJQ\HMGZJUOD|Kind=1|AlternatePart= 
+Variation19=Designator=R30B|UniqueId=\2TYAXSBJQ\HMGZJUOD|Kind=1|AlternatePart= 
+Variation20=Designator=R30A|UniqueId=\1TYAXSBJQ\HMGZJUOD|Kind=1|AlternatePart= 
+Variation21=Designator=R29C|UniqueId=\3TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart= 
+Variation22=Designator=R29A|UniqueId=\1TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart= 
+Variation23=Designator=R29B|UniqueId=\2TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart= 
+Variation24=Designator=R31C|UniqueId=\3TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart= 
+Variation25=Designator=R32A|UniqueId=\1TYAXSBJQ\GVOAXYXP|Kind=1|AlternatePart= 
+Variation26=Designator=R32B|UniqueId=\2TYAXSBJQ\GVOAXYXP|Kind=1|AlternatePart= 
+Variation27=Designator=R32C|UniqueId=\3TYAXSBJQ\GVOAXYXP|Kind=1|AlternatePart= 
+Variation28=Designator=R33A|UniqueId=\1TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart= 
+Variation29=Designator=R33B|UniqueId=\2TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart= 
+Variation30=Designator=R33C|UniqueId=\3TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart= 
+Variation31=Designator=R34A|UniqueId=\1TYAXSBJQ\TCYXCFTG|Kind=1|AlternatePart= 
+Variation32=Designator=R34B|UniqueId=\2TYAXSBJQ\TCYXCFTG|Kind=1|AlternatePart= 
+Variation33=Designator=R34C|UniqueId=\3TYAXSBJQ\TCYXCFTG|Kind=1|AlternatePart= 
+Variation34=Designator=R35A|UniqueId=\1TYAXSBJQ\LIHADODU|Kind=1|AlternatePart= 
+Variation35=Designator=R35B|UniqueId=\2TYAXSBJQ\LIHADODU|Kind=1|AlternatePart= 
+Variation36=Designator=R35C|UniqueId=\3TYAXSBJQ\LIHADODU|Kind=1|AlternatePart= 
+Variation37=Designator=R36A|UniqueId=\1TYAXSBJQ\OFQAYSWP|Kind=1|AlternatePart= 
+Variation38=Designator=R36B|UniqueId=\2TYAXSBJQ\OFQAYSWP|Kind=1|AlternatePart= 
+Variation39=Designator=R36C|UniqueId=\3TYAXSBJQ\OFQAYSWP|Kind=1|AlternatePart= 
+Variation40=Designator=R37A|UniqueId=\1TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart= 
+Variation41=Designator=R37B|UniqueId=\2TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart= 
+Variation42=Designator=R37C|UniqueId=\3TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart= 
+Variation43=Designator=R38A|UniqueId=\1TYAXSBJQ\OBRNQZNW|Kind=1|AlternatePart= 
+Variation44=Designator=R38B|UniqueId=\2TYAXSBJQ\OBRNQZNW|Kind=1|AlternatePart= 
+Variation45=Designator=R38C|UniqueId=\3TYAXSBJQ\OBRNQZNW|Kind=1|AlternatePart= 
+Variation46=Designator=R39A|UniqueId=\1TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart= 
+Variation47=Designator=R39B|UniqueId=\2TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart= 
+Variation48=Designator=R39C|UniqueId=\3TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart= 
+Variation49=Designator=R40A|UniqueId=\1TYAXSBJQ\RPLGZACO|Kind=1|AlternatePart= 
+Variation50=Designator=R40B|UniqueId=\2TYAXSBJQ\RPLGZACO|Kind=1|AlternatePart= 
+Variation51=Designator=R40C|UniqueId=\3TYAXSBJQ\RPLGZACO|Kind=1|AlternatePart= 
+Variation52=Designator=R41A|UniqueId=\1TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart= 
+Variation53=Designator=R41B|UniqueId=\2TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart= 
+Variation54=Designator=R41C|UniqueId=\3TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart= 
+Variation55=Designator=R42A|UniqueId=\1TYAXSBJQ\TPAHYIPM|Kind=1|AlternatePart= 
+Variation56=Designator=R42B|UniqueId=\2TYAXSBJQ\TPAHYIPM|Kind=1|AlternatePart= 
+Variation57=Designator=R42C|UniqueId=\3TYAXSBJQ\TPAHYIPM|Kind=1|AlternatePart= 
+Variation58=Designator=R43A|UniqueId=\1TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
+Variation59=Designator=R43B|UniqueId=\2TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
+Variation60=Designator=R43C|UniqueId=\3TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
+Variation61=Designator=X3|UniqueId=\COQUWLCG\YLYORAJK|Kind=1|AlternatePart= 
+Variation62=Designator=X4|UniqueId=\COQUWLCG\VGTCATHF|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.DRR
 DItemRevisionGUID=
@@ -266,24 +338,24 @@ DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=Rev.02
+Name=Author
+Value=N. Erlemann / R. Zipprich
 
 [Parameter2]
-Name=ProjectDate
-Value=06/2023
+Name=AuthorParam
+Value=N. Erlemann / R. Zipprich
 
 [Parameter3]
 Name=Project
 Value=UZ_D_Temperature_LTC2983
 
 [Parameter4]
-Name=AuthorParam
-Value=N. Erlemann / R. Zipprich / M. Hoerner
+Name=ProjectDate
+Value=06/2023
 
 [Parameter5]
-Name=Author
-Value=N. Erlemann / R. Zipprich / M. Hoerner
+Name=ProjectRevision
+Value=Rev.02
 
 [Configuration1]
 Name=Sources
@@ -1591,100 +1663,10 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=connectors.IntLib
-ComponentDesignItemID0=HSEC8-150-01-XX-DV-A-BL-CARD
-ComponentSymbolReference0=HSEC8-150-01-XX-DV-A-BL-CARD
-ComponentUpdate0=0
-ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=developer.DbLib/Capacitors - SMD
-ComponentDesignItemID1=C0603C104J3REC7411
-ComponentSymbolReference1=Capacitor
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=developer.DbLib/Capacitors - SMD
-ComponentDesignItemID2=GRM219R61E106KA12D
-ComponentSymbolReference2=Capacitor
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=developer.DbLib/Diodes - LED
-ComponentDesignItemID3=150060GS84000
-ComponentSymbolReference3=LED_Green
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=developer.DbLib/Fuses - SMD
-ComponentDesignItemID4=0154005.DR
-ComponentSymbolReference4=Fuse Littelfuse 154 Fuse
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=developer.DbLib/Resistors - SMD
-ComponentDesignItemID5=RC0603JR-070RL
-ComponentSymbolReference5=Resistor
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=developer.DbLib/Resistors - SMD
-ComponentDesignItemID6=RK73B1JTTD103J
-ComponentSymbolReference6=Resistor
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=developer.DbLib/Resistors - SMD
-ComponentDesignItemID7=RK73B1JTTDD102J
-ComponentSymbolReference7=Resistor
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=developer.DbLib/Resistors - SMD
-ComponentDesignItemID8=RK73B1JTTDD202J
-ComponentSymbolReference8=Resistor
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=developer.DbLib/Resistors - SMD
-ComponentDesignItemID9=RK73B1JTTDD681J
-ComponentSymbolReference9=Resistor
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=Miscellaneous Connectors.IntLib
-ComponentDesignItemID10=Header 15X2
-ComponentSymbolReference10=Header 15X2
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=PRJ_LIB_LTC2983_Card.IntLib
-ComponentDesignItemID11=ADUM4150
-ComponentSymbolReference11=ADUM4150
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=PRJ_LIB_LTC2983_Card.IntLib
-ComponentDesignItemID12=DC/DC_Single
-ComponentSymbolReference12=DC/DC_Single
-ComponentUpdate12=1
-ComponentIsDeviceSheet12=0
-ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=PRJ_LIB_LTC2983_Card.IntLib
-ComponentDesignItemID13=LTC2983
-ComponentSymbolReference13=LTC2983
-ComponentUpdate13=1
-ComponentIsDeviceSheet13=0
-ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=standard_rlc.IntLib
-ComponentDesignItemID14=R_0.1W_SMD
-ComponentSymbolReference14=R_0.1W_SMD
-ComponentUpdate14=0
-ComponentIsDeviceSheet14=0
 FullReplace=1
 UpdateDesignatorLock=0
 UpdatePartIDLock=1
@@ -1698,190 +1680,6 @@ RemoveParameters=1
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Color
-ParameterUpdate0=1
-ParameterName1=Comment
-ParameterUpdate1=1
-ParameterName2=Component Kind
-ParameterUpdate2=1
-ParameterName3=Component Type
-ParameterUpdate3=1
-ParameterName4=ComponentLink1Description
-ParameterUpdate4=1
-ParameterName5=ComponentLink1URL
-ParameterUpdate5=1
-ParameterName6=Created
-ParameterUpdate6=1
-ParameterName7=Created from
-ParameterUpdate7=1
-ParameterName8=Created On
-ParameterUpdate8=1
-ParameterName9=Description
-ParameterUpdate9=1
-ParameterName10=Device Package
-ParameterUpdate10=1
-ParameterName11=Forward Current I_f
-ParameterUpdate11=1
-ParameterName12=Forward Voltage U_f
-ParameterUpdate12=1
-ParameterName13=HelpURL
-ParameterUpdate13=1
-ParameterName14=Last Updated
-ParameterUpdate14=1
-ParameterName15=LatestRevisionDate
-ParameterUpdate15=1
-ParameterName16=LatestRevisionNote
-ParameterUpdate16=1
-ParameterName17=Library Reference
-ParameterUpdate17=1
-ParameterName18=Light Intensity
-ParameterUpdate18=1
-ParameterName19=Live Cycle Status
-ParameterUpdate19=1
-ParameterName20=Manufacturer
-ParameterUpdate20=1
-ParameterName21=Manufacturer Part Number
-ParameterUpdate21=1
-ParameterName22=MaxVoltage
-ParameterUpdate22=1
-ParameterName23=MF
-ParameterUpdate23=1
-ParameterName24=Mounting Type
-ParameterUpdate24=1
-ParameterName25=MPN
-ParameterUpdate25=1
-ParameterName26=Nominal current
-ParameterUpdate26=1
-ParameterName27=Nominal Power
-ParameterUpdate27=1
-ParameterName28=Nominal voltage AC
-ParameterUpdate28=1
-ParameterName29=Nominal voltage DC
-ParameterUpdate29=1
-ParameterName30=Operating Temperature
-ParameterUpdate30=1
-ParameterName31=Package
-ParameterUpdate31=1
-ParameterName32=Parameter1
-ParameterUpdate32=1
-ParameterName33=Parameter1Desc
-ParameterUpdate33=1
-ParameterName34=Parameter2
-ParameterUpdate34=1
-ParameterName35=Parameter2Desc
-ParameterUpdate35=1
-ParameterName36=Parameter3
-ParameterUpdate36=1
-ParameterName37=Parameter3Desc
-ParameterUpdate37=1
-ParameterName38=PartID
-ParameterUpdate38=1
-ParameterName39=Publisher
-ParameterUpdate39=1
-ParameterName40=Resistance
-ParameterUpdate40=1
-ParameterName41=Series
-ParameterUpdate41=1
-ParameterName42=Stock number
-ParameterUpdate42=1
-ParameterName43=Supplier 1
-ParameterUpdate43=1
-ParameterName44=Supplier 2
-ParameterUpdate44=1
-ParameterName45=Supplier 3
-ParameterUpdate45=1
-ParameterName46=Supplier Part Number 1
-ParameterUpdate46=1
-ParameterName47=Supplier Part Number 2
-ParameterUpdate47=1
-ParameterName48=Supplier Part Number 3
-ParameterUpdate48=1
-ParameterName49=Tolerance
-ParameterUpdate49=1
-ParameterName50=Type
-ParameterUpdate50=1
-ParameterName51=Value
-ParameterUpdate51=1
-ParameterName52=Voltage Rating
-ParameterUpdate52=1
-ParameterName53=Wavelength
-ParameterUpdate53=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=48_LGFP(7x7)
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=C_0603
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=C_0805
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=HDR2X15
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=HSEC8-150-01-XX-DV-A-BL-CARD
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=Littlefuse_154
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=RES 0201_0603
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=RESC1608X55X30LL15T15
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=RESC1608X55X30ML15T15
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=RESC1608X55X30NL15T15
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=RESC2013X70X40LL20T20
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=RESC2013X70X40ML20T20
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=RESC2013X70X40NL20T20
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=RESC3216X70X50LL20T25
-ModelUpdate13=1
-ModelType14=PCBLIB
-ModelName14=RESC3216X70X50ML20T25
-ModelUpdate14=1
-ModelType15=PCBLIB
-ModelName15=RESC3216X70X50NL20T25
-ModelUpdate15=1
-ModelType16=PCBLIB
-ModelName16=RESC3225X70X50LL20T20
-ModelUpdate16=1
-ModelType17=PCBLIB
-ModelName17=RESC3225X70X50ML20T20
-ModelUpdate17=1
-ModelType18=PCBLIB
-ModelName18=RESC3225X70X50NL20T20
-ModelUpdate18=1
-ModelType19=PCBLIB
-ModelName19=SIP4DCDC
-ModelUpdate19=1
-ModelType20=PCBLIB
-ModelName20=SIP7_DCDC
-ModelUpdate20=1
-ModelType21=PCBLIB
-ModelName21=SOIC-20-ADUM4150
-ModelUpdate21=1
-ModelType22=PCBLIB
-ModelName22=WL-SMCW_0603
-ModelUpdate22=1
-ModelTypeGroup1=SI
-ModelTypeUpdate1=1
-ModelType23=SI
-ModelName23=Connector
-ModelUpdate23=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
