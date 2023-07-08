@@ -207,7 +207,7 @@ UniqueID=73CDDD4C-6A71-47F1-8322-5F509E5F4DC4
 Description=All_Thermocouple
 AllowFabrication=1
 ParameterCount=0
-VariationCount=74
+VariationCount=75
 AllowVariationPastMask=1
 Variation1=Designator=R24A|UniqueId=\1TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
 Variation2=Designator=R24B|UniqueId=\2TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
@@ -283,6 +283,7 @@ Variation71=Designator=R6C|UniqueId=\3TYAXSBJQ\IBQKHIEA|Kind=1|AlternatePart=
 Variation72=Designator=R7A|UniqueId=\1TYAXSBJQ\HQWBZHQY|Kind=1|AlternatePart= 
 Variation73=Designator=R7B|UniqueId=\2TYAXSBJQ\HQWBZHQY|Kind=1|AlternatePart= 
 Variation74=Designator=R7C|UniqueId=\3TYAXSBJQ\HQWBZHQY|Kind=1|AlternatePart= 
+Variation75=Designator=X1B|UniqueId=\2TYAXSBJQ\QGSTGWMF|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -523,12 +524,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=ECOSYS P6026cdn
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
