@@ -287,88 +287,92 @@ Variation75=Designator=X1B|UniqueId=\2TYAXSBJQ\QGSTGWMF|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.DRR
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\Design Rule Check - UZ_D_Temperature_Card_LTC2983.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.EXTREP
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GBL
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GBO
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GBP
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GBS
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GD1
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GM1
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GTL
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GTO
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GTP
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GTS
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.LDP
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.REP
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.RUL
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.REP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
+DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
 DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_Card_LTC2983.TXT
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Author
-Value=N. Erlemann / R. Zipprich
+Name=ProjectRevision
+Value=Rev02
 
 [Parameter2]
-Name=AuthorParam
-Value=N. Erlemann / R. Zipprich
+Name=ProjectDate
+Value=07/2023
 
 [Parameter3]
 Name=Project
 Value=UZ_D_Temperature_LTC2983
 
 [Parameter4]
-Name=ProjectDate
-Value=06/2023
+Name=AuthorParam
+Value=N. Erlemann / R. Zipprich
 
 [Parameter5]
-Name=ProjectRevision
-Value=Rev.02
+Name=Author
+Value=N. Erlemann / R. Zipprich
 
 [Configuration1]
 Name=Sources
@@ -524,22 +528,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=ECOSYS P6026cdn
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
