@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 14:22:08 On 17.07.2023
+
+Output: Pick and Place Files
+Type  : Pick Place
+From  : Variant [All_Thermocouple] of PCB Document [UZ_D_Temperature_Card_LTC2983.PcbDoc]
+   Generated File[Pick_and_Place_UZ_D_Temperature_Card_LTC2983_All_Thermocouple_Rev02.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 14:22:08 On 17.07.2023
