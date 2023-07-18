@@ -1,0 +1,4 @@
+DC/DC : ROE-2405S 5V 200mA
+ https://www.mouser.de/ProductDetail/RECOM-Power/ROE-2405S?qs=wlO1EFRhkBD1PQdCwpEhnw%3D%3D
+ADUM : ADUM 4150 ARIZ
+https://www.analog.com/en/products/adum4150.html#product-overview
