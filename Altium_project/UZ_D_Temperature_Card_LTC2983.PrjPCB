@@ -207,7 +207,7 @@ UniqueID=73CDDD4C-6A71-47F1-8322-5F509E5F4DC4
 Description=All_Thermocouple
 AllowFabrication=1
 ParameterCount=0
-VariationCount=75
+VariationCount=90
 AllowVariationPastMask=1
 Variation1=Designator=R24A|UniqueId=\1TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
 Variation2=Designator=R24B|UniqueId=\2TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
@@ -271,19 +271,34 @@ Variation59=Designator=R43B|UniqueId=\2TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart=
 Variation60=Designator=R43C|UniqueId=\3TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
 Variation61=Designator=X3|UniqueId=\COQUWLCG\YLYORAJK|Kind=1|AlternatePart= 
 Variation62=Designator=X4|UniqueId=\COQUWLCG\VGTCATHF|Kind=1|AlternatePart= 
-Variation63=Designator=R4A|UniqueId=\1TYAXSBJQ\DQLBLIUM|Kind=1|AlternatePart= 
-Variation64=Designator=R4B|UniqueId=\2TYAXSBJQ\DQLBLIUM|Kind=1|AlternatePart= 
-Variation65=Designator=R4C|UniqueId=\3TYAXSBJQ\DQLBLIUM|Kind=1|AlternatePart= 
-Variation66=Designator=R5A|UniqueId=\1TYAXSBJQ\KWLPONEE|Kind=1|AlternatePart= 
-Variation67=Designator=R5B|UniqueId=\2TYAXSBJQ\KWLPONEE|Kind=1|AlternatePart= 
-Variation68=Designator=R5C|UniqueId=\3TYAXSBJQ\KWLPONEE|Kind=1|AlternatePart= 
-Variation69=Designator=R6A|UniqueId=\1TYAXSBJQ\IBQKHIEA|Kind=1|AlternatePart= 
-Variation70=Designator=R6B|UniqueId=\2TYAXSBJQ\IBQKHIEA|Kind=1|AlternatePart= 
-Variation71=Designator=R6C|UniqueId=\3TYAXSBJQ\IBQKHIEA|Kind=1|AlternatePart= 
-Variation72=Designator=R7A|UniqueId=\1TYAXSBJQ\HQWBZHQY|Kind=1|AlternatePart= 
-Variation73=Designator=R7B|UniqueId=\2TYAXSBJQ\HQWBZHQY|Kind=1|AlternatePart= 
-Variation74=Designator=R7C|UniqueId=\3TYAXSBJQ\HQWBZHQY|Kind=1|AlternatePart= 
+Variation63=Designator=R4A|UniqueId=\1TYAXSBJQ\DQLBLIUM|Kind=0|AlternatePart= 
+Variation64=Designator=R4B|UniqueId=\2TYAXSBJQ\DQLBLIUM|Kind=0|AlternatePart= 
+Variation65=Designator=R4C|UniqueId=\3TYAXSBJQ\DQLBLIUM|Kind=0|AlternatePart= 
+Variation66=Designator=R5A|UniqueId=\1TYAXSBJQ\KWLPONEE|Kind=0|AlternatePart= 
+Variation67=Designator=R5B|UniqueId=\2TYAXSBJQ\KWLPONEE|Kind=0|AlternatePart= 
+Variation68=Designator=R5C|UniqueId=\3TYAXSBJQ\KWLPONEE|Kind=0|AlternatePart= 
+Variation69=Designator=R6A|UniqueId=\1TYAXSBJQ\IBQKHIEA|Kind=0|AlternatePart= 
+Variation70=Designator=R6B|UniqueId=\2TYAXSBJQ\IBQKHIEA|Kind=0|AlternatePart= 
+Variation71=Designator=R6C|UniqueId=\3TYAXSBJQ\IBQKHIEA|Kind=0|AlternatePart= 
+Variation72=Designator=R7A|UniqueId=\1TYAXSBJQ\HQWBZHQY|Kind=0|AlternatePart= 
+Variation73=Designator=R7B|UniqueId=\2TYAXSBJQ\HQWBZHQY|Kind=0|AlternatePart= 
+Variation74=Designator=R7C|UniqueId=\3TYAXSBJQ\HQWBZHQY|Kind=0|AlternatePart= 
 Variation75=Designator=X1B|UniqueId=\2TYAXSBJQ\QGSTGWMF|Kind=1|AlternatePart= 
+Variation76=Designator=R55|UniqueId=\COQUWLCG\YTSNPBHW|Kind=1|AlternatePart= 
+Variation77=Designator=R61|UniqueId=\COQUWLCG\CFBBMRZH|Kind=1|AlternatePart= 
+Variation78=Designator=R67|UniqueId=\COQUWLCG\NGXPKXIV|Kind=1|AlternatePart= 
+Variation79=Designator=R44A|UniqueId=\1TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
+Variation80=Designator=R45A|UniqueId=\1TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
+Variation81=Designator=R46A|UniqueId=\1TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
+Variation82=Designator=R47A|UniqueId=\1TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
+Variation83=Designator=R44B|UniqueId=\2TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
+Variation84=Designator=R45B|UniqueId=\2TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
+Variation85=Designator=R46B|UniqueId=\2TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
+Variation86=Designator=R47B|UniqueId=\2TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
+Variation87=Designator=R44C|UniqueId=\3TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
+Variation88=Designator=R45C|UniqueId=\3TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
+Variation89=Designator=R46C|UniqueId=\3TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
+Variation90=Designator=R47C|UniqueId=\3TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -355,24 +370,24 @@ DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=Rev02
+Name=Author
+Value=N. Erlemann / R. Zipprich
 
 [Parameter2]
-Name=ProjectDate
-Value=07/2023
+Name=AuthorParam
+Value=N. Erlemann / R. Zipprich
 
 [Parameter3]
 Name=Project
 Value=UZ_D_Temperature_LTC2983
 
 [Parameter4]
-Name=AuthorParam
-Value=N. Erlemann / R. Zipprich
+Name=ProjectDate
+Value=07/2023
 
 [Parameter5]
-Name=Author
-Value=N. Erlemann / R. Zipprich
+Name=ProjectRevision
+Value=Rev02
 
 [Configuration1]
 Name=Sources
@@ -626,6 +641,12 @@ OutputDocumentPath14=
 OutputVariantName14=[No Variations]
 OutputDefault14=0
 PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=PCBDrawing
+OutputName15=Draftsman
+OutputDocumentPath15=
+OutputVariantName15=[No Variations]
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
