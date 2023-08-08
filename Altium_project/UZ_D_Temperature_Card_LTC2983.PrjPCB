@@ -370,24 +370,24 @@ DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Author
-Value=N. Erlemann / R. Zipprich
+Name=ProjectRevision
+Value=Rev03
 
 [Parameter2]
-Name=AuthorParam
-Value=N. Erlemann / R. Zipprich
+Name=ProjectDate
+Value=07/2023
 
 [Parameter3]
 Name=Project
 Value=UZ_D_Temperature_LTC2983
 
 [Parameter4]
-Name=ProjectDate
-Value=07/2023
+Name=AuthorParam
+Value=N. Erlemann / R. Zipprich
 
 [Parameter5]
-Name=ProjectRevision
-Value=Rev02
+Name=Author
+Value=N. Erlemann / R. Zipprich
 
 [Configuration1]
 Name=Sources
