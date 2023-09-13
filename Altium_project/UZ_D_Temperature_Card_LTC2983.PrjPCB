@@ -284,21 +284,21 @@ Variation72=Designator=R7A|UniqueId=\1TYAXSBJQ\HQWBZHQY|Kind=0|AlternatePart=
 Variation73=Designator=R7B|UniqueId=\2TYAXSBJQ\HQWBZHQY|Kind=0|AlternatePart= 
 Variation74=Designator=R7C|UniqueId=\3TYAXSBJQ\HQWBZHQY|Kind=0|AlternatePart= 
 Variation75=Designator=X1B|UniqueId=\2TYAXSBJQ\QGSTGWMF|Kind=1|AlternatePart= 
-Variation76=Designator=R55|UniqueId=\COQUWLCG\YTSNPBHW|Kind=1|AlternatePart= 
-Variation77=Designator=R61|UniqueId=\COQUWLCG\CFBBMRZH|Kind=1|AlternatePart= 
-Variation78=Designator=R67|UniqueId=\COQUWLCG\NGXPKXIV|Kind=1|AlternatePart= 
-Variation79=Designator=R44A|UniqueId=\1TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
-Variation80=Designator=R45A|UniqueId=\1TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
-Variation81=Designator=R46A|UniqueId=\1TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
-Variation82=Designator=R47A|UniqueId=\1TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
+Variation76=Designator=R45A|UniqueId=\1TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
+Variation77=Designator=R44A|UniqueId=\1TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
+Variation78=Designator=R46A|UniqueId=\1TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
+Variation79=Designator=R47A|UniqueId=\1TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
+Variation80=Designator=R45B|UniqueId=\2TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
+Variation81=Designator=R46B|UniqueId=\2TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
+Variation82=Designator=R47B|UniqueId=\2TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
 Variation83=Designator=R44B|UniqueId=\2TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
-Variation84=Designator=R45B|UniqueId=\2TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
-Variation85=Designator=R46B|UniqueId=\2TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
-Variation86=Designator=R47B|UniqueId=\2TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
+Variation84=Designator=R45C|UniqueId=\3TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
+Variation85=Designator=R46C|UniqueId=\3TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
+Variation86=Designator=R47C|UniqueId=\3TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
 Variation87=Designator=R44C|UniqueId=\3TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
-Variation88=Designator=R45C|UniqueId=\3TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
-Variation89=Designator=R46C|UniqueId=\3TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
-Variation90=Designator=R47C|UniqueId=\3TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
+Variation88=Designator=R55|UniqueId=\COQUWLCG\YTSNPBHW|Kind=1|AlternatePart= 
+Variation89=Designator=R61|UniqueId=\COQUWLCG\CFBBMRZH|Kind=1|AlternatePart= 
+Variation90=Designator=R67|UniqueId=\COQUWLCG\NGXPKXIV|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -370,24 +370,24 @@ DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=Rev03
+Name=Author
+Value=N. Erlemann / R. Zipprich
 
 [Parameter2]
-Name=ProjectDate
-Value=07/2023
+Name=AuthorParam
+Value=N. Erlemann / R. Zipprich
 
 [Parameter3]
 Name=Project
 Value=UZ_D_Temperature_LTC2983
 
 [Parameter4]
-Name=AuthorParam
-Value=N. Erlemann / R. Zipprich
+Name=ProjectDate
+Value=07/2023
 
 [Parameter5]
-Name=Author
-Value=N. Erlemann / R. Zipprich
+Name=ProjectRevision
+Value=Rev02
 
 [Configuration1]
 Name=Sources
@@ -1173,6 +1173,7 @@ Type117=1
 Type118=1
 Type119=1
 Type120=1
+Type121=1
 
 [Difference Levels]
 Type1=1
@@ -1243,6 +1244,7 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
+Type69=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1371,6 +1373,30 @@ Type124=1
 Type125=1
 Type126=1
 Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
