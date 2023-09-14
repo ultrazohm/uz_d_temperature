@@ -43,7 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=All_Thermocouple
+CurrentVariant=All_2wire_RTD
 
 [Preferences]
 PrefsVaultGUID=
@@ -207,7 +207,7 @@ UniqueID=73CDDD4C-6A71-47F1-8322-5F509E5F4DC4
 Description=All_Thermocouple
 AllowFabrication=1
 ParameterCount=0
-VariationCount=90
+VariationCount=78
 AllowVariationPastMask=1
 Variation1=Designator=R24A|UniqueId=\1TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
 Variation2=Designator=R24B|UniqueId=\2TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
@@ -271,35 +271,3380 @@ Variation59=Designator=R43B|UniqueId=\2TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart=
 Variation60=Designator=R43C|UniqueId=\3TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
 Variation61=Designator=X3|UniqueId=\COQUWLCG\YLYORAJK|Kind=1|AlternatePart= 
 Variation62=Designator=X4|UniqueId=\COQUWLCG\VGTCATHF|Kind=1|AlternatePart= 
-Variation63=Designator=R4A|UniqueId=\1TYAXSBJQ\DQLBLIUM|Kind=0|AlternatePart= 
-Variation64=Designator=R4B|UniqueId=\2TYAXSBJQ\DQLBLIUM|Kind=0|AlternatePart= 
-Variation65=Designator=R4C|UniqueId=\3TYAXSBJQ\DQLBLIUM|Kind=0|AlternatePart= 
-Variation66=Designator=R5A|UniqueId=\1TYAXSBJQ\KWLPONEE|Kind=0|AlternatePart= 
-Variation67=Designator=R5B|UniqueId=\2TYAXSBJQ\KWLPONEE|Kind=0|AlternatePart= 
-Variation68=Designator=R5C|UniqueId=\3TYAXSBJQ\KWLPONEE|Kind=0|AlternatePart= 
-Variation69=Designator=R6A|UniqueId=\1TYAXSBJQ\IBQKHIEA|Kind=0|AlternatePart= 
-Variation70=Designator=R6B|UniqueId=\2TYAXSBJQ\IBQKHIEA|Kind=0|AlternatePart= 
-Variation71=Designator=R6C|UniqueId=\3TYAXSBJQ\IBQKHIEA|Kind=0|AlternatePart= 
-Variation72=Designator=R7A|UniqueId=\1TYAXSBJQ\HQWBZHQY|Kind=0|AlternatePart= 
-Variation73=Designator=R7B|UniqueId=\2TYAXSBJQ\HQWBZHQY|Kind=0|AlternatePart= 
-Variation74=Designator=R7C|UniqueId=\3TYAXSBJQ\HQWBZHQY|Kind=0|AlternatePart= 
-Variation75=Designator=X1B|UniqueId=\2TYAXSBJQ\QGSTGWMF|Kind=1|AlternatePart= 
-Variation76=Designator=R45A|UniqueId=\1TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
-Variation77=Designator=R44A|UniqueId=\1TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
-Variation78=Designator=R46A|UniqueId=\1TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
-Variation79=Designator=R47A|UniqueId=\1TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
-Variation80=Designator=R45B|UniqueId=\2TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
-Variation81=Designator=R46B|UniqueId=\2TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
-Variation82=Designator=R47B|UniqueId=\2TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
-Variation83=Designator=R44B|UniqueId=\2TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
-Variation84=Designator=R45C|UniqueId=\3TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
-Variation85=Designator=R46C|UniqueId=\3TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
-Variation86=Designator=R47C|UniqueId=\3TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
-Variation87=Designator=R44C|UniqueId=\3TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
-Variation88=Designator=R55|UniqueId=\COQUWLCG\YTSNPBHW|Kind=1|AlternatePart= 
-Variation89=Designator=R61|UniqueId=\COQUWLCG\CFBBMRZH|Kind=1|AlternatePart= 
-Variation90=Designator=R67|UniqueId=\COQUWLCG\NGXPKXIV|Kind=1|AlternatePart= 
+Variation63=Designator=X1B|UniqueId=\2TYAXSBJQ\QGSTGWMF|Kind=1|AlternatePart= 
+Variation64=Designator=R45A|UniqueId=\1TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
+Variation65=Designator=R44A|UniqueId=\1TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
+Variation66=Designator=R46A|UniqueId=\1TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
+Variation67=Designator=R47A|UniqueId=\1TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
+Variation68=Designator=R45B|UniqueId=\2TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
+Variation69=Designator=R46B|UniqueId=\2TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
+Variation70=Designator=R47B|UniqueId=\2TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
+Variation71=Designator=R44B|UniqueId=\2TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
+Variation72=Designator=R45C|UniqueId=\3TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
+Variation73=Designator=R46C|UniqueId=\3TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
+Variation74=Designator=R47C|UniqueId=\3TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
+Variation75=Designator=R44C|UniqueId=\3TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
+Variation76=Designator=R55|UniqueId=\COQUWLCG\YTSNPBHW|Kind=1|AlternatePart= 
+Variation77=Designator=R61|UniqueId=\COQUWLCG\CFBBMRZH|Kind=1|AlternatePart= 
+Variation78=Designator=R67|UniqueId=\COQUWLCG\NGXPKXIV|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=E69AD332-D7AD-4236-86EE-6F0AD8E98FD8
+Description=All_2wire_RTD
+AllowFabrication=1
+ParameterCount=0
+VariationCount=96
+AllowVariationPastMask=1
+Variation1=Designator=R45A|UniqueId=\1TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
+Variation2=Designator=R44A|UniqueId=\1TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
+Variation3=Designator=R46A|UniqueId=\1TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
+Variation4=Designator=R47A|UniqueId=\1TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
+Variation5=Designator=R45B|UniqueId=\2TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
+Variation6=Designator=R44B|UniqueId=\2TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
+Variation7=Designator=R46B|UniqueId=\2TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
+Variation8=Designator=R47B|UniqueId=\2TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
+Variation9=Designator=R45C|UniqueId=\3TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
+Variation10=Designator=R44C|UniqueId=\3TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
+Variation11=Designator=R46C|UniqueId=\3TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
+Variation12=Designator=R47C|UniqueId=\3TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
+Variation13=Designator=X1B|UniqueId=\2TYAXSBJQ\QGSTGWMF|Kind=1|AlternatePart= 
+Variation14=Designator=R27A|UniqueId=\1TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart= 
+Variation15=Designator=R29A|UniqueId=\1TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart= 
+Variation16=Designator=R31A|UniqueId=\1TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart= 
+Variation17=Designator=R33A|UniqueId=\1TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart= 
+Variation18=Designator=R35A|UniqueId=\1TYAXSBJQ\LIHADODU|Kind=1|AlternatePart= 
+Variation19=Designator=R37A|UniqueId=\1TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart= 
+Variation20=Designator=R39A|UniqueId=\1TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart= 
+Variation21=Designator=R41A|UniqueId=\1TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart= 
+Variation22=Designator=R43A|UniqueId=\1TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
+Variation23=Designator=R27B|UniqueId=\2TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart= 
+Variation24=Designator=R29B|UniqueId=\2TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart= 
+Variation25=Designator=R31B|UniqueId=\2TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart= 
+Variation26=Designator=R33B|UniqueId=\2TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart= 
+Variation27=Designator=R35B|UniqueId=\2TYAXSBJQ\LIHADODU|Kind=1|AlternatePart= 
+Variation28=Designator=R37B|UniqueId=\2TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart= 
+Variation29=Designator=R39B|UniqueId=\2TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart= 
+Variation30=Designator=R41B|UniqueId=\2TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart= 
+Variation31=Designator=R43B|UniqueId=\2TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
+Variation32=Designator=R27C|UniqueId=\3TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart= 
+Variation33=Designator=R29C|UniqueId=\3TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart= 
+Variation34=Designator=R31C|UniqueId=\3TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart= 
+Variation35=Designator=R33C|UniqueId=\3TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart= 
+Variation36=Designator=R35C|UniqueId=\3TYAXSBJQ\LIHADODU|Kind=1|AlternatePart= 
+Variation37=Designator=R37C|UniqueId=\3TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart= 
+Variation38=Designator=R39C|UniqueId=\3TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart= 
+Variation39=Designator=R41C|UniqueId=\3TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart= 
+Variation40=Designator=R43C|UniqueId=\3TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
+Variation41=Designator=X4|UniqueId=\COQUWLCG\VGTCATHF|Kind=1|AlternatePart= 
+Variation42=Designator=X3|UniqueId=\COQUWLCG\YLYORAJK|Kind=1|AlternatePart= 
+Variation43=Designator=R55|UniqueId=\COQUWLCG\YTSNPBHW|Kind=1|AlternatePart= 
+Variation44=Designator=R61|UniqueId=\COQUWLCG\CFBBMRZH|Kind=1|AlternatePart= 
+Variation45=Designator=R67|UniqueId=\COQUWLCG\NGXPKXIV|Kind=1|AlternatePart= 
+Variation46=Designator=R24A|UniqueId=\1TYAXSBJQ\TEHCLEAY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0603WAF1001T5E|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue==Value
+ParamDesignator1=R24A
+ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator2=R24A
+ParamVariation3=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator3=R24A
+ParamVariation4=ParameterName=ComponentLink1URL|VariantValue=https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf
+ParamDesignator4=R24A
+ParamVariation5=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator5=R24A
+ParamVariation6=ParameterName=Created from|VariantValue=AGeiger
+ParamDesignator6=R24A
+ParamVariation7=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator7=R24A
+ParamVariation8=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator8=R24A
+ParamVariation9=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator9=R24A
+ParamVariation10=ParameterName=Device Package|VariantValue=0603
+ParamDesignator10=R24A
+ParamVariation11=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator11=R24A
+ParamVariation12=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator12=R24A
+ParamVariation13=ParameterName=Last Updated|VariantValue=25.08.2022 16:01:46
+ParamDesignator13=R24A
+ParamVariation14=ParameterName=LCSC Part Number|VariantValue=C21190
+ParamDesignator14=R24A
+ParamVariation15=ParameterName=Library Reference|VariantValue=0603WAF1001T5E
+ParamDesignator15=R24A
+ParamVariation16=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator16=R24A
+ParamVariation17=ParameterName=Manufacturer|VariantValue=UNI-ROYAL
+ParamDesignator17=R24A
+ParamVariation18=ParameterName=Manufacturer Part Number|VariantValue=0603WAF1001T5E
+ParamDesignator18=R24A
+ParamVariation19=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator19=R24A
+ParamVariation20=ParameterName=PartID|VariantValue=74
+ParamDesignator20=R24A
+ParamVariation21=ParameterName=PCB3D|VariantValue= 
+ParamDesignator21=R24A
+ParamVariation22=ParameterName=Pin Info|VariantValue= 
+ParamDesignator22=R24A
+ParamVariation23=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator23=R24A
+ParamVariation24=ParameterName=Simulation|VariantValue= 
+ParamDesignator24=R24A
+ParamVariation25=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator25=R24A
+ParamVariation26=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator26=R24A
+ParamVariation27=ParameterName=Supplier Part Number 1|VariantValue==LCSC Part Number
+ParamDesignator27=R24A
+ParamVariation28=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator28=R24A
+ParamVariation29=ParameterName=Type|VariantValue=Resistor
+ParamDesignator29=R24A
+ParamVariation30=ParameterName=Value|VariantValue=1k
+ParamDesignator30=R24A
+Variation47=Designator=R24B|UniqueId=\2TYAXSBJQ\TEHCLEAY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0603WAF1001T5E|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation31=ParameterName=Comment|VariantValue==Value
+ParamDesignator31=R24B
+ParamVariation32=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator32=R24B
+ParamVariation33=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator33=R24B
+ParamVariation34=ParameterName=ComponentLink1URL|VariantValue=https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf
+ParamDesignator34=R24B
+ParamVariation35=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator35=R24B
+ParamVariation36=ParameterName=Created from|VariantValue=AGeiger
+ParamDesignator36=R24B
+ParamVariation37=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator37=R24B
+ParamVariation38=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator38=R24B
+ParamVariation39=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator39=R24B
+ParamVariation40=ParameterName=Device Package|VariantValue=0603
+ParamDesignator40=R24B
+ParamVariation41=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator41=R24B
+ParamVariation42=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator42=R24B
+ParamVariation43=ParameterName=Last Updated|VariantValue=25.08.2022 16:01:46
+ParamDesignator43=R24B
+ParamVariation44=ParameterName=LCSC Part Number|VariantValue=C21190
+ParamDesignator44=R24B
+ParamVariation45=ParameterName=Library Reference|VariantValue=0603WAF1001T5E
+ParamDesignator45=R24B
+ParamVariation46=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator46=R24B
+ParamVariation47=ParameterName=Manufacturer|VariantValue=UNI-ROYAL
+ParamDesignator47=R24B
+ParamVariation48=ParameterName=Manufacturer Part Number|VariantValue=0603WAF1001T5E
+ParamDesignator48=R24B
+ParamVariation49=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator49=R24B
+ParamVariation50=ParameterName=PartID|VariantValue=74
+ParamDesignator50=R24B
+ParamVariation51=ParameterName=PCB3D|VariantValue= 
+ParamDesignator51=R24B
+ParamVariation52=ParameterName=Pin Info|VariantValue= 
+ParamDesignator52=R24B
+ParamVariation53=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator53=R24B
+ParamVariation54=ParameterName=Simulation|VariantValue= 
+ParamDesignator54=R24B
+ParamVariation55=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator55=R24B
+ParamVariation56=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator56=R24B
+ParamVariation57=ParameterName=Supplier Part Number 1|VariantValue==LCSC Part Number
+ParamDesignator57=R24B
+ParamVariation58=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator58=R24B
+ParamVariation59=ParameterName=Type|VariantValue=Resistor
+ParamDesignator59=R24B
+ParamVariation60=ParameterName=Value|VariantValue=1k
+ParamDesignator60=R24B
+Variation48=Designator=R24C|UniqueId=\3TYAXSBJQ\TEHCLEAY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0603WAF1001T5E|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation61=ParameterName=Comment|VariantValue==Value
+ParamDesignator61=R24C
+ParamVariation62=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator62=R24C
+ParamVariation63=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator63=R24C
+ParamVariation64=ParameterName=ComponentLink1URL|VariantValue=https://datasheet.lcsc.com/lcsc/2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf
+ParamDesignator64=R24C
+ParamVariation65=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator65=R24C
+ParamVariation66=ParameterName=Created from|VariantValue=AGeiger
+ParamDesignator66=R24C
+ParamVariation67=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator67=R24C
+ParamVariation68=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator68=R24C
+ParamVariation69=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator69=R24C
+ParamVariation70=ParameterName=Device Package|VariantValue=0603
+ParamDesignator70=R24C
+ParamVariation71=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator71=R24C
+ParamVariation72=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator72=R24C
+ParamVariation73=ParameterName=Last Updated|VariantValue=25.08.2022 16:01:46
+ParamDesignator73=R24C
+ParamVariation74=ParameterName=LCSC Part Number|VariantValue=C21190
+ParamDesignator74=R24C
+ParamVariation75=ParameterName=Library Reference|VariantValue=0603WAF1001T5E
+ParamDesignator75=R24C
+ParamVariation76=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator76=R24C
+ParamVariation77=ParameterName=Manufacturer|VariantValue=UNI-ROYAL
+ParamDesignator77=R24C
+ParamVariation78=ParameterName=Manufacturer Part Number|VariantValue=0603WAF1001T5E
+ParamDesignator78=R24C
+ParamVariation79=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator79=R24C
+ParamVariation80=ParameterName=PartID|VariantValue=74
+ParamDesignator80=R24C
+ParamVariation81=ParameterName=PCB3D|VariantValue= 
+ParamDesignator81=R24C
+ParamVariation82=ParameterName=Pin Info|VariantValue= 
+ParamDesignator82=R24C
+ParamVariation83=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator83=R24C
+ParamVariation84=ParameterName=Simulation|VariantValue= 
+ParamDesignator84=R24C
+ParamVariation85=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator85=R24C
+ParamVariation86=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator86=R24C
+ParamVariation87=ParameterName=Supplier Part Number 1|VariantValue==LCSC Part Number
+ParamDesignator87=R24C
+ParamVariation88=ParameterName=Tolerance|VariantValue=1%
+ParamDesignator88=R24C
+ParamVariation89=ParameterName=Type|VariantValue=Resistor
+ParamDesignator89=R24C
+ParamVariation90=ParameterName=Value|VariantValue=1k
+ParamDesignator90=R24C
+Variation49=Designator=R23A|UniqueId=\1TYAXSBJQ\IAYARHUV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation91=ParameterName=Comment|VariantValue==Value
+ParamDesignator91=R23A
+ParamVariation92=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator92=R23A
+ParamVariation93=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator93=R23A
+ParamVariation94=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator94=R23A
+ParamVariation95=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator95=R23A
+ParamVariation96=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator96=R23A
+ParamVariation97=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator97=R23A
+ParamVariation98=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator98=R23A
+ParamVariation99=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator99=R23A
+ParamVariation100=ParameterName=Device Package|VariantValue=0603
+ParamDesignator100=R23A
+ParamVariation101=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator101=R23A
+ParamVariation102=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator102=R23A
+ParamVariation103=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator103=R23A
+ParamVariation104=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator104=R23A
+ParamVariation105=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator105=R23A
+ParamVariation106=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator106=R23A
+ParamVariation107=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator107=R23A
+ParamVariation108=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator108=R23A
+ParamVariation109=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator109=R23A
+ParamVariation110=ParameterName=PartID|VariantValue=1
+ParamDesignator110=R23A
+ParamVariation111=ParameterName=PCB3D|VariantValue= 
+ParamDesignator111=R23A
+ParamVariation112=ParameterName=Pin Info|VariantValue= 
+ParamDesignator112=R23A
+ParamVariation113=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator113=R23A
+ParamVariation114=ParameterName=Simulation|VariantValue= 
+ParamDesignator114=R23A
+ParamVariation115=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator115=R23A
+ParamVariation116=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator116=R23A
+ParamVariation117=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator117=R23A
+ParamVariation118=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator118=R23A
+ParamVariation119=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator119=R23A
+ParamVariation120=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator120=R23A
+ParamVariation121=ParameterName=Type|VariantValue=Resistor
+ParamDesignator121=R23A
+ParamVariation122=ParameterName=Value|VariantValue=0R
+ParamDesignator122=R23A
+Variation50=Designator=R23B|UniqueId=\2TYAXSBJQ\IAYARHUV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation123=ParameterName=Comment|VariantValue==Value
+ParamDesignator123=R23B
+ParamVariation124=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator124=R23B
+ParamVariation125=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator125=R23B
+ParamVariation126=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator126=R23B
+ParamVariation127=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator127=R23B
+ParamVariation128=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator128=R23B
+ParamVariation129=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator129=R23B
+ParamVariation130=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator130=R23B
+ParamVariation131=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator131=R23B
+ParamVariation132=ParameterName=Device Package|VariantValue=0603
+ParamDesignator132=R23B
+ParamVariation133=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator133=R23B
+ParamVariation134=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator134=R23B
+ParamVariation135=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator135=R23B
+ParamVariation136=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator136=R23B
+ParamVariation137=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator137=R23B
+ParamVariation138=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator138=R23B
+ParamVariation139=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator139=R23B
+ParamVariation140=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator140=R23B
+ParamVariation141=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator141=R23B
+ParamVariation142=ParameterName=PartID|VariantValue=1
+ParamDesignator142=R23B
+ParamVariation143=ParameterName=PCB3D|VariantValue= 
+ParamDesignator143=R23B
+ParamVariation144=ParameterName=Pin Info|VariantValue= 
+ParamDesignator144=R23B
+ParamVariation145=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator145=R23B
+ParamVariation146=ParameterName=Simulation|VariantValue= 
+ParamDesignator146=R23B
+ParamVariation147=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator147=R23B
+ParamVariation148=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator148=R23B
+ParamVariation149=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator149=R23B
+ParamVariation150=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator150=R23B
+ParamVariation151=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator151=R23B
+ParamVariation152=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator152=R23B
+ParamVariation153=ParameterName=Type|VariantValue=Resistor
+ParamDesignator153=R23B
+ParamVariation154=ParameterName=Value|VariantValue=0R
+ParamDesignator154=R23B
+Variation51=Designator=R23C|UniqueId=\3TYAXSBJQ\IAYARHUV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation155=ParameterName=Comment|VariantValue==Value
+ParamDesignator155=R23C
+ParamVariation156=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator156=R23C
+ParamVariation157=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator157=R23C
+ParamVariation158=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator158=R23C
+ParamVariation159=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator159=R23C
+ParamVariation160=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator160=R23C
+ParamVariation161=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator161=R23C
+ParamVariation162=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator162=R23C
+ParamVariation163=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator163=R23C
+ParamVariation164=ParameterName=Device Package|VariantValue=0603
+ParamDesignator164=R23C
+ParamVariation165=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator165=R23C
+ParamVariation166=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator166=R23C
+ParamVariation167=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator167=R23C
+ParamVariation168=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator168=R23C
+ParamVariation169=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator169=R23C
+ParamVariation170=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator170=R23C
+ParamVariation171=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator171=R23C
+ParamVariation172=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator172=R23C
+ParamVariation173=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator173=R23C
+ParamVariation174=ParameterName=PartID|VariantValue=1
+ParamDesignator174=R23C
+ParamVariation175=ParameterName=PCB3D|VariantValue= 
+ParamDesignator175=R23C
+ParamVariation176=ParameterName=Pin Info|VariantValue= 
+ParamDesignator176=R23C
+ParamVariation177=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator177=R23C
+ParamVariation178=ParameterName=Simulation|VariantValue= 
+ParamDesignator178=R23C
+ParamVariation179=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator179=R23C
+ParamVariation180=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator180=R23C
+ParamVariation181=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator181=R23C
+ParamVariation182=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator182=R23C
+ParamVariation183=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator183=R23C
+ParamVariation184=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator184=R23C
+ParamVariation185=ParameterName=Type|VariantValue=Resistor
+ParamDesignator185=R23C
+ParamVariation186=ParameterName=Value|VariantValue=0R
+ParamDesignator186=R23C
+Variation52=Designator=R8A|UniqueId=\1TYAXSBJQ\OIZVWCGW|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation187=ParameterName=Comment|VariantValue==Value
+ParamDesignator187=R8A
+ParamVariation188=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator188=R8A
+ParamVariation189=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator189=R8A
+ParamVariation190=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator190=R8A
+ParamVariation191=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator191=R8A
+ParamVariation192=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator192=R8A
+ParamVariation193=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator193=R8A
+ParamVariation194=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator194=R8A
+ParamVariation195=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator195=R8A
+ParamVariation196=ParameterName=Device Package|VariantValue=0603
+ParamDesignator196=R8A
+ParamVariation197=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator197=R8A
+ParamVariation198=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator198=R8A
+ParamVariation199=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator199=R8A
+ParamVariation200=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator200=R8A
+ParamVariation201=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator201=R8A
+ParamVariation202=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator202=R8A
+ParamVariation203=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator203=R8A
+ParamVariation204=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator204=R8A
+ParamVariation205=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator205=R8A
+ParamVariation206=ParameterName=PartID|VariantValue=1
+ParamDesignator206=R8A
+ParamVariation207=ParameterName=PCB3D|VariantValue= 
+ParamDesignator207=R8A
+ParamVariation208=ParameterName=Pin Info|VariantValue= 
+ParamDesignator208=R8A
+ParamVariation209=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator209=R8A
+ParamVariation210=ParameterName=Simulation|VariantValue= 
+ParamDesignator210=R8A
+ParamVariation211=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator211=R8A
+ParamVariation212=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator212=R8A
+ParamVariation213=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator213=R8A
+ParamVariation214=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator214=R8A
+ParamVariation215=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator215=R8A
+ParamVariation216=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator216=R8A
+ParamVariation217=ParameterName=Type|VariantValue=Resistor
+ParamDesignator217=R8A
+ParamVariation218=ParameterName=Value|VariantValue=0R
+ParamDesignator218=R8A
+Variation53=Designator=R14A|UniqueId=\1TYAXSBJQ\WKSSTOMP|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation219=ParameterName=Comment|VariantValue==Value
+ParamDesignator219=R14A
+ParamVariation220=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator220=R14A
+ParamVariation221=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator221=R14A
+ParamVariation222=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator222=R14A
+ParamVariation223=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator223=R14A
+ParamVariation224=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator224=R14A
+ParamVariation225=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator225=R14A
+ParamVariation226=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator226=R14A
+ParamVariation227=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator227=R14A
+ParamVariation228=ParameterName=Device Package|VariantValue=0603
+ParamDesignator228=R14A
+ParamVariation229=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator229=R14A
+ParamVariation230=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator230=R14A
+ParamVariation231=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator231=R14A
+ParamVariation232=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator232=R14A
+ParamVariation233=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator233=R14A
+ParamVariation234=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator234=R14A
+ParamVariation235=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator235=R14A
+ParamVariation236=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator236=R14A
+ParamVariation237=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator237=R14A
+ParamVariation238=ParameterName=PartID|VariantValue=1
+ParamDesignator238=R14A
+ParamVariation239=ParameterName=PCB3D|VariantValue= 
+ParamDesignator239=R14A
+ParamVariation240=ParameterName=Pin Info|VariantValue= 
+ParamDesignator240=R14A
+ParamVariation241=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator241=R14A
+ParamVariation242=ParameterName=Simulation|VariantValue= 
+ParamDesignator242=R14A
+ParamVariation243=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator243=R14A
+ParamVariation244=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator244=R14A
+ParamVariation245=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator245=R14A
+ParamVariation246=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator246=R14A
+ParamVariation247=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator247=R14A
+ParamVariation248=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator248=R14A
+ParamVariation249=ParameterName=Type|VariantValue=Resistor
+ParamDesignator249=R14A
+ParamVariation250=ParameterName=Value|VariantValue=0R
+ParamDesignator250=R14A
+Variation54=Designator=R19A|UniqueId=\1TYAXSBJQ\YMMJSVGJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation251=ParameterName=Comment|VariantValue==Value
+ParamDesignator251=R19A
+ParamVariation252=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator252=R19A
+ParamVariation253=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator253=R19A
+ParamVariation254=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator254=R19A
+ParamVariation255=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator255=R19A
+ParamVariation256=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator256=R19A
+ParamVariation257=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator257=R19A
+ParamVariation258=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator258=R19A
+ParamVariation259=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator259=R19A
+ParamVariation260=ParameterName=Device Package|VariantValue=0603
+ParamDesignator260=R19A
+ParamVariation261=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator261=R19A
+ParamVariation262=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator262=R19A
+ParamVariation263=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator263=R19A
+ParamVariation264=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator264=R19A
+ParamVariation265=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator265=R19A
+ParamVariation266=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator266=R19A
+ParamVariation267=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator267=R19A
+ParamVariation268=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator268=R19A
+ParamVariation269=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator269=R19A
+ParamVariation270=ParameterName=PartID|VariantValue=1
+ParamDesignator270=R19A
+ParamVariation271=ParameterName=PCB3D|VariantValue= 
+ParamDesignator271=R19A
+ParamVariation272=ParameterName=Pin Info|VariantValue= 
+ParamDesignator272=R19A
+ParamVariation273=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator273=R19A
+ParamVariation274=ParameterName=Simulation|VariantValue= 
+ParamDesignator274=R19A
+ParamVariation275=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator275=R19A
+ParamVariation276=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator276=R19A
+ParamVariation277=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator277=R19A
+ParamVariation278=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator278=R19A
+ParamVariation279=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator279=R19A
+ParamVariation280=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator280=R19A
+ParamVariation281=ParameterName=Type|VariantValue=Resistor
+ParamDesignator281=R19A
+ParamVariation282=ParameterName=Value|VariantValue=0R
+ParamDesignator282=R19A
+Variation55=Designator=R22A|UniqueId=\1TYAXSBJQ\IYHFVHVH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation283=ParameterName=Comment|VariantValue==Value
+ParamDesignator283=R22A
+ParamVariation284=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator284=R22A
+ParamVariation285=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator285=R22A
+ParamVariation286=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator286=R22A
+ParamVariation287=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator287=R22A
+ParamVariation288=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator288=R22A
+ParamVariation289=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator289=R22A
+ParamVariation290=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator290=R22A
+ParamVariation291=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator291=R22A
+ParamVariation292=ParameterName=Device Package|VariantValue=0603
+ParamDesignator292=R22A
+ParamVariation293=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator293=R22A
+ParamVariation294=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator294=R22A
+ParamVariation295=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator295=R22A
+ParamVariation296=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator296=R22A
+ParamVariation297=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator297=R22A
+ParamVariation298=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator298=R22A
+ParamVariation299=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator299=R22A
+ParamVariation300=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator300=R22A
+ParamVariation301=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator301=R22A
+ParamVariation302=ParameterName=PartID|VariantValue=1
+ParamDesignator302=R22A
+ParamVariation303=ParameterName=PCB3D|VariantValue= 
+ParamDesignator303=R22A
+ParamVariation304=ParameterName=Pin Info|VariantValue= 
+ParamDesignator304=R22A
+ParamVariation305=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator305=R22A
+ParamVariation306=ParameterName=Simulation|VariantValue= 
+ParamDesignator306=R22A
+ParamVariation307=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator307=R22A
+ParamVariation308=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator308=R22A
+ParamVariation309=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator309=R22A
+ParamVariation310=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator310=R22A
+ParamVariation311=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator311=R22A
+ParamVariation312=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator312=R22A
+ParamVariation313=ParameterName=Type|VariantValue=Resistor
+ParamDesignator313=R22A
+ParamVariation314=ParameterName=Value|VariantValue=0R
+ParamDesignator314=R22A
+Variation56=Designator=R21A|UniqueId=\1TYAXSBJQ\HKDKBMLV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation315=ParameterName=Comment|VariantValue==Value
+ParamDesignator315=R21A
+ParamVariation316=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator316=R21A
+ParamVariation317=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator317=R21A
+ParamVariation318=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator318=R21A
+ParamVariation319=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator319=R21A
+ParamVariation320=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator320=R21A
+ParamVariation321=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator321=R21A
+ParamVariation322=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator322=R21A
+ParamVariation323=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator323=R21A
+ParamVariation324=ParameterName=Device Package|VariantValue=0603
+ParamDesignator324=R21A
+ParamVariation325=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator325=R21A
+ParamVariation326=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator326=R21A
+ParamVariation327=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator327=R21A
+ParamVariation328=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator328=R21A
+ParamVariation329=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator329=R21A
+ParamVariation330=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator330=R21A
+ParamVariation331=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator331=R21A
+ParamVariation332=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator332=R21A
+ParamVariation333=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator333=R21A
+ParamVariation334=ParameterName=PartID|VariantValue=1
+ParamDesignator334=R21A
+ParamVariation335=ParameterName=PCB3D|VariantValue= 
+ParamDesignator335=R21A
+ParamVariation336=ParameterName=Pin Info|VariantValue= 
+ParamDesignator336=R21A
+ParamVariation337=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator337=R21A
+ParamVariation338=ParameterName=Simulation|VariantValue= 
+ParamDesignator338=R21A
+ParamVariation339=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator339=R21A
+ParamVariation340=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator340=R21A
+ParamVariation341=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator341=R21A
+ParamVariation342=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator342=R21A
+ParamVariation343=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator343=R21A
+ParamVariation344=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator344=R21A
+ParamVariation345=ParameterName=Type|VariantValue=Resistor
+ParamDesignator345=R21A
+ParamVariation346=ParameterName=Value|VariantValue=0R
+ParamDesignator346=R21A
+Variation57=Designator=R20A|UniqueId=\1TYAXSBJQ\QQIPBLXD|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation347=ParameterName=Comment|VariantValue==Value
+ParamDesignator347=R20A
+ParamVariation348=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator348=R20A
+ParamVariation349=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator349=R20A
+ParamVariation350=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator350=R20A
+ParamVariation351=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator351=R20A
+ParamVariation352=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator352=R20A
+ParamVariation353=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator353=R20A
+ParamVariation354=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator354=R20A
+ParamVariation355=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator355=R20A
+ParamVariation356=ParameterName=Device Package|VariantValue=0603
+ParamDesignator356=R20A
+ParamVariation357=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator357=R20A
+ParamVariation358=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator358=R20A
+ParamVariation359=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator359=R20A
+ParamVariation360=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator360=R20A
+ParamVariation361=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator361=R20A
+ParamVariation362=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator362=R20A
+ParamVariation363=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator363=R20A
+ParamVariation364=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator364=R20A
+ParamVariation365=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator365=R20A
+ParamVariation366=ParameterName=PartID|VariantValue=1
+ParamDesignator366=R20A
+ParamVariation367=ParameterName=PCB3D|VariantValue= 
+ParamDesignator367=R20A
+ParamVariation368=ParameterName=Pin Info|VariantValue= 
+ParamDesignator368=R20A
+ParamVariation369=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator369=R20A
+ParamVariation370=ParameterName=Simulation|VariantValue= 
+ParamDesignator370=R20A
+ParamVariation371=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator371=R20A
+ParamVariation372=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator372=R20A
+ParamVariation373=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator373=R20A
+ParamVariation374=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator374=R20A
+ParamVariation375=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator375=R20A
+ParamVariation376=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator376=R20A
+ParamVariation377=ParameterName=Type|VariantValue=Resistor
+ParamDesignator377=R20A
+ParamVariation378=ParameterName=Value|VariantValue=0R
+ParamDesignator378=R20A
+Variation58=Designator=R17A|UniqueId=\1TYAXSBJQ\PCOSOUXU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation379=ParameterName=Comment|VariantValue==Value
+ParamDesignator379=R17A
+ParamVariation380=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator380=R17A
+ParamVariation381=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator381=R17A
+ParamVariation382=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator382=R17A
+ParamVariation383=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator383=R17A
+ParamVariation384=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator384=R17A
+ParamVariation385=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator385=R17A
+ParamVariation386=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator386=R17A
+ParamVariation387=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator387=R17A
+ParamVariation388=ParameterName=Device Package|VariantValue=0603
+ParamDesignator388=R17A
+ParamVariation389=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator389=R17A
+ParamVariation390=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator390=R17A
+ParamVariation391=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator391=R17A
+ParamVariation392=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator392=R17A
+ParamVariation393=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator393=R17A
+ParamVariation394=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator394=R17A
+ParamVariation395=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator395=R17A
+ParamVariation396=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator396=R17A
+ParamVariation397=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator397=R17A
+ParamVariation398=ParameterName=PartID|VariantValue=1
+ParamDesignator398=R17A
+ParamVariation399=ParameterName=PCB3D|VariantValue= 
+ParamDesignator399=R17A
+ParamVariation400=ParameterName=Pin Info|VariantValue= 
+ParamDesignator400=R17A
+ParamVariation401=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator401=R17A
+ParamVariation402=ParameterName=Simulation|VariantValue= 
+ParamDesignator402=R17A
+ParamVariation403=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator403=R17A
+ParamVariation404=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator404=R17A
+ParamVariation405=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator405=R17A
+ParamVariation406=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator406=R17A
+ParamVariation407=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator407=R17A
+ParamVariation408=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator408=R17A
+ParamVariation409=ParameterName=Type|VariantValue=Resistor
+ParamDesignator409=R17A
+ParamVariation410=ParameterName=Value|VariantValue=0R
+ParamDesignator410=R17A
+Variation59=Designator=R16A|UniqueId=\1TYAXSBJQ\WAINVYMO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation411=ParameterName=Comment|VariantValue==Value
+ParamDesignator411=R16A
+ParamVariation412=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator412=R16A
+ParamVariation413=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator413=R16A
+ParamVariation414=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator414=R16A
+ParamVariation415=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator415=R16A
+ParamVariation416=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator416=R16A
+ParamVariation417=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator417=R16A
+ParamVariation418=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator418=R16A
+ParamVariation419=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator419=R16A
+ParamVariation420=ParameterName=Device Package|VariantValue=0603
+ParamDesignator420=R16A
+ParamVariation421=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator421=R16A
+ParamVariation422=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator422=R16A
+ParamVariation423=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator423=R16A
+ParamVariation424=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator424=R16A
+ParamVariation425=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator425=R16A
+ParamVariation426=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator426=R16A
+ParamVariation427=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator427=R16A
+ParamVariation428=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator428=R16A
+ParamVariation429=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator429=R16A
+ParamVariation430=ParameterName=PartID|VariantValue=1
+ParamDesignator430=R16A
+ParamVariation431=ParameterName=PCB3D|VariantValue= 
+ParamDesignator431=R16A
+ParamVariation432=ParameterName=Pin Info|VariantValue= 
+ParamDesignator432=R16A
+ParamVariation433=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator433=R16A
+ParamVariation434=ParameterName=Simulation|VariantValue= 
+ParamDesignator434=R16A
+ParamVariation435=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator435=R16A
+ParamVariation436=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator436=R16A
+ParamVariation437=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator437=R16A
+ParamVariation438=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator438=R16A
+ParamVariation439=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator439=R16A
+ParamVariation440=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator440=R16A
+ParamVariation441=ParameterName=Type|VariantValue=Resistor
+ParamDesignator441=R16A
+ParamVariation442=ParameterName=Value|VariantValue=0R
+ParamDesignator442=R16A
+Variation60=Designator=R18A|UniqueId=\1TYAXSBJQ\GBSQHGRU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation443=ParameterName=Comment|VariantValue==Value
+ParamDesignator443=R18A
+ParamVariation444=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator444=R18A
+ParamVariation445=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator445=R18A
+ParamVariation446=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator446=R18A
+ParamVariation447=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator447=R18A
+ParamVariation448=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator448=R18A
+ParamVariation449=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator449=R18A
+ParamVariation450=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator450=R18A
+ParamVariation451=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator451=R18A
+ParamVariation452=ParameterName=Device Package|VariantValue=0603
+ParamDesignator452=R18A
+ParamVariation453=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator453=R18A
+ParamVariation454=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator454=R18A
+ParamVariation455=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator455=R18A
+ParamVariation456=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator456=R18A
+ParamVariation457=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator457=R18A
+ParamVariation458=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator458=R18A
+ParamVariation459=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator459=R18A
+ParamVariation460=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator460=R18A
+ParamVariation461=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator461=R18A
+ParamVariation462=ParameterName=PartID|VariantValue=1
+ParamDesignator462=R18A
+ParamVariation463=ParameterName=PCB3D|VariantValue= 
+ParamDesignator463=R18A
+ParamVariation464=ParameterName=Pin Info|VariantValue= 
+ParamDesignator464=R18A
+ParamVariation465=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator465=R18A
+ParamVariation466=ParameterName=Simulation|VariantValue= 
+ParamDesignator466=R18A
+ParamVariation467=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator467=R18A
+ParamVariation468=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator468=R18A
+ParamVariation469=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator469=R18A
+ParamVariation470=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator470=R18A
+ParamVariation471=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator471=R18A
+ParamVariation472=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator472=R18A
+ParamVariation473=ParameterName=Type|VariantValue=Resistor
+ParamDesignator473=R18A
+ParamVariation474=ParameterName=Value|VariantValue=0R
+ParamDesignator474=R18A
+Variation61=Designator=R15A|UniqueId=\1TYAXSBJQ\LDBHUBHI|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation475=ParameterName=Comment|VariantValue==Value
+ParamDesignator475=R15A
+ParamVariation476=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator476=R15A
+ParamVariation477=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator477=R15A
+ParamVariation478=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator478=R15A
+ParamVariation479=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator479=R15A
+ParamVariation480=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator480=R15A
+ParamVariation481=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator481=R15A
+ParamVariation482=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator482=R15A
+ParamVariation483=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator483=R15A
+ParamVariation484=ParameterName=Device Package|VariantValue=0603
+ParamDesignator484=R15A
+ParamVariation485=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator485=R15A
+ParamVariation486=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator486=R15A
+ParamVariation487=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator487=R15A
+ParamVariation488=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator488=R15A
+ParamVariation489=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator489=R15A
+ParamVariation490=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator490=R15A
+ParamVariation491=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator491=R15A
+ParamVariation492=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator492=R15A
+ParamVariation493=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator493=R15A
+ParamVariation494=ParameterName=PartID|VariantValue=1
+ParamDesignator494=R15A
+ParamVariation495=ParameterName=PCB3D|VariantValue= 
+ParamDesignator495=R15A
+ParamVariation496=ParameterName=Pin Info|VariantValue= 
+ParamDesignator496=R15A
+ParamVariation497=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator497=R15A
+ParamVariation498=ParameterName=Simulation|VariantValue= 
+ParamDesignator498=R15A
+ParamVariation499=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator499=R15A
+ParamVariation500=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator500=R15A
+ParamVariation501=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator501=R15A
+ParamVariation502=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator502=R15A
+ParamVariation503=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator503=R15A
+ParamVariation504=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator504=R15A
+ParamVariation505=ParameterName=Type|VariantValue=Resistor
+ParamDesignator505=R15A
+ParamVariation506=ParameterName=Value|VariantValue=0R
+ParamDesignator506=R15A
+Variation62=Designator=R8B|UniqueId=\2TYAXSBJQ\OIZVWCGW|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation507=ParameterName=Comment|VariantValue==Value
+ParamDesignator507=R8B
+ParamVariation508=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator508=R8B
+ParamVariation509=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator509=R8B
+ParamVariation510=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator510=R8B
+ParamVariation511=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator511=R8B
+ParamVariation512=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator512=R8B
+ParamVariation513=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator513=R8B
+ParamVariation514=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator514=R8B
+ParamVariation515=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator515=R8B
+ParamVariation516=ParameterName=Device Package|VariantValue=0603
+ParamDesignator516=R8B
+ParamVariation517=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator517=R8B
+ParamVariation518=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator518=R8B
+ParamVariation519=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator519=R8B
+ParamVariation520=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator520=R8B
+ParamVariation521=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator521=R8B
+ParamVariation522=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator522=R8B
+ParamVariation523=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator523=R8B
+ParamVariation524=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator524=R8B
+ParamVariation525=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator525=R8B
+ParamVariation526=ParameterName=PartID|VariantValue=1
+ParamDesignator526=R8B
+ParamVariation527=ParameterName=PCB3D|VariantValue= 
+ParamDesignator527=R8B
+ParamVariation528=ParameterName=Pin Info|VariantValue= 
+ParamDesignator528=R8B
+ParamVariation529=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator529=R8B
+ParamVariation530=ParameterName=Simulation|VariantValue= 
+ParamDesignator530=R8B
+ParamVariation531=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator531=R8B
+ParamVariation532=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator532=R8B
+ParamVariation533=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator533=R8B
+ParamVariation534=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator534=R8B
+ParamVariation535=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator535=R8B
+ParamVariation536=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator536=R8B
+ParamVariation537=ParameterName=Type|VariantValue=Resistor
+ParamDesignator537=R8B
+ParamVariation538=ParameterName=Value|VariantValue=0R
+ParamDesignator538=R8B
+Variation63=Designator=R11B|UniqueId=\2TYAXSBJQ\BFWKPMTL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation539=ParameterName=Comment|VariantValue==Value
+ParamDesignator539=R11B
+ParamVariation540=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator540=R11B
+ParamVariation541=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator541=R11B
+ParamVariation542=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator542=R11B
+ParamVariation543=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator543=R11B
+ParamVariation544=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator544=R11B
+ParamVariation545=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator545=R11B
+ParamVariation546=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator546=R11B
+ParamVariation547=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator547=R11B
+ParamVariation548=ParameterName=Device Package|VariantValue=0603
+ParamDesignator548=R11B
+ParamVariation549=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator549=R11B
+ParamVariation550=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator550=R11B
+ParamVariation551=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator551=R11B
+ParamVariation552=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator552=R11B
+ParamVariation553=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator553=R11B
+ParamVariation554=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator554=R11B
+ParamVariation555=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator555=R11B
+ParamVariation556=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator556=R11B
+ParamVariation557=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator557=R11B
+ParamVariation558=ParameterName=PartID|VariantValue=1
+ParamDesignator558=R11B
+ParamVariation559=ParameterName=PCB3D|VariantValue= 
+ParamDesignator559=R11B
+ParamVariation560=ParameterName=Pin Info|VariantValue= 
+ParamDesignator560=R11B
+ParamVariation561=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator561=R11B
+ParamVariation562=ParameterName=Simulation|VariantValue= 
+ParamDesignator562=R11B
+ParamVariation563=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator563=R11B
+ParamVariation564=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator564=R11B
+ParamVariation565=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator565=R11B
+ParamVariation566=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator566=R11B
+ParamVariation567=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator567=R11B
+ParamVariation568=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator568=R11B
+ParamVariation569=ParameterName=Type|VariantValue=Resistor
+ParamDesignator569=R11B
+ParamVariation570=ParameterName=Value|VariantValue=0R
+ParamDesignator570=R11B
+Variation64=Designator=R21B|UniqueId=\2TYAXSBJQ\HKDKBMLV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation571=ParameterName=Comment|VariantValue==Value
+ParamDesignator571=R21B
+ParamVariation572=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator572=R21B
+ParamVariation573=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator573=R21B
+ParamVariation574=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator574=R21B
+ParamVariation575=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator575=R21B
+ParamVariation576=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator576=R21B
+ParamVariation577=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator577=R21B
+ParamVariation578=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator578=R21B
+ParamVariation579=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator579=R21B
+ParamVariation580=ParameterName=Device Package|VariantValue=0603
+ParamDesignator580=R21B
+ParamVariation581=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator581=R21B
+ParamVariation582=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator582=R21B
+ParamVariation583=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator583=R21B
+ParamVariation584=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator584=R21B
+ParamVariation585=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator585=R21B
+ParamVariation586=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator586=R21B
+ParamVariation587=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator587=R21B
+ParamVariation588=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator588=R21B
+ParamVariation589=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator589=R21B
+ParamVariation590=ParameterName=PartID|VariantValue=1
+ParamDesignator590=R21B
+ParamVariation591=ParameterName=PCB3D|VariantValue= 
+ParamDesignator591=R21B
+ParamVariation592=ParameterName=Pin Info|VariantValue= 
+ParamDesignator592=R21B
+ParamVariation593=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator593=R21B
+ParamVariation594=ParameterName=Simulation|VariantValue= 
+ParamDesignator594=R21B
+ParamVariation595=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator595=R21B
+ParamVariation596=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator596=R21B
+ParamVariation597=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator597=R21B
+ParamVariation598=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator598=R21B
+ParamVariation599=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator599=R21B
+ParamVariation600=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator600=R21B
+ParamVariation601=ParameterName=Type|VariantValue=Resistor
+ParamDesignator601=R21B
+ParamVariation602=ParameterName=Value|VariantValue=0R
+ParamDesignator602=R21B
+Variation65=Designator=R9B|UniqueId=\2TYAXSBJQ\CVRAQRDZ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation603=ParameterName=Comment|VariantValue==Value
+ParamDesignator603=R9B
+ParamVariation604=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator604=R9B
+ParamVariation605=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator605=R9B
+ParamVariation606=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator606=R9B
+ParamVariation607=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator607=R9B
+ParamVariation608=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator608=R9B
+ParamVariation609=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator609=R9B
+ParamVariation610=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator610=R9B
+ParamVariation611=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator611=R9B
+ParamVariation612=ParameterName=Device Package|VariantValue=0603
+ParamDesignator612=R9B
+ParamVariation613=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator613=R9B
+ParamVariation614=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator614=R9B
+ParamVariation615=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator615=R9B
+ParamVariation616=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator616=R9B
+ParamVariation617=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator617=R9B
+ParamVariation618=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator618=R9B
+ParamVariation619=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator619=R9B
+ParamVariation620=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator620=R9B
+ParamVariation621=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator621=R9B
+ParamVariation622=ParameterName=PartID|VariantValue=1
+ParamDesignator622=R9B
+ParamVariation623=ParameterName=PCB3D|VariantValue= 
+ParamDesignator623=R9B
+ParamVariation624=ParameterName=Pin Info|VariantValue= 
+ParamDesignator624=R9B
+ParamVariation625=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator625=R9B
+ParamVariation626=ParameterName=Simulation|VariantValue= 
+ParamDesignator626=R9B
+ParamVariation627=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator627=R9B
+ParamVariation628=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator628=R9B
+ParamVariation629=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator629=R9B
+ParamVariation630=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator630=R9B
+ParamVariation631=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator631=R9B
+ParamVariation632=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator632=R9B
+ParamVariation633=ParameterName=Type|VariantValue=Resistor
+ParamDesignator633=R9B
+ParamVariation634=ParameterName=Value|VariantValue=0R
+ParamDesignator634=R9B
+Variation66=Designator=R17B|UniqueId=\2TYAXSBJQ\PCOSOUXU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation635=ParameterName=Comment|VariantValue==Value
+ParamDesignator635=R17B
+ParamVariation636=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator636=R17B
+ParamVariation637=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator637=R17B
+ParamVariation638=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator638=R17B
+ParamVariation639=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator639=R17B
+ParamVariation640=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator640=R17B
+ParamVariation641=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator641=R17B
+ParamVariation642=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator642=R17B
+ParamVariation643=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator643=R17B
+ParamVariation644=ParameterName=Device Package|VariantValue=0603
+ParamDesignator644=R17B
+ParamVariation645=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator645=R17B
+ParamVariation646=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator646=R17B
+ParamVariation647=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator647=R17B
+ParamVariation648=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator648=R17B
+ParamVariation649=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator649=R17B
+ParamVariation650=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator650=R17B
+ParamVariation651=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator651=R17B
+ParamVariation652=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator652=R17B
+ParamVariation653=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator653=R17B
+ParamVariation654=ParameterName=PartID|VariantValue=1
+ParamDesignator654=R17B
+ParamVariation655=ParameterName=PCB3D|VariantValue= 
+ParamDesignator655=R17B
+ParamVariation656=ParameterName=Pin Info|VariantValue= 
+ParamDesignator656=R17B
+ParamVariation657=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator657=R17B
+ParamVariation658=ParameterName=Simulation|VariantValue= 
+ParamDesignator658=R17B
+ParamVariation659=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator659=R17B
+ParamVariation660=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator660=R17B
+ParamVariation661=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator661=R17B
+ParamVariation662=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator662=R17B
+ParamVariation663=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator663=R17B
+ParamVariation664=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator664=R17B
+ParamVariation665=ParameterName=Type|VariantValue=Resistor
+ParamDesignator665=R17B
+ParamVariation666=ParameterName=Value|VariantValue=0R
+ParamDesignator666=R17B
+Variation67=Designator=R22B|UniqueId=\2TYAXSBJQ\IYHFVHVH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation667=ParameterName=Comment|VariantValue==Value
+ParamDesignator667=R22B
+ParamVariation668=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator668=R22B
+ParamVariation669=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator669=R22B
+ParamVariation670=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator670=R22B
+ParamVariation671=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator671=R22B
+ParamVariation672=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator672=R22B
+ParamVariation673=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator673=R22B
+ParamVariation674=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator674=R22B
+ParamVariation675=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator675=R22B
+ParamVariation676=ParameterName=Device Package|VariantValue=0603
+ParamDesignator676=R22B
+ParamVariation677=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator677=R22B
+ParamVariation678=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator678=R22B
+ParamVariation679=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator679=R22B
+ParamVariation680=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator680=R22B
+ParamVariation681=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator681=R22B
+ParamVariation682=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator682=R22B
+ParamVariation683=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator683=R22B
+ParamVariation684=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator684=R22B
+ParamVariation685=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator685=R22B
+ParamVariation686=ParameterName=PartID|VariantValue=1
+ParamDesignator686=R22B
+ParamVariation687=ParameterName=PCB3D|VariantValue= 
+ParamDesignator687=R22B
+ParamVariation688=ParameterName=Pin Info|VariantValue= 
+ParamDesignator688=R22B
+ParamVariation689=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator689=R22B
+ParamVariation690=ParameterName=Simulation|VariantValue= 
+ParamDesignator690=R22B
+ParamVariation691=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator691=R22B
+ParamVariation692=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator692=R22B
+ParamVariation693=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator693=R22B
+ParamVariation694=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator694=R22B
+ParamVariation695=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator695=R22B
+ParamVariation696=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator696=R22B
+ParamVariation697=ParameterName=Type|VariantValue=Resistor
+ParamDesignator697=R22B
+ParamVariation698=ParameterName=Value|VariantValue=0R
+ParamDesignator698=R22B
+Variation68=Designator=R18B|UniqueId=\2TYAXSBJQ\GBSQHGRU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation699=ParameterName=Comment|VariantValue==Value
+ParamDesignator699=R18B
+ParamVariation700=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator700=R18B
+ParamVariation701=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator701=R18B
+ParamVariation702=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator702=R18B
+ParamVariation703=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator703=R18B
+ParamVariation704=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator704=R18B
+ParamVariation705=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator705=R18B
+ParamVariation706=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator706=R18B
+ParamVariation707=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator707=R18B
+ParamVariation708=ParameterName=Device Package|VariantValue=0603
+ParamDesignator708=R18B
+ParamVariation709=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator709=R18B
+ParamVariation710=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator710=R18B
+ParamVariation711=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator711=R18B
+ParamVariation712=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator712=R18B
+ParamVariation713=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator713=R18B
+ParamVariation714=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator714=R18B
+ParamVariation715=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator715=R18B
+ParamVariation716=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator716=R18B
+ParamVariation717=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator717=R18B
+ParamVariation718=ParameterName=PartID|VariantValue=1
+ParamDesignator718=R18B
+ParamVariation719=ParameterName=PCB3D|VariantValue= 
+ParamDesignator719=R18B
+ParamVariation720=ParameterName=Pin Info|VariantValue= 
+ParamDesignator720=R18B
+ParamVariation721=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator721=R18B
+ParamVariation722=ParameterName=Simulation|VariantValue= 
+ParamDesignator722=R18B
+ParamVariation723=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator723=R18B
+ParamVariation724=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator724=R18B
+ParamVariation725=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator725=R18B
+ParamVariation726=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator726=R18B
+ParamVariation727=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator727=R18B
+ParamVariation728=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator728=R18B
+ParamVariation729=ParameterName=Type|VariantValue=Resistor
+ParamDesignator729=R18B
+ParamVariation730=ParameterName=Value|VariantValue=0R
+ParamDesignator730=R18B
+Variation69=Designator=R19B|UniqueId=\2TYAXSBJQ\YMMJSVGJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation731=ParameterName=Comment|VariantValue==Value
+ParamDesignator731=R19B
+ParamVariation732=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator732=R19B
+ParamVariation733=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator733=R19B
+ParamVariation734=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator734=R19B
+ParamVariation735=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator735=R19B
+ParamVariation736=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator736=R19B
+ParamVariation737=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator737=R19B
+ParamVariation738=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator738=R19B
+ParamVariation739=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator739=R19B
+ParamVariation740=ParameterName=Device Package|VariantValue=0603
+ParamDesignator740=R19B
+ParamVariation741=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator741=R19B
+ParamVariation742=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator742=R19B
+ParamVariation743=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator743=R19B
+ParamVariation744=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator744=R19B
+ParamVariation745=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator745=R19B
+ParamVariation746=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator746=R19B
+ParamVariation747=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator747=R19B
+ParamVariation748=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator748=R19B
+ParamVariation749=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator749=R19B
+ParamVariation750=ParameterName=PartID|VariantValue=1
+ParamDesignator750=R19B
+ParamVariation751=ParameterName=PCB3D|VariantValue= 
+ParamDesignator751=R19B
+ParamVariation752=ParameterName=Pin Info|VariantValue= 
+ParamDesignator752=R19B
+ParamVariation753=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator753=R19B
+ParamVariation754=ParameterName=Simulation|VariantValue= 
+ParamDesignator754=R19B
+ParamVariation755=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator755=R19B
+ParamVariation756=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator756=R19B
+ParamVariation757=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator757=R19B
+ParamVariation758=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator758=R19B
+ParamVariation759=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator759=R19B
+ParamVariation760=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator760=R19B
+ParamVariation761=ParameterName=Type|VariantValue=Resistor
+ParamDesignator761=R19B
+ParamVariation762=ParameterName=Value|VariantValue=0R
+ParamDesignator762=R19B
+Variation70=Designator=R14B|UniqueId=\2TYAXSBJQ\WKSSTOMP|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation763=ParameterName=Comment|VariantValue==Value
+ParamDesignator763=R14B
+ParamVariation764=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator764=R14B
+ParamVariation765=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator765=R14B
+ParamVariation766=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator766=R14B
+ParamVariation767=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator767=R14B
+ParamVariation768=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator768=R14B
+ParamVariation769=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator769=R14B
+ParamVariation770=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator770=R14B
+ParamVariation771=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator771=R14B
+ParamVariation772=ParameterName=Device Package|VariantValue=0603
+ParamDesignator772=R14B
+ParamVariation773=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator773=R14B
+ParamVariation774=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator774=R14B
+ParamVariation775=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator775=R14B
+ParamVariation776=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator776=R14B
+ParamVariation777=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator777=R14B
+ParamVariation778=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator778=R14B
+ParamVariation779=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator779=R14B
+ParamVariation780=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator780=R14B
+ParamVariation781=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator781=R14B
+ParamVariation782=ParameterName=PartID|VariantValue=1
+ParamDesignator782=R14B
+ParamVariation783=ParameterName=PCB3D|VariantValue= 
+ParamDesignator783=R14B
+ParamVariation784=ParameterName=Pin Info|VariantValue= 
+ParamDesignator784=R14B
+ParamVariation785=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator785=R14B
+ParamVariation786=ParameterName=Simulation|VariantValue= 
+ParamDesignator786=R14B
+ParamVariation787=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator787=R14B
+ParamVariation788=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator788=R14B
+ParamVariation789=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator789=R14B
+ParamVariation790=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator790=R14B
+ParamVariation791=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator791=R14B
+ParamVariation792=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator792=R14B
+ParamVariation793=ParameterName=Type|VariantValue=Resistor
+ParamDesignator793=R14B
+ParamVariation794=ParameterName=Value|VariantValue=0R
+ParamDesignator794=R14B
+Variation71=Designator=R12B|UniqueId=\2TYAXSBJQ\NIFXZSYO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation795=ParameterName=Comment|VariantValue==Value
+ParamDesignator795=R12B
+ParamVariation796=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator796=R12B
+ParamVariation797=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator797=R12B
+ParamVariation798=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator798=R12B
+ParamVariation799=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator799=R12B
+ParamVariation800=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator800=R12B
+ParamVariation801=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator801=R12B
+ParamVariation802=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator802=R12B
+ParamVariation803=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator803=R12B
+ParamVariation804=ParameterName=Device Package|VariantValue=0603
+ParamDesignator804=R12B
+ParamVariation805=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator805=R12B
+ParamVariation806=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator806=R12B
+ParamVariation807=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator807=R12B
+ParamVariation808=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator808=R12B
+ParamVariation809=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator809=R12B
+ParamVariation810=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator810=R12B
+ParamVariation811=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator811=R12B
+ParamVariation812=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator812=R12B
+ParamVariation813=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator813=R12B
+ParamVariation814=ParameterName=PartID|VariantValue=1
+ParamDesignator814=R12B
+ParamVariation815=ParameterName=PCB3D|VariantValue= 
+ParamDesignator815=R12B
+ParamVariation816=ParameterName=Pin Info|VariantValue= 
+ParamDesignator816=R12B
+ParamVariation817=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator817=R12B
+ParamVariation818=ParameterName=Simulation|VariantValue= 
+ParamDesignator818=R12B
+ParamVariation819=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator819=R12B
+ParamVariation820=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator820=R12B
+ParamVariation821=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator821=R12B
+ParamVariation822=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator822=R12B
+ParamVariation823=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator823=R12B
+ParamVariation824=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator824=R12B
+ParamVariation825=ParameterName=Type|VariantValue=Resistor
+ParamDesignator825=R12B
+ParamVariation826=ParameterName=Value|VariantValue=0R
+ParamDesignator826=R12B
+Variation72=Designator=R16B|UniqueId=\2TYAXSBJQ\WAINVYMO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation827=ParameterName=Comment|VariantValue==Value
+ParamDesignator827=R16B
+ParamVariation828=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator828=R16B
+ParamVariation829=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator829=R16B
+ParamVariation830=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator830=R16B
+ParamVariation831=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator831=R16B
+ParamVariation832=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator832=R16B
+ParamVariation833=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator833=R16B
+ParamVariation834=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator834=R16B
+ParamVariation835=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator835=R16B
+ParamVariation836=ParameterName=Device Package|VariantValue=0603
+ParamDesignator836=R16B
+ParamVariation837=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator837=R16B
+ParamVariation838=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator838=R16B
+ParamVariation839=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator839=R16B
+ParamVariation840=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator840=R16B
+ParamVariation841=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator841=R16B
+ParamVariation842=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator842=R16B
+ParamVariation843=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator843=R16B
+ParamVariation844=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator844=R16B
+ParamVariation845=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator845=R16B
+ParamVariation846=ParameterName=PartID|VariantValue=1
+ParamDesignator846=R16B
+ParamVariation847=ParameterName=PCB3D|VariantValue= 
+ParamDesignator847=R16B
+ParamVariation848=ParameterName=Pin Info|VariantValue= 
+ParamDesignator848=R16B
+ParamVariation849=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator849=R16B
+ParamVariation850=ParameterName=Simulation|VariantValue= 
+ParamDesignator850=R16B
+ParamVariation851=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator851=R16B
+ParamVariation852=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator852=R16B
+ParamVariation853=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator853=R16B
+ParamVariation854=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator854=R16B
+ParamVariation855=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator855=R16B
+ParamVariation856=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator856=R16B
+ParamVariation857=ParameterName=Type|VariantValue=Resistor
+ParamDesignator857=R16B
+ParamVariation858=ParameterName=Value|VariantValue=0R
+ParamDesignator858=R16B
+Variation73=Designator=R15B|UniqueId=\2TYAXSBJQ\LDBHUBHI|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation859=ParameterName=Comment|VariantValue==Value
+ParamDesignator859=R15B
+ParamVariation860=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator860=R15B
+ParamVariation861=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator861=R15B
+ParamVariation862=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator862=R15B
+ParamVariation863=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator863=R15B
+ParamVariation864=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator864=R15B
+ParamVariation865=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator865=R15B
+ParamVariation866=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator866=R15B
+ParamVariation867=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator867=R15B
+ParamVariation868=ParameterName=Device Package|VariantValue=0603
+ParamDesignator868=R15B
+ParamVariation869=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator869=R15B
+ParamVariation870=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator870=R15B
+ParamVariation871=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator871=R15B
+ParamVariation872=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator872=R15B
+ParamVariation873=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator873=R15B
+ParamVariation874=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator874=R15B
+ParamVariation875=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator875=R15B
+ParamVariation876=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator876=R15B
+ParamVariation877=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator877=R15B
+ParamVariation878=ParameterName=PartID|VariantValue=1
+ParamDesignator878=R15B
+ParamVariation879=ParameterName=PCB3D|VariantValue= 
+ParamDesignator879=R15B
+ParamVariation880=ParameterName=Pin Info|VariantValue= 
+ParamDesignator880=R15B
+ParamVariation881=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator881=R15B
+ParamVariation882=ParameterName=Simulation|VariantValue= 
+ParamDesignator882=R15B
+ParamVariation883=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator883=R15B
+ParamVariation884=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator884=R15B
+ParamVariation885=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator885=R15B
+ParamVariation886=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator886=R15B
+ParamVariation887=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator887=R15B
+ParamVariation888=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator888=R15B
+ParamVariation889=ParameterName=Type|VariantValue=Resistor
+ParamDesignator889=R15B
+ParamVariation890=ParameterName=Value|VariantValue=0R
+ParamDesignator890=R15B
+Variation74=Designator=R10B|UniqueId=\2TYAXSBJQ\AQZQPOCK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation891=ParameterName=Comment|VariantValue==Value
+ParamDesignator891=R10B
+ParamVariation892=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator892=R10B
+ParamVariation893=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator893=R10B
+ParamVariation894=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator894=R10B
+ParamVariation895=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator895=R10B
+ParamVariation896=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator896=R10B
+ParamVariation897=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator897=R10B
+ParamVariation898=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator898=R10B
+ParamVariation899=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator899=R10B
+ParamVariation900=ParameterName=Device Package|VariantValue=0603
+ParamDesignator900=R10B
+ParamVariation901=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator901=R10B
+ParamVariation902=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator902=R10B
+ParamVariation903=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator903=R10B
+ParamVariation904=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator904=R10B
+ParamVariation905=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator905=R10B
+ParamVariation906=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator906=R10B
+ParamVariation907=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator907=R10B
+ParamVariation908=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator908=R10B
+ParamVariation909=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator909=R10B
+ParamVariation910=ParameterName=PartID|VariantValue=1
+ParamDesignator910=R10B
+ParamVariation911=ParameterName=PCB3D|VariantValue= 
+ParamDesignator911=R10B
+ParamVariation912=ParameterName=Pin Info|VariantValue= 
+ParamDesignator912=R10B
+ParamVariation913=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator913=R10B
+ParamVariation914=ParameterName=Simulation|VariantValue= 
+ParamDesignator914=R10B
+ParamVariation915=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator915=R10B
+ParamVariation916=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator916=R10B
+ParamVariation917=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator917=R10B
+ParamVariation918=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator918=R10B
+ParamVariation919=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator919=R10B
+ParamVariation920=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator920=R10B
+ParamVariation921=ParameterName=Type|VariantValue=Resistor
+ParamDesignator921=R10B
+ParamVariation922=ParameterName=Value|VariantValue=0R
+ParamDesignator922=R10B
+Variation75=Designator=R20B|UniqueId=\2TYAXSBJQ\QQIPBLXD|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation923=ParameterName=Comment|VariantValue==Value
+ParamDesignator923=R20B
+ParamVariation924=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator924=R20B
+ParamVariation925=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator925=R20B
+ParamVariation926=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator926=R20B
+ParamVariation927=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator927=R20B
+ParamVariation928=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator928=R20B
+ParamVariation929=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator929=R20B
+ParamVariation930=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator930=R20B
+ParamVariation931=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator931=R20B
+ParamVariation932=ParameterName=Device Package|VariantValue=0603
+ParamDesignator932=R20B
+ParamVariation933=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator933=R20B
+ParamVariation934=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator934=R20B
+ParamVariation935=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator935=R20B
+ParamVariation936=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator936=R20B
+ParamVariation937=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator937=R20B
+ParamVariation938=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator938=R20B
+ParamVariation939=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator939=R20B
+ParamVariation940=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator940=R20B
+ParamVariation941=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator941=R20B
+ParamVariation942=ParameterName=PartID|VariantValue=1
+ParamDesignator942=R20B
+ParamVariation943=ParameterName=PCB3D|VariantValue= 
+ParamDesignator943=R20B
+ParamVariation944=ParameterName=Pin Info|VariantValue= 
+ParamDesignator944=R20B
+ParamVariation945=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator945=R20B
+ParamVariation946=ParameterName=Simulation|VariantValue= 
+ParamDesignator946=R20B
+ParamVariation947=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator947=R20B
+ParamVariation948=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator948=R20B
+ParamVariation949=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator949=R20B
+ParamVariation950=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator950=R20B
+ParamVariation951=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator951=R20B
+ParamVariation952=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator952=R20B
+ParamVariation953=ParameterName=Type|VariantValue=Resistor
+ParamDesignator953=R20B
+ParamVariation954=ParameterName=Value|VariantValue=0R
+ParamDesignator954=R20B
+Variation76=Designator=R13B|UniqueId=\2TYAXSBJQ\PMHUKBAJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation955=ParameterName=Comment|VariantValue==Value
+ParamDesignator955=R13B
+ParamVariation956=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator956=R13B
+ParamVariation957=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator957=R13B
+ParamVariation958=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator958=R13B
+ParamVariation959=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator959=R13B
+ParamVariation960=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator960=R13B
+ParamVariation961=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator961=R13B
+ParamVariation962=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator962=R13B
+ParamVariation963=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator963=R13B
+ParamVariation964=ParameterName=Device Package|VariantValue=0603
+ParamDesignator964=R13B
+ParamVariation965=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator965=R13B
+ParamVariation966=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator966=R13B
+ParamVariation967=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator967=R13B
+ParamVariation968=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator968=R13B
+ParamVariation969=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator969=R13B
+ParamVariation970=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator970=R13B
+ParamVariation971=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator971=R13B
+ParamVariation972=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator972=R13B
+ParamVariation973=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator973=R13B
+ParamVariation974=ParameterName=PartID|VariantValue=1
+ParamDesignator974=R13B
+ParamVariation975=ParameterName=PCB3D|VariantValue= 
+ParamDesignator975=R13B
+ParamVariation976=ParameterName=Pin Info|VariantValue= 
+ParamDesignator976=R13B
+ParamVariation977=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator977=R13B
+ParamVariation978=ParameterName=Simulation|VariantValue= 
+ParamDesignator978=R13B
+ParamVariation979=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator979=R13B
+ParamVariation980=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator980=R13B
+ParamVariation981=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator981=R13B
+ParamVariation982=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator982=R13B
+ParamVariation983=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator983=R13B
+ParamVariation984=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator984=R13B
+ParamVariation985=ParameterName=Type|VariantValue=Resistor
+ParamDesignator985=R13B
+ParamVariation986=ParameterName=Value|VariantValue=0R
+ParamDesignator986=R13B
+Variation77=Designator=R8C|UniqueId=\3TYAXSBJQ\OIZVWCGW|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation987=ParameterName=Comment|VariantValue==Value
+ParamDesignator987=R8C
+ParamVariation988=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator988=R8C
+ParamVariation989=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator989=R8C
+ParamVariation990=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator990=R8C
+ParamVariation991=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator991=R8C
+ParamVariation992=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator992=R8C
+ParamVariation993=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator993=R8C
+ParamVariation994=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator994=R8C
+ParamVariation995=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator995=R8C
+ParamVariation996=ParameterName=Device Package|VariantValue=0603
+ParamDesignator996=R8C
+ParamVariation997=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator997=R8C
+ParamVariation998=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator998=R8C
+ParamVariation999=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator999=R8C
+ParamVariation1000=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1000=R8C
+ParamVariation1001=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1001=R8C
+ParamVariation1002=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1002=R8C
+ParamVariation1003=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1003=R8C
+ParamVariation1004=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1004=R8C
+ParamVariation1005=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1005=R8C
+ParamVariation1006=ParameterName=PartID|VariantValue=1
+ParamDesignator1006=R8C
+ParamVariation1007=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1007=R8C
+ParamVariation1008=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1008=R8C
+ParamVariation1009=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1009=R8C
+ParamVariation1010=ParameterName=Simulation|VariantValue= 
+ParamDesignator1010=R8C
+ParamVariation1011=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1011=R8C
+ParamVariation1012=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1012=R8C
+ParamVariation1013=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1013=R8C
+ParamVariation1014=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1014=R8C
+ParamVariation1015=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1015=R8C
+ParamVariation1016=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1016=R8C
+ParamVariation1017=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1017=R8C
+ParamVariation1018=ParameterName=Value|VariantValue=0R
+ParamDesignator1018=R8C
+Variation78=Designator=R11C|UniqueId=\3TYAXSBJQ\BFWKPMTL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1019=ParameterName=Comment|VariantValue==Value
+ParamDesignator1019=R11C
+ParamVariation1020=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1020=R11C
+ParamVariation1021=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1021=R11C
+ParamVariation1022=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1022=R11C
+ParamVariation1023=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1023=R11C
+ParamVariation1024=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1024=R11C
+ParamVariation1025=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1025=R11C
+ParamVariation1026=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1026=R11C
+ParamVariation1027=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1027=R11C
+ParamVariation1028=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1028=R11C
+ParamVariation1029=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1029=R11C
+ParamVariation1030=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1030=R11C
+ParamVariation1031=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1031=R11C
+ParamVariation1032=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1032=R11C
+ParamVariation1033=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1033=R11C
+ParamVariation1034=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1034=R11C
+ParamVariation1035=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1035=R11C
+ParamVariation1036=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1036=R11C
+ParamVariation1037=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1037=R11C
+ParamVariation1038=ParameterName=PartID|VariantValue=1
+ParamDesignator1038=R11C
+ParamVariation1039=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1039=R11C
+ParamVariation1040=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1040=R11C
+ParamVariation1041=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1041=R11C
+ParamVariation1042=ParameterName=Simulation|VariantValue= 
+ParamDesignator1042=R11C
+ParamVariation1043=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1043=R11C
+ParamVariation1044=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1044=R11C
+ParamVariation1045=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1045=R11C
+ParamVariation1046=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1046=R11C
+ParamVariation1047=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1047=R11C
+ParamVariation1048=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1048=R11C
+ParamVariation1049=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1049=R11C
+ParamVariation1050=ParameterName=Value|VariantValue=0R
+ParamDesignator1050=R11C
+Variation79=Designator=R17C|UniqueId=\3TYAXSBJQ\PCOSOUXU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1051=ParameterName=Comment|VariantValue==Value
+ParamDesignator1051=R17C
+ParamVariation1052=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1052=R17C
+ParamVariation1053=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1053=R17C
+ParamVariation1054=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1054=R17C
+ParamVariation1055=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1055=R17C
+ParamVariation1056=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1056=R17C
+ParamVariation1057=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1057=R17C
+ParamVariation1058=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1058=R17C
+ParamVariation1059=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1059=R17C
+ParamVariation1060=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1060=R17C
+ParamVariation1061=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1061=R17C
+ParamVariation1062=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1062=R17C
+ParamVariation1063=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1063=R17C
+ParamVariation1064=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1064=R17C
+ParamVariation1065=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1065=R17C
+ParamVariation1066=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1066=R17C
+ParamVariation1067=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1067=R17C
+ParamVariation1068=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1068=R17C
+ParamVariation1069=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1069=R17C
+ParamVariation1070=ParameterName=PartID|VariantValue=1
+ParamDesignator1070=R17C
+ParamVariation1071=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1071=R17C
+ParamVariation1072=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1072=R17C
+ParamVariation1073=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1073=R17C
+ParamVariation1074=ParameterName=Simulation|VariantValue= 
+ParamDesignator1074=R17C
+ParamVariation1075=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1075=R17C
+ParamVariation1076=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1076=R17C
+ParamVariation1077=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1077=R17C
+ParamVariation1078=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1078=R17C
+ParamVariation1079=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1079=R17C
+ParamVariation1080=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1080=R17C
+ParamVariation1081=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1081=R17C
+ParamVariation1082=ParameterName=Value|VariantValue=0R
+ParamDesignator1082=R17C
+Variation80=Designator=R22C|UniqueId=\3TYAXSBJQ\IYHFVHVH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1083=ParameterName=Comment|VariantValue==Value
+ParamDesignator1083=R22C
+ParamVariation1084=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1084=R22C
+ParamVariation1085=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1085=R22C
+ParamVariation1086=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1086=R22C
+ParamVariation1087=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1087=R22C
+ParamVariation1088=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1088=R22C
+ParamVariation1089=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1089=R22C
+ParamVariation1090=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1090=R22C
+ParamVariation1091=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1091=R22C
+ParamVariation1092=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1092=R22C
+ParamVariation1093=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1093=R22C
+ParamVariation1094=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1094=R22C
+ParamVariation1095=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1095=R22C
+ParamVariation1096=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1096=R22C
+ParamVariation1097=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1097=R22C
+ParamVariation1098=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1098=R22C
+ParamVariation1099=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1099=R22C
+ParamVariation1100=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1100=R22C
+ParamVariation1101=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1101=R22C
+ParamVariation1102=ParameterName=PartID|VariantValue=1
+ParamDesignator1102=R22C
+ParamVariation1103=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1103=R22C
+ParamVariation1104=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1104=R22C
+ParamVariation1105=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1105=R22C
+ParamVariation1106=ParameterName=Simulation|VariantValue= 
+ParamDesignator1106=R22C
+ParamVariation1107=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1107=R22C
+ParamVariation1108=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1108=R22C
+ParamVariation1109=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1109=R22C
+ParamVariation1110=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1110=R22C
+ParamVariation1111=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1111=R22C
+ParamVariation1112=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1112=R22C
+ParamVariation1113=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1113=R22C
+ParamVariation1114=ParameterName=Value|VariantValue=0R
+ParamDesignator1114=R22C
+Variation81=Designator=R21C|UniqueId=\3TYAXSBJQ\HKDKBMLV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1115=ParameterName=Comment|VariantValue==Value
+ParamDesignator1115=R21C
+ParamVariation1116=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1116=R21C
+ParamVariation1117=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1117=R21C
+ParamVariation1118=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1118=R21C
+ParamVariation1119=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1119=R21C
+ParamVariation1120=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1120=R21C
+ParamVariation1121=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1121=R21C
+ParamVariation1122=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1122=R21C
+ParamVariation1123=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1123=R21C
+ParamVariation1124=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1124=R21C
+ParamVariation1125=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1125=R21C
+ParamVariation1126=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1126=R21C
+ParamVariation1127=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1127=R21C
+ParamVariation1128=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1128=R21C
+ParamVariation1129=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1129=R21C
+ParamVariation1130=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1130=R21C
+ParamVariation1131=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1131=R21C
+ParamVariation1132=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1132=R21C
+ParamVariation1133=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1133=R21C
+ParamVariation1134=ParameterName=PartID|VariantValue=1
+ParamDesignator1134=R21C
+ParamVariation1135=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1135=R21C
+ParamVariation1136=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1136=R21C
+ParamVariation1137=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1137=R21C
+ParamVariation1138=ParameterName=Simulation|VariantValue= 
+ParamDesignator1138=R21C
+ParamVariation1139=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1139=R21C
+ParamVariation1140=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1140=R21C
+ParamVariation1141=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1141=R21C
+ParamVariation1142=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1142=R21C
+ParamVariation1143=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1143=R21C
+ParamVariation1144=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1144=R21C
+ParamVariation1145=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1145=R21C
+ParamVariation1146=ParameterName=Value|VariantValue=0R
+ParamDesignator1146=R21C
+Variation82=Designator=R19C|UniqueId=\3TYAXSBJQ\YMMJSVGJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1147=ParameterName=Comment|VariantValue==Value
+ParamDesignator1147=R19C
+ParamVariation1148=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1148=R19C
+ParamVariation1149=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1149=R19C
+ParamVariation1150=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1150=R19C
+ParamVariation1151=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1151=R19C
+ParamVariation1152=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1152=R19C
+ParamVariation1153=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1153=R19C
+ParamVariation1154=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1154=R19C
+ParamVariation1155=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1155=R19C
+ParamVariation1156=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1156=R19C
+ParamVariation1157=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1157=R19C
+ParamVariation1158=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1158=R19C
+ParamVariation1159=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1159=R19C
+ParamVariation1160=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1160=R19C
+ParamVariation1161=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1161=R19C
+ParamVariation1162=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1162=R19C
+ParamVariation1163=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1163=R19C
+ParamVariation1164=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1164=R19C
+ParamVariation1165=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1165=R19C
+ParamVariation1166=ParameterName=PartID|VariantValue=1
+ParamDesignator1166=R19C
+ParamVariation1167=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1167=R19C
+ParamVariation1168=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1168=R19C
+ParamVariation1169=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1169=R19C
+ParamVariation1170=ParameterName=Simulation|VariantValue= 
+ParamDesignator1170=R19C
+ParamVariation1171=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1171=R19C
+ParamVariation1172=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1172=R19C
+ParamVariation1173=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1173=R19C
+ParamVariation1174=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1174=R19C
+ParamVariation1175=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1175=R19C
+ParamVariation1176=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1176=R19C
+ParamVariation1177=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1177=R19C
+ParamVariation1178=ParameterName=Value|VariantValue=0R
+ParamDesignator1178=R19C
+Variation83=Designator=R13C|UniqueId=\3TYAXSBJQ\PMHUKBAJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1179=ParameterName=Comment|VariantValue==Value
+ParamDesignator1179=R13C
+ParamVariation1180=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1180=R13C
+ParamVariation1181=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1181=R13C
+ParamVariation1182=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1182=R13C
+ParamVariation1183=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1183=R13C
+ParamVariation1184=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1184=R13C
+ParamVariation1185=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1185=R13C
+ParamVariation1186=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1186=R13C
+ParamVariation1187=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1187=R13C
+ParamVariation1188=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1188=R13C
+ParamVariation1189=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1189=R13C
+ParamVariation1190=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1190=R13C
+ParamVariation1191=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1191=R13C
+ParamVariation1192=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1192=R13C
+ParamVariation1193=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1193=R13C
+ParamVariation1194=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1194=R13C
+ParamVariation1195=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1195=R13C
+ParamVariation1196=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1196=R13C
+ParamVariation1197=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1197=R13C
+ParamVariation1198=ParameterName=PartID|VariantValue=1
+ParamDesignator1198=R13C
+ParamVariation1199=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1199=R13C
+ParamVariation1200=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1200=R13C
+ParamVariation1201=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1201=R13C
+ParamVariation1202=ParameterName=Simulation|VariantValue= 
+ParamDesignator1202=R13C
+ParamVariation1203=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1203=R13C
+ParamVariation1204=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1204=R13C
+ParamVariation1205=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1205=R13C
+ParamVariation1206=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1206=R13C
+ParamVariation1207=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1207=R13C
+ParamVariation1208=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1208=R13C
+ParamVariation1209=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1209=R13C
+ParamVariation1210=ParameterName=Value|VariantValue=0R
+ParamDesignator1210=R13C
+Variation84=Designator=R12C|UniqueId=\3TYAXSBJQ\NIFXZSYO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1211=ParameterName=Comment|VariantValue==Value
+ParamDesignator1211=R12C
+ParamVariation1212=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1212=R12C
+ParamVariation1213=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1213=R12C
+ParamVariation1214=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1214=R12C
+ParamVariation1215=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1215=R12C
+ParamVariation1216=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1216=R12C
+ParamVariation1217=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1217=R12C
+ParamVariation1218=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1218=R12C
+ParamVariation1219=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1219=R12C
+ParamVariation1220=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1220=R12C
+ParamVariation1221=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1221=R12C
+ParamVariation1222=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1222=R12C
+ParamVariation1223=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1223=R12C
+ParamVariation1224=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1224=R12C
+ParamVariation1225=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1225=R12C
+ParamVariation1226=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1226=R12C
+ParamVariation1227=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1227=R12C
+ParamVariation1228=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1228=R12C
+ParamVariation1229=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1229=R12C
+ParamVariation1230=ParameterName=PartID|VariantValue=1
+ParamDesignator1230=R12C
+ParamVariation1231=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1231=R12C
+ParamVariation1232=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1232=R12C
+ParamVariation1233=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1233=R12C
+ParamVariation1234=ParameterName=Simulation|VariantValue= 
+ParamDesignator1234=R12C
+ParamVariation1235=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1235=R12C
+ParamVariation1236=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1236=R12C
+ParamVariation1237=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1237=R12C
+ParamVariation1238=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1238=R12C
+ParamVariation1239=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1239=R12C
+ParamVariation1240=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1240=R12C
+ParamVariation1241=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1241=R12C
+ParamVariation1242=ParameterName=Value|VariantValue=0R
+ParamDesignator1242=R12C
+Variation85=Designator=R20C|UniqueId=\3TYAXSBJQ\QQIPBLXD|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1243=ParameterName=Comment|VariantValue==Value
+ParamDesignator1243=R20C
+ParamVariation1244=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1244=R20C
+ParamVariation1245=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1245=R20C
+ParamVariation1246=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1246=R20C
+ParamVariation1247=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1247=R20C
+ParamVariation1248=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1248=R20C
+ParamVariation1249=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1249=R20C
+ParamVariation1250=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1250=R20C
+ParamVariation1251=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1251=R20C
+ParamVariation1252=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1252=R20C
+ParamVariation1253=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1253=R20C
+ParamVariation1254=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1254=R20C
+ParamVariation1255=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1255=R20C
+ParamVariation1256=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1256=R20C
+ParamVariation1257=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1257=R20C
+ParamVariation1258=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1258=R20C
+ParamVariation1259=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1259=R20C
+ParamVariation1260=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1260=R20C
+ParamVariation1261=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1261=R20C
+ParamVariation1262=ParameterName=PartID|VariantValue=1
+ParamDesignator1262=R20C
+ParamVariation1263=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1263=R20C
+ParamVariation1264=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1264=R20C
+ParamVariation1265=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1265=R20C
+ParamVariation1266=ParameterName=Simulation|VariantValue= 
+ParamDesignator1266=R20C
+ParamVariation1267=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1267=R20C
+ParamVariation1268=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1268=R20C
+ParamVariation1269=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1269=R20C
+ParamVariation1270=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1270=R20C
+ParamVariation1271=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1271=R20C
+ParamVariation1272=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1272=R20C
+ParamVariation1273=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1273=R20C
+ParamVariation1274=ParameterName=Value|VariantValue=0R
+ParamDesignator1274=R20C
+Variation86=Designator=R18C|UniqueId=\3TYAXSBJQ\GBSQHGRU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1275=ParameterName=Comment|VariantValue==Value
+ParamDesignator1275=R18C
+ParamVariation1276=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1276=R18C
+ParamVariation1277=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1277=R18C
+ParamVariation1278=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1278=R18C
+ParamVariation1279=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1279=R18C
+ParamVariation1280=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1280=R18C
+ParamVariation1281=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1281=R18C
+ParamVariation1282=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1282=R18C
+ParamVariation1283=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1283=R18C
+ParamVariation1284=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1284=R18C
+ParamVariation1285=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1285=R18C
+ParamVariation1286=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1286=R18C
+ParamVariation1287=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1287=R18C
+ParamVariation1288=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1288=R18C
+ParamVariation1289=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1289=R18C
+ParamVariation1290=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1290=R18C
+ParamVariation1291=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1291=R18C
+ParamVariation1292=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1292=R18C
+ParamVariation1293=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1293=R18C
+ParamVariation1294=ParameterName=PartID|VariantValue=1
+ParamDesignator1294=R18C
+ParamVariation1295=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1295=R18C
+ParamVariation1296=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1296=R18C
+ParamVariation1297=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1297=R18C
+ParamVariation1298=ParameterName=Simulation|VariantValue= 
+ParamDesignator1298=R18C
+ParamVariation1299=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1299=R18C
+ParamVariation1300=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1300=R18C
+ParamVariation1301=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1301=R18C
+ParamVariation1302=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1302=R18C
+ParamVariation1303=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1303=R18C
+ParamVariation1304=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1304=R18C
+ParamVariation1305=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1305=R18C
+ParamVariation1306=ParameterName=Value|VariantValue=0R
+ParamDesignator1306=R18C
+Variation87=Designator=R16C|UniqueId=\3TYAXSBJQ\WAINVYMO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1307=ParameterName=Comment|VariantValue==Value
+ParamDesignator1307=R16C
+ParamVariation1308=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1308=R16C
+ParamVariation1309=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1309=R16C
+ParamVariation1310=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1310=R16C
+ParamVariation1311=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1311=R16C
+ParamVariation1312=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1312=R16C
+ParamVariation1313=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1313=R16C
+ParamVariation1314=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1314=R16C
+ParamVariation1315=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1315=R16C
+ParamVariation1316=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1316=R16C
+ParamVariation1317=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1317=R16C
+ParamVariation1318=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1318=R16C
+ParamVariation1319=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1319=R16C
+ParamVariation1320=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1320=R16C
+ParamVariation1321=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1321=R16C
+ParamVariation1322=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1322=R16C
+ParamVariation1323=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1323=R16C
+ParamVariation1324=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1324=R16C
+ParamVariation1325=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1325=R16C
+ParamVariation1326=ParameterName=PartID|VariantValue=1
+ParamDesignator1326=R16C
+ParamVariation1327=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1327=R16C
+ParamVariation1328=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1328=R16C
+ParamVariation1329=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1329=R16C
+ParamVariation1330=ParameterName=Simulation|VariantValue= 
+ParamDesignator1330=R16C
+ParamVariation1331=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1331=R16C
+ParamVariation1332=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1332=R16C
+ParamVariation1333=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1333=R16C
+ParamVariation1334=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1334=R16C
+ParamVariation1335=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1335=R16C
+ParamVariation1336=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1336=R16C
+ParamVariation1337=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1337=R16C
+ParamVariation1338=ParameterName=Value|VariantValue=0R
+ParamDesignator1338=R16C
+Variation88=Designator=R15C|UniqueId=\3TYAXSBJQ\LDBHUBHI|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1339=ParameterName=Comment|VariantValue==Value
+ParamDesignator1339=R15C
+ParamVariation1340=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1340=R15C
+ParamVariation1341=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1341=R15C
+ParamVariation1342=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1342=R15C
+ParamVariation1343=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1343=R15C
+ParamVariation1344=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1344=R15C
+ParamVariation1345=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1345=R15C
+ParamVariation1346=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1346=R15C
+ParamVariation1347=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1347=R15C
+ParamVariation1348=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1348=R15C
+ParamVariation1349=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1349=R15C
+ParamVariation1350=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1350=R15C
+ParamVariation1351=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1351=R15C
+ParamVariation1352=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1352=R15C
+ParamVariation1353=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1353=R15C
+ParamVariation1354=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1354=R15C
+ParamVariation1355=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1355=R15C
+ParamVariation1356=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1356=R15C
+ParamVariation1357=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1357=R15C
+ParamVariation1358=ParameterName=PartID|VariantValue=1
+ParamDesignator1358=R15C
+ParamVariation1359=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1359=R15C
+ParamVariation1360=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1360=R15C
+ParamVariation1361=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1361=R15C
+ParamVariation1362=ParameterName=Simulation|VariantValue= 
+ParamDesignator1362=R15C
+ParamVariation1363=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1363=R15C
+ParamVariation1364=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1364=R15C
+ParamVariation1365=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1365=R15C
+ParamVariation1366=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1366=R15C
+ParamVariation1367=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1367=R15C
+ParamVariation1368=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1368=R15C
+ParamVariation1369=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1369=R15C
+ParamVariation1370=ParameterName=Value|VariantValue=0R
+ParamDesignator1370=R15C
+Variation89=Designator=R9C|UniqueId=\3TYAXSBJQ\CVRAQRDZ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1371=ParameterName=Comment|VariantValue==Value
+ParamDesignator1371=R9C
+ParamVariation1372=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1372=R9C
+ParamVariation1373=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1373=R9C
+ParamVariation1374=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1374=R9C
+ParamVariation1375=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1375=R9C
+ParamVariation1376=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1376=R9C
+ParamVariation1377=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1377=R9C
+ParamVariation1378=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1378=R9C
+ParamVariation1379=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1379=R9C
+ParamVariation1380=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1380=R9C
+ParamVariation1381=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1381=R9C
+ParamVariation1382=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1382=R9C
+ParamVariation1383=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1383=R9C
+ParamVariation1384=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1384=R9C
+ParamVariation1385=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1385=R9C
+ParamVariation1386=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1386=R9C
+ParamVariation1387=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1387=R9C
+ParamVariation1388=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1388=R9C
+ParamVariation1389=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1389=R9C
+ParamVariation1390=ParameterName=PartID|VariantValue=1
+ParamDesignator1390=R9C
+ParamVariation1391=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1391=R9C
+ParamVariation1392=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1392=R9C
+ParamVariation1393=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1393=R9C
+ParamVariation1394=ParameterName=Simulation|VariantValue= 
+ParamDesignator1394=R9C
+ParamVariation1395=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1395=R9C
+ParamVariation1396=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1396=R9C
+ParamVariation1397=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1397=R9C
+ParamVariation1398=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1398=R9C
+ParamVariation1399=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1399=R9C
+ParamVariation1400=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1400=R9C
+ParamVariation1401=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1401=R9C
+ParamVariation1402=ParameterName=Value|VariantValue=0R
+ParamDesignator1402=R9C
+Variation90=Designator=R14C|UniqueId=\3TYAXSBJQ\WKSSTOMP|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1403=ParameterName=Comment|VariantValue==Value
+ParamDesignator1403=R14C
+ParamVariation1404=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1404=R14C
+ParamVariation1405=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1405=R14C
+ParamVariation1406=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1406=R14C
+ParamVariation1407=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1407=R14C
+ParamVariation1408=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1408=R14C
+ParamVariation1409=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1409=R14C
+ParamVariation1410=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1410=R14C
+ParamVariation1411=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1411=R14C
+ParamVariation1412=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1412=R14C
+ParamVariation1413=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1413=R14C
+ParamVariation1414=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1414=R14C
+ParamVariation1415=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1415=R14C
+ParamVariation1416=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1416=R14C
+ParamVariation1417=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1417=R14C
+ParamVariation1418=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1418=R14C
+ParamVariation1419=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1419=R14C
+ParamVariation1420=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1420=R14C
+ParamVariation1421=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1421=R14C
+ParamVariation1422=ParameterName=PartID|VariantValue=1
+ParamDesignator1422=R14C
+ParamVariation1423=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1423=R14C
+ParamVariation1424=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1424=R14C
+ParamVariation1425=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1425=R14C
+ParamVariation1426=ParameterName=Simulation|VariantValue= 
+ParamDesignator1426=R14C
+ParamVariation1427=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1427=R14C
+ParamVariation1428=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1428=R14C
+ParamVariation1429=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1429=R14C
+ParamVariation1430=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1430=R14C
+ParamVariation1431=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1431=R14C
+ParamVariation1432=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1432=R14C
+ParamVariation1433=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1433=R14C
+ParamVariation1434=ParameterName=Value|VariantValue=0R
+ParamDesignator1434=R14C
+Variation91=Designator=R10C|UniqueId=\3TYAXSBJQ\AQZQPOCK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1435=ParameterName=Comment|VariantValue==Value
+ParamDesignator1435=R10C
+ParamVariation1436=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1436=R10C
+ParamVariation1437=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1437=R10C
+ParamVariation1438=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1438=R10C
+ParamVariation1439=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1439=R10C
+ParamVariation1440=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1440=R10C
+ParamVariation1441=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1441=R10C
+ParamVariation1442=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1442=R10C
+ParamVariation1443=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1443=R10C
+ParamVariation1444=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1444=R10C
+ParamVariation1445=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1445=R10C
+ParamVariation1446=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1446=R10C
+ParamVariation1447=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1447=R10C
+ParamVariation1448=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1448=R10C
+ParamVariation1449=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1449=R10C
+ParamVariation1450=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1450=R10C
+ParamVariation1451=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1451=R10C
+ParamVariation1452=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1452=R10C
+ParamVariation1453=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1453=R10C
+ParamVariation1454=ParameterName=PartID|VariantValue=1
+ParamDesignator1454=R10C
+ParamVariation1455=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1455=R10C
+ParamVariation1456=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1456=R10C
+ParamVariation1457=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1457=R10C
+ParamVariation1458=ParameterName=Simulation|VariantValue= 
+ParamDesignator1458=R10C
+ParamVariation1459=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1459=R10C
+ParamVariation1460=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1460=R10C
+ParamVariation1461=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1461=R10C
+ParamVariation1462=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1462=R10C
+ParamVariation1463=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1463=R10C
+ParamVariation1464=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1464=R10C
+ParamVariation1465=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1465=R10C
+ParamVariation1466=ParameterName=Value|VariantValue=0R
+ParamDesignator1466=R10C
+Variation92=Designator=R9A|UniqueId=\1TYAXSBJQ\CVRAQRDZ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1467=ParameterName=Comment|VariantValue==Value
+ParamDesignator1467=R9A
+ParamVariation1468=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1468=R9A
+ParamVariation1469=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1469=R9A
+ParamVariation1470=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1470=R9A
+ParamVariation1471=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1471=R9A
+ParamVariation1472=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1472=R9A
+ParamVariation1473=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1473=R9A
+ParamVariation1474=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1474=R9A
+ParamVariation1475=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1475=R9A
+ParamVariation1476=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1476=R9A
+ParamVariation1477=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1477=R9A
+ParamVariation1478=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1478=R9A
+ParamVariation1479=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1479=R9A
+ParamVariation1480=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1480=R9A
+ParamVariation1481=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1481=R9A
+ParamVariation1482=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1482=R9A
+ParamVariation1483=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1483=R9A
+ParamVariation1484=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1484=R9A
+ParamVariation1485=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1485=R9A
+ParamVariation1486=ParameterName=PartID|VariantValue=1
+ParamDesignator1486=R9A
+ParamVariation1487=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1487=R9A
+ParamVariation1488=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1488=R9A
+ParamVariation1489=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1489=R9A
+ParamVariation1490=ParameterName=Simulation|VariantValue= 
+ParamDesignator1490=R9A
+ParamVariation1491=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1491=R9A
+ParamVariation1492=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1492=R9A
+ParamVariation1493=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1493=R9A
+ParamVariation1494=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1494=R9A
+ParamVariation1495=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1495=R9A
+ParamVariation1496=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1496=R9A
+ParamVariation1497=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1497=R9A
+ParamVariation1498=ParameterName=Value|VariantValue=0R
+ParamDesignator1498=R9A
+Variation93=Designator=R12A|UniqueId=\1TYAXSBJQ\NIFXZSYO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1499=ParameterName=Comment|VariantValue==Value
+ParamDesignator1499=R12A
+ParamVariation1500=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1500=R12A
+ParamVariation1501=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1501=R12A
+ParamVariation1502=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1502=R12A
+ParamVariation1503=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1503=R12A
+ParamVariation1504=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1504=R12A
+ParamVariation1505=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1505=R12A
+ParamVariation1506=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1506=R12A
+ParamVariation1507=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1507=R12A
+ParamVariation1508=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1508=R12A
+ParamVariation1509=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1509=R12A
+ParamVariation1510=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1510=R12A
+ParamVariation1511=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1511=R12A
+ParamVariation1512=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1512=R12A
+ParamVariation1513=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1513=R12A
+ParamVariation1514=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1514=R12A
+ParamVariation1515=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1515=R12A
+ParamVariation1516=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1516=R12A
+ParamVariation1517=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1517=R12A
+ParamVariation1518=ParameterName=PartID|VariantValue=1
+ParamDesignator1518=R12A
+ParamVariation1519=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1519=R12A
+ParamVariation1520=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1520=R12A
+ParamVariation1521=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1521=R12A
+ParamVariation1522=ParameterName=Simulation|VariantValue= 
+ParamDesignator1522=R12A
+ParamVariation1523=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1523=R12A
+ParamVariation1524=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1524=R12A
+ParamVariation1525=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1525=R12A
+ParamVariation1526=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1526=R12A
+ParamVariation1527=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1527=R12A
+ParamVariation1528=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1528=R12A
+ParamVariation1529=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1529=R12A
+ParamVariation1530=ParameterName=Value|VariantValue=0R
+ParamDesignator1530=R12A
+Variation94=Designator=R13A|UniqueId=\1TYAXSBJQ\PMHUKBAJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1531=ParameterName=Comment|VariantValue==Value
+ParamDesignator1531=R13A
+ParamVariation1532=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1532=R13A
+ParamVariation1533=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1533=R13A
+ParamVariation1534=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1534=R13A
+ParamVariation1535=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1535=R13A
+ParamVariation1536=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1536=R13A
+ParamVariation1537=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1537=R13A
+ParamVariation1538=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1538=R13A
+ParamVariation1539=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1539=R13A
+ParamVariation1540=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1540=R13A
+ParamVariation1541=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1541=R13A
+ParamVariation1542=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1542=R13A
+ParamVariation1543=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1543=R13A
+ParamVariation1544=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1544=R13A
+ParamVariation1545=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1545=R13A
+ParamVariation1546=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1546=R13A
+ParamVariation1547=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1547=R13A
+ParamVariation1548=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1548=R13A
+ParamVariation1549=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1549=R13A
+ParamVariation1550=ParameterName=PartID|VariantValue=1
+ParamDesignator1550=R13A
+ParamVariation1551=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1551=R13A
+ParamVariation1552=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1552=R13A
+ParamVariation1553=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1553=R13A
+ParamVariation1554=ParameterName=Simulation|VariantValue= 
+ParamDesignator1554=R13A
+ParamVariation1555=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1555=R13A
+ParamVariation1556=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1556=R13A
+ParamVariation1557=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1557=R13A
+ParamVariation1558=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1558=R13A
+ParamVariation1559=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1559=R13A
+ParamVariation1560=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1560=R13A
+ParamVariation1561=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1561=R13A
+ParamVariation1562=ParameterName=Value|VariantValue=0R
+ParamDesignator1562=R13A
+Variation95=Designator=R10A|UniqueId=\1TYAXSBJQ\AQZQPOCK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1563=ParameterName=Comment|VariantValue==Value
+ParamDesignator1563=R10A
+ParamVariation1564=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1564=R10A
+ParamVariation1565=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1565=R10A
+ParamVariation1566=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1566=R10A
+ParamVariation1567=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1567=R10A
+ParamVariation1568=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1568=R10A
+ParamVariation1569=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1569=R10A
+ParamVariation1570=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1570=R10A
+ParamVariation1571=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1571=R10A
+ParamVariation1572=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1572=R10A
+ParamVariation1573=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1573=R10A
+ParamVariation1574=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1574=R10A
+ParamVariation1575=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1575=R10A
+ParamVariation1576=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1576=R10A
+ParamVariation1577=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1577=R10A
+ParamVariation1578=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1578=R10A
+ParamVariation1579=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1579=R10A
+ParamVariation1580=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1580=R10A
+ParamVariation1581=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1581=R10A
+ParamVariation1582=ParameterName=PartID|VariantValue=1
+ParamDesignator1582=R10A
+ParamVariation1583=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1583=R10A
+ParamVariation1584=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1584=R10A
+ParamVariation1585=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1585=R10A
+ParamVariation1586=ParameterName=Simulation|VariantValue= 
+ParamDesignator1586=R10A
+ParamVariation1587=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1587=R10A
+ParamVariation1588=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1588=R10A
+ParamVariation1589=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1589=R10A
+ParamVariation1590=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1590=R10A
+ParamVariation1591=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1591=R10A
+ParamVariation1592=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1592=R10A
+ParamVariation1593=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1593=R10A
+ParamVariation1594=ParameterName=Value|VariantValue=0R
+ParamDesignator1594=R10A
+Variation96=Designator=R11A|UniqueId=\1TYAXSBJQ\BFWKPMTL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+ParamVariation1595=ParameterName=Comment|VariantValue==Value
+ParamDesignator1595=R11A
+ParamVariation1596=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator1596=R11A
+ParamVariation1597=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator1597=R11A
+ParamVariation1598=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.de/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1664068.pdf
+ParamDesignator1598=R11A
+ParamVariation1599=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator1599=R11A
+ParamVariation1600=ParameterName=Created from|VariantValue=MGremer
+ParamDesignator1600=R11A
+ParamVariation1601=ParameterName=Created On|VariantValue=14.12.2020 16:17:14
+ParamDesignator1601=R11A
+ParamVariation1602=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator1602=R11A
+ParamVariation1603=ParameterName=Description|VariantValue=SMD resistor E24 series
+ParamDesignator1603=R11A
+ParamVariation1604=ParameterName=Device Package|VariantValue=0603
+ParamDesignator1604=R11A
+ParamVariation1605=ParameterName=Footprint|VariantValue=RES 0603_1608
+ParamDesignator1605=R11A
+ParamVariation1606=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator1606=R11A
+ParamVariation1607=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
+ParamDesignator1607=R11A
+ParamVariation1608=ParameterName=LCSC Part Number|VariantValue=C21189
+ParamDesignator1608=R11A
+ParamVariation1609=ParameterName=Library Reference|VariantValue=RC0603JR-070RL
+ParamDesignator1609=R11A
+ParamVariation1610=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator1610=R11A
+ParamVariation1611=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator1611=R11A
+ParamVariation1612=ParameterName=Manufacturer Part Number|VariantValue=RC0603JR-070RL
+ParamDesignator1612=R11A
+ParamVariation1613=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator1613=R11A
+ParamVariation1614=ParameterName=PartID|VariantValue=1
+ParamDesignator1614=R11A
+ParamVariation1615=ParameterName=PCB3D|VariantValue= 
+ParamDesignator1615=R11A
+ParamVariation1616=ParameterName=Pin Info|VariantValue= 
+ParamDesignator1616=R11A
+ParamVariation1617=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator1617=R11A
+ParamVariation1618=ParameterName=Simulation|VariantValue= 
+ParamDesignator1618=R11A
+ParamVariation1619=ParameterName=Stock number|VariantValue=Labor SMD Container
+ParamDesignator1619=R11A
+ParamVariation1620=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator1620=R11A
+ParamVariation1621=ParameterName=Supplier 2|VariantValue=LCSC
+ParamDesignator1621=R11A
+ParamVariation1622=ParameterName=Supplier Part Number 1|VariantValue=603-RC0603JR-070RL
+ParamDesignator1622=R11A
+ParamVariation1623=ParameterName=Supplier Part Number 2|VariantValue==LCSC Part Number
+ParamDesignator1623=R11A
+ParamVariation1624=ParameterName=Tolerance|VariantValue=5%
+ParamDesignator1624=R11A
+ParamVariation1625=ParameterName=Type|VariantValue=Resistor
+ParamDesignator1625=R11A
+ParamVariation1626=ParameterName=Value|VariantValue=0R
+ParamDesignator1626=R11A
+ParamVariationCount=1626
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\Design Rule Check - UZ_D_Temperature_Card_LTC2983.html
