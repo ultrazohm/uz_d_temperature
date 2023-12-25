@@ -95,7 +95,7 @@ AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -295,7 +295,7 @@ UniqueID=E69AD332-D7AD-4236-86EE-6F0AD8E98FD8
 Description=All_2wire_RTD
 AllowFabrication=1
 ParameterCount=0
-VariationCount=96
+VariationCount=98
 AllowVariationPastMask=1
 Variation1=Designator=R45A|UniqueId=\1TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
 Variation2=Designator=R44A|UniqueId=\1TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
@@ -3645,6 +3645,8 @@ ParamVariation1625=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1625=R11A
 ParamVariation1626=ParameterName=Value|VariantValue=0R
 ParamDesignator1626=R11A
+Variation97=Designator=R71|UniqueId=\LGUSEKVC\HCRWMFRV|Kind=1|AlternatePart= 
+Variation98=Designator=R74|UniqueId=\LGUSEKVC\RKASVALO|Kind=1|AlternatePart= 
 ParamVariationCount=1626
 
 [GeneratedDocument1]
