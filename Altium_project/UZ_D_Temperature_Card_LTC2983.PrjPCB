@@ -38,8 +38,8 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=0
-CrossRefLocationStyle=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
 CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
@@ -208,7 +208,7 @@ UniqueID=73CDDD4C-6A71-47F1-8322-5F509E5F4DC4
 Description=All_Thermocouple
 AllowFabrication=1
 ParameterCount=0
-VariationCount=78
+VariationCount=80
 AllowVariationPastMask=1
 Variation1=Designator=R24A|UniqueId=\1TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
 Variation2=Designator=R24B|UniqueId=\2TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
@@ -288,6 +288,8 @@ Variation75=Designator=R44C|UniqueId=\3TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart=
 Variation76=Designator=R55|UniqueId=\COQUWLCG\YTSNPBHW|Kind=1|AlternatePart= 
 Variation77=Designator=R61|UniqueId=\COQUWLCG\CFBBMRZH|Kind=1|AlternatePart= 
 Variation78=Designator=R67|UniqueId=\COQUWLCG\NGXPKXIV|Kind=1|AlternatePart= 
+Variation79=Designator=R71|UniqueId=\LGUSEKVC\HCRWMFRV|Kind=1|AlternatePart= 
+Variation80=Designator=R74|UniqueId=\LGUSEKVC\RKASVALO|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -3718,24 +3720,24 @@ DocumentPath=Project Outputs for UZ_D_Temperature_Card_LTC2983\UZ_D_Temperature_
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=Rev03
+Name=Author
+Value=R. Zipprich / A. Geiger
 
 [Parameter2]
-Name=ProjectDate
-Value=12/2023
+Name=AuthorParam
+Value=R. Zipprich / A. Geiger
 
 [Parameter3]
 Name=Project
 Value=UZ_D_Temperature_LTC2983
 
 [Parameter4]
-Name=AuthorParam
-Value=R. Zipprich / A. Geiger
+Name=ProjectDate
+Value=12/2023
 
 [Parameter5]
-Name=Author
-Value=R. Zipprich / A. Geiger
+Name=ProjectRevision
+Value=Rev03
 
 [Configuration1]
 Name=Sources
