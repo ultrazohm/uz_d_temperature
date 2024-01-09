@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: UZ_D_Temperature_Card_LTC2983.PcbDoc   02.01.2024  13:29:30
+NCDrill File Report For: UZ_D_Temperature_Card_LTC2983.PcbDoc   09.01.2024  19:13:50
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,11 +7,11 @@ ASCII RoundHoles File : UZ_D_Temperature_Card_LTC2983_Rev03.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.3mm)                                             Round             270       PTH        44.11inch (1120.31mm)
+T1      12mil (0.3mm)                                             Round             271       PTH        44.08inch (1119.53mm)
 T2      18mil (0.45mm)                                            Round             1         PTH        0.00inch (0.00mm)
 T3      30mil (0.749mm)                                           Round             16        PTH        7.52inch (190.99mm)
 T4      40mil (1.016mm)                                           Round             90        PTH        19.47inch (494.57mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              377
+Totals                                                                              378
 
 Total Processing Time (hh:mm:ss) : 00:00:01

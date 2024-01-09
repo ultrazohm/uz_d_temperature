@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\ga92wum\git\UltraZohm\PCB\UZ_D_Temperature\Altium_project\UZ_D_Temperature_Card_LTC2983.PcbDoc
+DRC Rules Export File for PCB: D:\Projekte\UltraZohm\Work_Altium\uz_d_temperature\Altium_project\UZ_D_Temperature_Card_LTC2983.PcbDoc
 RuleKind=Clearance|RuleName=Clearance_Differential|Scope=Board|Minimum=3.94
 RuleKind=Width|RuleName=Width_Power|Scope=Board|Minimum=7.87
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
