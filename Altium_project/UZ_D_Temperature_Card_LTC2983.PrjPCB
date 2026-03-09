@@ -38,13 +38,13 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
-CrossRefLocationStyle=1
+CrossRefSheetStyle=0
+CrossRefLocationStyle=0
 CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=All_Thermocouple
+CurrentVariant=All_2wire_RTD
 
 [Preferences]
 PrefsVaultGUID=
@@ -204,147 +204,143 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [ProjectVariant1]
-UniqueID=73CDDD4C-6A71-47F1-8322-5F509E5F4DC4
+UniqueId=73CDDD4C-6A71-47F1-8322-5F509E5F4DC4
 Description=All_Thermocouple
 AllowFabrication=1
 ParameterCount=0
-VariationCount=80
+VariationCount=77
 AllowVariationPastMask=1
-Variation1=Designator=R24A|UniqueId=\1TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
-Variation2=Designator=R24B|UniqueId=\2TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
-Variation3=Designator=R24C|UniqueId=\3TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart= 
-Variation4=Designator=R25A|UniqueId=\1TYAXSBJQ\DSXONJVF|Kind=1|AlternatePart= 
-Variation5=Designator=R25B|UniqueId=\2TYAXSBJQ\DSXONJVF|Kind=1|AlternatePart= 
-Variation6=Designator=R26A|UniqueId=\1TYAXSBJQ\UZAOMUAZ|Kind=1|AlternatePart= 
-Variation7=Designator=R26B|UniqueId=\2TYAXSBJQ\UZAOMUAZ|Kind=1|AlternatePart= 
-Variation8=Designator=R26C|UniqueId=\3TYAXSBJQ\UZAOMUAZ|Kind=1|AlternatePart= 
-Variation9=Designator=R27A|UniqueId=\1TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart= 
-Variation10=Designator=R27B|UniqueId=\2TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart= 
-Variation11=Designator=R27C|UniqueId=\3TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart= 
-Variation12=Designator=R28A|UniqueId=\1TYAXSBJQ\BTQGZVZQ|Kind=1|AlternatePart= 
-Variation13=Designator=R28C|UniqueId=\3TYAXSBJQ\BTQGZVZQ|Kind=1|AlternatePart= 
-Variation14=Designator=R28B|UniqueId=\2TYAXSBJQ\BTQGZVZQ|Kind=1|AlternatePart= 
-Variation15=Designator=R25C|UniqueId=\3TYAXSBJQ\DSXONJVF|Kind=1|AlternatePart= 
-Variation16=Designator=R31B|UniqueId=\2TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart= 
-Variation17=Designator=R31A|UniqueId=\1TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart= 
-Variation18=Designator=R30C|UniqueId=\3TYAXSBJQ\HMGZJUOD|Kind=1|AlternatePart= 
-Variation19=Designator=R30B|UniqueId=\2TYAXSBJQ\HMGZJUOD|Kind=1|AlternatePart= 
-Variation20=Designator=R30A|UniqueId=\1TYAXSBJQ\HMGZJUOD|Kind=1|AlternatePart= 
-Variation21=Designator=R29C|UniqueId=\3TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart= 
-Variation22=Designator=R29A|UniqueId=\1TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart= 
-Variation23=Designator=R29B|UniqueId=\2TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart= 
-Variation24=Designator=R31C|UniqueId=\3TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart= 
-Variation25=Designator=R32A|UniqueId=\1TYAXSBJQ\GVOAXYXP|Kind=1|AlternatePart= 
-Variation26=Designator=R32B|UniqueId=\2TYAXSBJQ\GVOAXYXP|Kind=1|AlternatePart= 
-Variation27=Designator=R32C|UniqueId=\3TYAXSBJQ\GVOAXYXP|Kind=1|AlternatePart= 
-Variation28=Designator=R33A|UniqueId=\1TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart= 
-Variation29=Designator=R33B|UniqueId=\2TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart= 
-Variation30=Designator=R33C|UniqueId=\3TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart= 
-Variation31=Designator=R34A|UniqueId=\1TYAXSBJQ\TCYXCFTG|Kind=1|AlternatePart= 
-Variation32=Designator=R34B|UniqueId=\2TYAXSBJQ\TCYXCFTG|Kind=1|AlternatePart= 
-Variation33=Designator=R34C|UniqueId=\3TYAXSBJQ\TCYXCFTG|Kind=1|AlternatePart= 
-Variation34=Designator=R35A|UniqueId=\1TYAXSBJQ\LIHADODU|Kind=1|AlternatePart= 
-Variation35=Designator=R35B|UniqueId=\2TYAXSBJQ\LIHADODU|Kind=1|AlternatePart= 
-Variation36=Designator=R35C|UniqueId=\3TYAXSBJQ\LIHADODU|Kind=1|AlternatePart= 
-Variation37=Designator=R36A|UniqueId=\1TYAXSBJQ\OFQAYSWP|Kind=1|AlternatePart= 
-Variation38=Designator=R36B|UniqueId=\2TYAXSBJQ\OFQAYSWP|Kind=1|AlternatePart= 
-Variation39=Designator=R36C|UniqueId=\3TYAXSBJQ\OFQAYSWP|Kind=1|AlternatePart= 
-Variation40=Designator=R37A|UniqueId=\1TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart= 
-Variation41=Designator=R37B|UniqueId=\2TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart= 
-Variation42=Designator=R37C|UniqueId=\3TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart= 
-Variation43=Designator=R38A|UniqueId=\1TYAXSBJQ\OBRNQZNW|Kind=1|AlternatePart= 
-Variation44=Designator=R38B|UniqueId=\2TYAXSBJQ\OBRNQZNW|Kind=1|AlternatePart= 
-Variation45=Designator=R38C|UniqueId=\3TYAXSBJQ\OBRNQZNW|Kind=1|AlternatePart= 
-Variation46=Designator=R39A|UniqueId=\1TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart= 
-Variation47=Designator=R39B|UniqueId=\2TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart= 
-Variation48=Designator=R39C|UniqueId=\3TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart= 
-Variation49=Designator=R40A|UniqueId=\1TYAXSBJQ\RPLGZACO|Kind=1|AlternatePart= 
-Variation50=Designator=R40B|UniqueId=\2TYAXSBJQ\RPLGZACO|Kind=1|AlternatePart= 
-Variation51=Designator=R40C|UniqueId=\3TYAXSBJQ\RPLGZACO|Kind=1|AlternatePart= 
-Variation52=Designator=R41A|UniqueId=\1TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart= 
-Variation53=Designator=R41B|UniqueId=\2TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart= 
-Variation54=Designator=R41C|UniqueId=\3TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart= 
-Variation55=Designator=R42A|UniqueId=\1TYAXSBJQ\TPAHYIPM|Kind=1|AlternatePart= 
-Variation56=Designator=R42B|UniqueId=\2TYAXSBJQ\TPAHYIPM|Kind=1|AlternatePart= 
-Variation57=Designator=R42C|UniqueId=\3TYAXSBJQ\TPAHYIPM|Kind=1|AlternatePart= 
-Variation58=Designator=R43A|UniqueId=\1TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
-Variation59=Designator=R43B|UniqueId=\2TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
-Variation60=Designator=R43C|UniqueId=\3TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
-Variation61=Designator=X3|UniqueId=\COQUWLCG\YLYORAJK|Kind=1|AlternatePart= 
-Variation62=Designator=X4|UniqueId=\COQUWLCG\VGTCATHF|Kind=1|AlternatePart= 
-Variation63=Designator=X1B|UniqueId=\2TYAXSBJQ\QGSTGWMF|Kind=1|AlternatePart= 
-Variation64=Designator=R45A|UniqueId=\1TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
-Variation65=Designator=R44A|UniqueId=\1TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
-Variation66=Designator=R46A|UniqueId=\1TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
-Variation67=Designator=R47A|UniqueId=\1TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
-Variation68=Designator=R45B|UniqueId=\2TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
-Variation69=Designator=R46B|UniqueId=\2TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
-Variation70=Designator=R47B|UniqueId=\2TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
-Variation71=Designator=R44B|UniqueId=\2TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
-Variation72=Designator=R45C|UniqueId=\3TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
-Variation73=Designator=R46C|UniqueId=\3TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
-Variation74=Designator=R47C|UniqueId=\3TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
-Variation75=Designator=R44C|UniqueId=\3TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
-Variation76=Designator=R55|UniqueId=\COQUWLCG\YTSNPBHW|Kind=1|AlternatePart= 
-Variation77=Designator=R61|UniqueId=\COQUWLCG\CFBBMRZH|Kind=1|AlternatePart= 
-Variation78=Designator=R67|UniqueId=\COQUWLCG\NGXPKXIV|Kind=1|AlternatePart= 
-Variation79=Designator=R71|UniqueId=\LGUSEKVC\HCRWMFRV|Kind=1|AlternatePart= 
-Variation80=Designator=R74|UniqueId=\LGUSEKVC\RKASVALO|Kind=1|AlternatePart= 
+Variation1=Designator=R24A|UniqueId=\1TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart=
+Variation2=Designator=R24B|UniqueId=\2TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart=
+Variation3=Designator=R24C|UniqueId=\3TYAXSBJQ\TEHCLEAY|Kind=1|AlternatePart=
+Variation4=Designator=R25A|UniqueId=\1TYAXSBJQ\DSXONJVF|Kind=1|AlternatePart=
+Variation5=Designator=R25B|UniqueId=\2TYAXSBJQ\DSXONJVF|Kind=1|AlternatePart=
+Variation6=Designator=R26A|UniqueId=\1TYAXSBJQ\UZAOMUAZ|Kind=1|AlternatePart=
+Variation7=Designator=R26B|UniqueId=\2TYAXSBJQ\UZAOMUAZ|Kind=1|AlternatePart=
+Variation8=Designator=R26C|UniqueId=\3TYAXSBJQ\UZAOMUAZ|Kind=1|AlternatePart=
+Variation9=Designator=R27A|UniqueId=\1TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart=
+Variation10=Designator=R27B|UniqueId=\2TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart=
+Variation11=Designator=R27C|UniqueId=\3TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart=
+Variation12=Designator=R28A|UniqueId=\1TYAXSBJQ\BTQGZVZQ|Kind=1|AlternatePart=
+Variation13=Designator=R28C|UniqueId=\3TYAXSBJQ\BTQGZVZQ|Kind=1|AlternatePart=
+Variation14=Designator=R28B|UniqueId=\2TYAXSBJQ\BTQGZVZQ|Kind=1|AlternatePart=
+Variation15=Designator=R25C|UniqueId=\3TYAXSBJQ\DSXONJVF|Kind=1|AlternatePart=
+Variation16=Designator=R31B|UniqueId=\2TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart=
+Variation17=Designator=R31A|UniqueId=\1TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart=
+Variation18=Designator=R30C|UniqueId=\3TYAXSBJQ\HMGZJUOD|Kind=1|AlternatePart=
+Variation19=Designator=R30B|UniqueId=\2TYAXSBJQ\HMGZJUOD|Kind=1|AlternatePart=
+Variation20=Designator=R30A|UniqueId=\1TYAXSBJQ\HMGZJUOD|Kind=1|AlternatePart=
+Variation21=Designator=R29C|UniqueId=\3TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart=
+Variation22=Designator=R29A|UniqueId=\1TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart=
+Variation23=Designator=R29B|UniqueId=\2TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart=
+Variation24=Designator=R31C|UniqueId=\3TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart=
+Variation25=Designator=R32A|UniqueId=\1TYAXSBJQ\GVOAXYXP|Kind=1|AlternatePart=
+Variation26=Designator=R32B|UniqueId=\2TYAXSBJQ\GVOAXYXP|Kind=1|AlternatePart=
+Variation27=Designator=R32C|UniqueId=\3TYAXSBJQ\GVOAXYXP|Kind=1|AlternatePart=
+Variation28=Designator=R33A|UniqueId=\1TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart=
+Variation29=Designator=R33B|UniqueId=\2TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart=
+Variation30=Designator=R33C|UniqueId=\3TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart=
+Variation31=Designator=R34A|UniqueId=\1TYAXSBJQ\TCYXCFTG|Kind=1|AlternatePart=
+Variation32=Designator=R34B|UniqueId=\2TYAXSBJQ\TCYXCFTG|Kind=1|AlternatePart=
+Variation33=Designator=R34C|UniqueId=\3TYAXSBJQ\TCYXCFTG|Kind=1|AlternatePart=
+Variation34=Designator=R35A|UniqueId=\1TYAXSBJQ\LIHADODU|Kind=1|AlternatePart=
+Variation35=Designator=R35B|UniqueId=\2TYAXSBJQ\LIHADODU|Kind=1|AlternatePart=
+Variation36=Designator=R35C|UniqueId=\3TYAXSBJQ\LIHADODU|Kind=1|AlternatePart=
+Variation37=Designator=R36A|UniqueId=\1TYAXSBJQ\OFQAYSWP|Kind=1|AlternatePart=
+Variation38=Designator=R36B|UniqueId=\2TYAXSBJQ\OFQAYSWP|Kind=1|AlternatePart=
+Variation39=Designator=R36C|UniqueId=\3TYAXSBJQ\OFQAYSWP|Kind=1|AlternatePart=
+Variation40=Designator=R37A|UniqueId=\1TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart=
+Variation41=Designator=R37B|UniqueId=\2TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart=
+Variation42=Designator=R37C|UniqueId=\3TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart=
+Variation43=Designator=R38A|UniqueId=\1TYAXSBJQ\OBRNQZNW|Kind=1|AlternatePart=
+Variation44=Designator=R38B|UniqueId=\2TYAXSBJQ\OBRNQZNW|Kind=1|AlternatePart=
+Variation45=Designator=R38C|UniqueId=\3TYAXSBJQ\OBRNQZNW|Kind=1|AlternatePart=
+Variation46=Designator=R39A|UniqueId=\1TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart=
+Variation47=Designator=R39B|UniqueId=\2TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart=
+Variation48=Designator=R39C|UniqueId=\3TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart=
+Variation49=Designator=R40A|UniqueId=\1TYAXSBJQ\RPLGZACO|Kind=1|AlternatePart=
+Variation50=Designator=R40B|UniqueId=\2TYAXSBJQ\RPLGZACO|Kind=1|AlternatePart=
+Variation51=Designator=R40C|UniqueId=\3TYAXSBJQ\RPLGZACO|Kind=1|AlternatePart=
+Variation52=Designator=R41A|UniqueId=\1TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart=
+Variation53=Designator=R41B|UniqueId=\2TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart=
+Variation54=Designator=R41C|UniqueId=\3TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart=
+Variation55=Designator=R42A|UniqueId=\1TYAXSBJQ\TPAHYIPM|Kind=1|AlternatePart=
+Variation56=Designator=R42B|UniqueId=\2TYAXSBJQ\TPAHYIPM|Kind=1|AlternatePart=
+Variation57=Designator=R42C|UniqueId=\3TYAXSBJQ\TPAHYIPM|Kind=1|AlternatePart=
+Variation58=Designator=R43A|UniqueId=\1TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart=
+Variation59=Designator=R43B|UniqueId=\2TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart=
+Variation60=Designator=R43C|UniqueId=\3TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart=
+Variation61=Designator=X3|UniqueId=\COQUWLCG\YLYORAJK|Kind=1|AlternatePart=
+Variation62=Designator=X1B|UniqueId=\2TYAXSBJQ\QGSTGWMF|Kind=1|AlternatePart=
+Variation63=Designator=R45A|UniqueId=\1TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart=
+Variation64=Designator=R44A|UniqueId=\1TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart=
+Variation65=Designator=R46A|UniqueId=\1TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart=
+Variation66=Designator=R47A|UniqueId=\1TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart=
+Variation67=Designator=R45B|UniqueId=\2TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart=
+Variation68=Designator=R46B|UniqueId=\2TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart=
+Variation69=Designator=R47B|UniqueId=\2TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart=
+Variation70=Designator=R44B|UniqueId=\2TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart=
+Variation71=Designator=R45C|UniqueId=\3TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart=
+Variation72=Designator=R46C|UniqueId=\3TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart=
+Variation73=Designator=R47C|UniqueId=\3TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart=
+Variation74=Designator=R44C|UniqueId=\3TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart=
+Variation75=Designator=R55|UniqueId=\COQUWLCG\YTSNPBHW|Kind=1|AlternatePart=
+Variation76=Designator=R61|UniqueId=\COQUWLCG\CFBBMRZH|Kind=1|AlternatePart=
+Variation77=Designator=R67|UniqueId=\COQUWLCG\NGXPKXIV|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
-UniqueID=E69AD332-D7AD-4236-86EE-6F0AD8E98FD8
+UniqueId=E69AD332-D7AD-4236-86EE-6F0AD8E98FD8
 Description=All_2wire_RTD
 AllowFabrication=1
 ParameterCount=0
-VariationCount=98
+VariationCount=95
 AllowVariationPastMask=1
-Variation1=Designator=R45A|UniqueId=\1TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
-Variation2=Designator=R44A|UniqueId=\1TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
-Variation3=Designator=R46A|UniqueId=\1TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
-Variation4=Designator=R47A|UniqueId=\1TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
-Variation5=Designator=R45B|UniqueId=\2TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
-Variation6=Designator=R44B|UniqueId=\2TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
-Variation7=Designator=R46B|UniqueId=\2TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
-Variation8=Designator=R47B|UniqueId=\2TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
-Variation9=Designator=R45C|UniqueId=\3TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart= 
-Variation10=Designator=R44C|UniqueId=\3TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart= 
-Variation11=Designator=R46C|UniqueId=\3TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart= 
-Variation12=Designator=R47C|UniqueId=\3TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart= 
-Variation13=Designator=X1B|UniqueId=\2TYAXSBJQ\QGSTGWMF|Kind=1|AlternatePart= 
-Variation14=Designator=R27A|UniqueId=\1TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart= 
-Variation15=Designator=R29A|UniqueId=\1TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart= 
-Variation16=Designator=R31A|UniqueId=\1TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart= 
-Variation17=Designator=R33A|UniqueId=\1TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart= 
-Variation18=Designator=R35A|UniqueId=\1TYAXSBJQ\LIHADODU|Kind=1|AlternatePart= 
-Variation19=Designator=R37A|UniqueId=\1TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart= 
-Variation20=Designator=R39A|UniqueId=\1TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart= 
-Variation21=Designator=R41A|UniqueId=\1TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart= 
-Variation22=Designator=R43A|UniqueId=\1TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
-Variation23=Designator=R27B|UniqueId=\2TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart= 
-Variation24=Designator=R29B|UniqueId=\2TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart= 
-Variation25=Designator=R31B|UniqueId=\2TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart= 
-Variation26=Designator=R33B|UniqueId=\2TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart= 
-Variation27=Designator=R35B|UniqueId=\2TYAXSBJQ\LIHADODU|Kind=1|AlternatePart= 
-Variation28=Designator=R37B|UniqueId=\2TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart= 
-Variation29=Designator=R39B|UniqueId=\2TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart= 
-Variation30=Designator=R41B|UniqueId=\2TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart= 
-Variation31=Designator=R43B|UniqueId=\2TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
-Variation32=Designator=R27C|UniqueId=\3TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart= 
-Variation33=Designator=R29C|UniqueId=\3TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart= 
-Variation34=Designator=R31C|UniqueId=\3TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart= 
-Variation35=Designator=R33C|UniqueId=\3TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart= 
-Variation36=Designator=R35C|UniqueId=\3TYAXSBJQ\LIHADODU|Kind=1|AlternatePart= 
-Variation37=Designator=R37C|UniqueId=\3TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart= 
-Variation38=Designator=R39C|UniqueId=\3TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart= 
-Variation39=Designator=R41C|UniqueId=\3TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart= 
-Variation40=Designator=R43C|UniqueId=\3TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart= 
-Variation41=Designator=X4|UniqueId=\COQUWLCG\VGTCATHF|Kind=1|AlternatePart= 
-Variation42=Designator=X3|UniqueId=\COQUWLCG\YLYORAJK|Kind=1|AlternatePart= 
-Variation43=Designator=R55|UniqueId=\COQUWLCG\YTSNPBHW|Kind=1|AlternatePart= 
-Variation44=Designator=R61|UniqueId=\COQUWLCG\CFBBMRZH|Kind=1|AlternatePart= 
-Variation45=Designator=R67|UniqueId=\COQUWLCG\NGXPKXIV|Kind=1|AlternatePart= 
-Variation46=Designator=R24A|UniqueId=\1TYAXSBJQ\TEHCLEAY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0603WAF1001T5E|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation1=Designator=R45A|UniqueId=\1TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart=
+Variation2=Designator=R44A|UniqueId=\1TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart=
+Variation3=Designator=R46A|UniqueId=\1TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart=
+Variation4=Designator=R47A|UniqueId=\1TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart=
+Variation5=Designator=R45B|UniqueId=\2TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart=
+Variation6=Designator=R44B|UniqueId=\2TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart=
+Variation7=Designator=R46B|UniqueId=\2TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart=
+Variation8=Designator=R47B|UniqueId=\2TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart=
+Variation9=Designator=R45C|UniqueId=\3TYAXSBJQ\WDYLRSMW|Kind=1|AlternatePart=
+Variation10=Designator=R44C|UniqueId=\3TYAXSBJQ\CVVHTDBP|Kind=1|AlternatePart=
+Variation11=Designator=R46C|UniqueId=\3TYAXSBJQ\NFMPVXUD|Kind=1|AlternatePart=
+Variation12=Designator=R47C|UniqueId=\3TYAXSBJQ\JLRJJDMM|Kind=1|AlternatePart=
+Variation13=Designator=X1B|UniqueId=\2TYAXSBJQ\QGSTGWMF|Kind=1|AlternatePart=
+Variation14=Designator=R27A|UniqueId=\1TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart=
+Variation15=Designator=R29A|UniqueId=\1TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart=
+Variation16=Designator=R31A|UniqueId=\1TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart=
+Variation17=Designator=R33A|UniqueId=\1TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart=
+Variation18=Designator=R35A|UniqueId=\1TYAXSBJQ\LIHADODU|Kind=1|AlternatePart=
+Variation19=Designator=R37A|UniqueId=\1TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart=
+Variation20=Designator=R39A|UniqueId=\1TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart=
+Variation21=Designator=R41A|UniqueId=\1TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart=
+Variation22=Designator=R43A|UniqueId=\1TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart=
+Variation23=Designator=R27B|UniqueId=\2TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart=
+Variation24=Designator=R29B|UniqueId=\2TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart=
+Variation25=Designator=R31B|UniqueId=\2TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart=
+Variation26=Designator=R33B|UniqueId=\2TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart=
+Variation27=Designator=R35B|UniqueId=\2TYAXSBJQ\LIHADODU|Kind=1|AlternatePart=
+Variation28=Designator=R37B|UniqueId=\2TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart=
+Variation29=Designator=R39B|UniqueId=\2TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart=
+Variation30=Designator=R41B|UniqueId=\2TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart=
+Variation31=Designator=R43B|UniqueId=\2TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart=
+Variation32=Designator=R27C|UniqueId=\3TYAXSBJQ\MACZLKPT|Kind=1|AlternatePart=
+Variation33=Designator=R29C|UniqueId=\3TYAXSBJQ\IRCYOLPI|Kind=1|AlternatePart=
+Variation34=Designator=R31C|UniqueId=\3TYAXSBJQ\GSFQCGNU|Kind=1|AlternatePart=
+Variation35=Designator=R33C|UniqueId=\3TYAXSBJQ\PJQIZAGU|Kind=1|AlternatePart=
+Variation36=Designator=R35C|UniqueId=\3TYAXSBJQ\LIHADODU|Kind=1|AlternatePart=
+Variation37=Designator=R37C|UniqueId=\3TYAXSBJQ\GVRUBJCK|Kind=1|AlternatePart=
+Variation38=Designator=R39C|UniqueId=\3TYAXSBJQ\TPNZZBFN|Kind=1|AlternatePart=
+Variation39=Designator=R41C|UniqueId=\3TYAXSBJQ\BLMMNRGM|Kind=1|AlternatePart=
+Variation40=Designator=R43C|UniqueId=\3TYAXSBJQ\HHVBJUTV|Kind=1|AlternatePart=
+Variation41=Designator=X3|UniqueId=\COQUWLCG\YLYORAJK|Kind=1|AlternatePart=
+Variation42=Designator=R55|UniqueId=\COQUWLCG\YTSNPBHW|Kind=1|AlternatePart=
+Variation43=Designator=R61|UniqueId=\COQUWLCG\CFBBMRZH|Kind=1|AlternatePart=
+Variation44=Designator=R67|UniqueId=\COQUWLCG\NGXPKXIV|Kind=1|AlternatePart=
+Variation45=Designator=R24A|UniqueId=\1TYAXSBJQ\TEHCLEAY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=0603WAF1001T5E|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R24A
 ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
@@ -367,7 +363,7 @@ ParamVariation10=ParameterName=Device Package|VariantValue=0603
 ParamDesignator10=R24A
 ParamVariation11=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator11=R24A
-ParamVariation12=ParameterName=Ibis Model|VariantValue= 
+ParamVariation12=ParameterName=Ibis Model|VariantValue=
 ParamDesignator12=R24A
 ParamVariation13=ParameterName=Last Updated|VariantValue=25.08.2022 16:01:46
 ParamDesignator13=R24A
@@ -385,13 +381,13 @@ ParamVariation19=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator19=R24A
 ParamVariation20=ParameterName=PartID|VariantValue=74
 ParamDesignator20=R24A
-ParamVariation21=ParameterName=PCB3D|VariantValue= 
+ParamVariation21=ParameterName=PCB3D|VariantValue=
 ParamDesignator21=R24A
-ParamVariation22=ParameterName=Pin Info|VariantValue= 
+ParamVariation22=ParameterName=Pin Info|VariantValue=
 ParamDesignator22=R24A
-ParamVariation23=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation23=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator23=R24A
-ParamVariation24=ParameterName=Simulation|VariantValue= 
+ParamVariation24=ParameterName=Simulation|VariantValue=
 ParamDesignator24=R24A
 ParamVariation25=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator25=R24A
@@ -405,7 +401,7 @@ ParamVariation29=ParameterName=Type|VariantValue=Resistor
 ParamDesignator29=R24A
 ParamVariation30=ParameterName=Value|VariantValue=1k
 ParamDesignator30=R24A
-Variation47=Designator=R24B|UniqueId=\2TYAXSBJQ\TEHCLEAY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0603WAF1001T5E|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation46=Designator=R24B|UniqueId=\2TYAXSBJQ\TEHCLEAY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=0603WAF1001T5E|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation31=ParameterName=Comment|VariantValue==Value
 ParamDesignator31=R24B
 ParamVariation32=ParameterName=Component Kind|VariantValue=Standard
@@ -428,7 +424,7 @@ ParamVariation40=ParameterName=Device Package|VariantValue=0603
 ParamDesignator40=R24B
 ParamVariation41=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator41=R24B
-ParamVariation42=ParameterName=Ibis Model|VariantValue= 
+ParamVariation42=ParameterName=Ibis Model|VariantValue=
 ParamDesignator42=R24B
 ParamVariation43=ParameterName=Last Updated|VariantValue=25.08.2022 16:01:46
 ParamDesignator43=R24B
@@ -446,13 +442,13 @@ ParamVariation49=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator49=R24B
 ParamVariation50=ParameterName=PartID|VariantValue=74
 ParamDesignator50=R24B
-ParamVariation51=ParameterName=PCB3D|VariantValue= 
+ParamVariation51=ParameterName=PCB3D|VariantValue=
 ParamDesignator51=R24B
-ParamVariation52=ParameterName=Pin Info|VariantValue= 
+ParamVariation52=ParameterName=Pin Info|VariantValue=
 ParamDesignator52=R24B
-ParamVariation53=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation53=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator53=R24B
-ParamVariation54=ParameterName=Simulation|VariantValue= 
+ParamVariation54=ParameterName=Simulation|VariantValue=
 ParamDesignator54=R24B
 ParamVariation55=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator55=R24B
@@ -466,7 +462,7 @@ ParamVariation59=ParameterName=Type|VariantValue=Resistor
 ParamDesignator59=R24B
 ParamVariation60=ParameterName=Value|VariantValue=1k
 ParamDesignator60=R24B
-Variation48=Designator=R24C|UniqueId=\3TYAXSBJQ\TEHCLEAY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=0603WAF1001T5E|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation47=Designator=R24C|UniqueId=\3TYAXSBJQ\TEHCLEAY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=0603WAF1001T5E|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation61=ParameterName=Comment|VariantValue==Value
 ParamDesignator61=R24C
 ParamVariation62=ParameterName=Component Kind|VariantValue=Standard
@@ -489,7 +485,7 @@ ParamVariation70=ParameterName=Device Package|VariantValue=0603
 ParamDesignator70=R24C
 ParamVariation71=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator71=R24C
-ParamVariation72=ParameterName=Ibis Model|VariantValue= 
+ParamVariation72=ParameterName=Ibis Model|VariantValue=
 ParamDesignator72=R24C
 ParamVariation73=ParameterName=Last Updated|VariantValue=25.08.2022 16:01:46
 ParamDesignator73=R24C
@@ -507,13 +503,13 @@ ParamVariation79=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator79=R24C
 ParamVariation80=ParameterName=PartID|VariantValue=74
 ParamDesignator80=R24C
-ParamVariation81=ParameterName=PCB3D|VariantValue= 
+ParamVariation81=ParameterName=PCB3D|VariantValue=
 ParamDesignator81=R24C
-ParamVariation82=ParameterName=Pin Info|VariantValue= 
+ParamVariation82=ParameterName=Pin Info|VariantValue=
 ParamDesignator82=R24C
-ParamVariation83=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation83=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator83=R24C
-ParamVariation84=ParameterName=Simulation|VariantValue= 
+ParamVariation84=ParameterName=Simulation|VariantValue=
 ParamDesignator84=R24C
 ParamVariation85=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator85=R24C
@@ -527,7 +523,7 @@ ParamVariation89=ParameterName=Type|VariantValue=Resistor
 ParamDesignator89=R24C
 ParamVariation90=ParameterName=Value|VariantValue=1k
 ParamDesignator90=R24C
-Variation49=Designator=R23A|UniqueId=\1TYAXSBJQ\IAYARHUV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation48=Designator=R23A|UniqueId=\1TYAXSBJQ\IAYARHUV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation91=ParameterName=Comment|VariantValue==Value
 ParamDesignator91=R23A
 ParamVariation92=ParameterName=Component Kind|VariantValue=Standard
@@ -550,7 +546,7 @@ ParamVariation100=ParameterName=Device Package|VariantValue=0603
 ParamDesignator100=R23A
 ParamVariation101=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator101=R23A
-ParamVariation102=ParameterName=Ibis Model|VariantValue= 
+ParamVariation102=ParameterName=Ibis Model|VariantValue=
 ParamDesignator102=R23A
 ParamVariation103=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator103=R23A
@@ -568,13 +564,13 @@ ParamVariation109=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator109=R23A
 ParamVariation110=ParameterName=PartID|VariantValue=1
 ParamDesignator110=R23A
-ParamVariation111=ParameterName=PCB3D|VariantValue= 
+ParamVariation111=ParameterName=PCB3D|VariantValue=
 ParamDesignator111=R23A
-ParamVariation112=ParameterName=Pin Info|VariantValue= 
+ParamVariation112=ParameterName=Pin Info|VariantValue=
 ParamDesignator112=R23A
-ParamVariation113=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation113=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator113=R23A
-ParamVariation114=ParameterName=Simulation|VariantValue= 
+ParamVariation114=ParameterName=Simulation|VariantValue=
 ParamDesignator114=R23A
 ParamVariation115=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator115=R23A
@@ -592,7 +588,7 @@ ParamVariation121=ParameterName=Type|VariantValue=Resistor
 ParamDesignator121=R23A
 ParamVariation122=ParameterName=Value|VariantValue=0R
 ParamDesignator122=R23A
-Variation50=Designator=R23B|UniqueId=\2TYAXSBJQ\IAYARHUV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation49=Designator=R23B|UniqueId=\2TYAXSBJQ\IAYARHUV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation123=ParameterName=Comment|VariantValue==Value
 ParamDesignator123=R23B
 ParamVariation124=ParameterName=Component Kind|VariantValue=Standard
@@ -615,7 +611,7 @@ ParamVariation132=ParameterName=Device Package|VariantValue=0603
 ParamDesignator132=R23B
 ParamVariation133=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator133=R23B
-ParamVariation134=ParameterName=Ibis Model|VariantValue= 
+ParamVariation134=ParameterName=Ibis Model|VariantValue=
 ParamDesignator134=R23B
 ParamVariation135=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator135=R23B
@@ -633,13 +629,13 @@ ParamVariation141=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator141=R23B
 ParamVariation142=ParameterName=PartID|VariantValue=1
 ParamDesignator142=R23B
-ParamVariation143=ParameterName=PCB3D|VariantValue= 
+ParamVariation143=ParameterName=PCB3D|VariantValue=
 ParamDesignator143=R23B
-ParamVariation144=ParameterName=Pin Info|VariantValue= 
+ParamVariation144=ParameterName=Pin Info|VariantValue=
 ParamDesignator144=R23B
-ParamVariation145=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation145=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator145=R23B
-ParamVariation146=ParameterName=Simulation|VariantValue= 
+ParamVariation146=ParameterName=Simulation|VariantValue=
 ParamDesignator146=R23B
 ParamVariation147=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator147=R23B
@@ -657,7 +653,7 @@ ParamVariation153=ParameterName=Type|VariantValue=Resistor
 ParamDesignator153=R23B
 ParamVariation154=ParameterName=Value|VariantValue=0R
 ParamDesignator154=R23B
-Variation51=Designator=R23C|UniqueId=\3TYAXSBJQ\IAYARHUV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation50=Designator=R23C|UniqueId=\3TYAXSBJQ\IAYARHUV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation155=ParameterName=Comment|VariantValue==Value
 ParamDesignator155=R23C
 ParamVariation156=ParameterName=Component Kind|VariantValue=Standard
@@ -680,7 +676,7 @@ ParamVariation164=ParameterName=Device Package|VariantValue=0603
 ParamDesignator164=R23C
 ParamVariation165=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator165=R23C
-ParamVariation166=ParameterName=Ibis Model|VariantValue= 
+ParamVariation166=ParameterName=Ibis Model|VariantValue=
 ParamDesignator166=R23C
 ParamVariation167=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator167=R23C
@@ -698,13 +694,13 @@ ParamVariation173=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator173=R23C
 ParamVariation174=ParameterName=PartID|VariantValue=1
 ParamDesignator174=R23C
-ParamVariation175=ParameterName=PCB3D|VariantValue= 
+ParamVariation175=ParameterName=PCB3D|VariantValue=
 ParamDesignator175=R23C
-ParamVariation176=ParameterName=Pin Info|VariantValue= 
+ParamVariation176=ParameterName=Pin Info|VariantValue=
 ParamDesignator176=R23C
-ParamVariation177=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation177=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator177=R23C
-ParamVariation178=ParameterName=Simulation|VariantValue= 
+ParamVariation178=ParameterName=Simulation|VariantValue=
 ParamDesignator178=R23C
 ParamVariation179=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator179=R23C
@@ -722,7 +718,7 @@ ParamVariation185=ParameterName=Type|VariantValue=Resistor
 ParamDesignator185=R23C
 ParamVariation186=ParameterName=Value|VariantValue=0R
 ParamDesignator186=R23C
-Variation52=Designator=R8A|UniqueId=\1TYAXSBJQ\OIZVWCGW|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation51=Designator=R8A|UniqueId=\1TYAXSBJQ\OIZVWCGW|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation187=ParameterName=Comment|VariantValue==Value
 ParamDesignator187=R8A
 ParamVariation188=ParameterName=Component Kind|VariantValue=Standard
@@ -745,7 +741,7 @@ ParamVariation196=ParameterName=Device Package|VariantValue=0603
 ParamDesignator196=R8A
 ParamVariation197=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator197=R8A
-ParamVariation198=ParameterName=Ibis Model|VariantValue= 
+ParamVariation198=ParameterName=Ibis Model|VariantValue=
 ParamDesignator198=R8A
 ParamVariation199=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator199=R8A
@@ -763,13 +759,13 @@ ParamVariation205=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator205=R8A
 ParamVariation206=ParameterName=PartID|VariantValue=1
 ParamDesignator206=R8A
-ParamVariation207=ParameterName=PCB3D|VariantValue= 
+ParamVariation207=ParameterName=PCB3D|VariantValue=
 ParamDesignator207=R8A
-ParamVariation208=ParameterName=Pin Info|VariantValue= 
+ParamVariation208=ParameterName=Pin Info|VariantValue=
 ParamDesignator208=R8A
-ParamVariation209=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation209=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator209=R8A
-ParamVariation210=ParameterName=Simulation|VariantValue= 
+ParamVariation210=ParameterName=Simulation|VariantValue=
 ParamDesignator210=R8A
 ParamVariation211=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator211=R8A
@@ -787,7 +783,7 @@ ParamVariation217=ParameterName=Type|VariantValue=Resistor
 ParamDesignator217=R8A
 ParamVariation218=ParameterName=Value|VariantValue=0R
 ParamDesignator218=R8A
-Variation53=Designator=R14A|UniqueId=\1TYAXSBJQ\WKSSTOMP|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation52=Designator=R14A|UniqueId=\1TYAXSBJQ\WKSSTOMP|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation219=ParameterName=Comment|VariantValue==Value
 ParamDesignator219=R14A
 ParamVariation220=ParameterName=Component Kind|VariantValue=Standard
@@ -810,7 +806,7 @@ ParamVariation228=ParameterName=Device Package|VariantValue=0603
 ParamDesignator228=R14A
 ParamVariation229=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator229=R14A
-ParamVariation230=ParameterName=Ibis Model|VariantValue= 
+ParamVariation230=ParameterName=Ibis Model|VariantValue=
 ParamDesignator230=R14A
 ParamVariation231=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator231=R14A
@@ -828,13 +824,13 @@ ParamVariation237=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator237=R14A
 ParamVariation238=ParameterName=PartID|VariantValue=1
 ParamDesignator238=R14A
-ParamVariation239=ParameterName=PCB3D|VariantValue= 
+ParamVariation239=ParameterName=PCB3D|VariantValue=
 ParamDesignator239=R14A
-ParamVariation240=ParameterName=Pin Info|VariantValue= 
+ParamVariation240=ParameterName=Pin Info|VariantValue=
 ParamDesignator240=R14A
-ParamVariation241=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation241=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator241=R14A
-ParamVariation242=ParameterName=Simulation|VariantValue= 
+ParamVariation242=ParameterName=Simulation|VariantValue=
 ParamDesignator242=R14A
 ParamVariation243=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator243=R14A
@@ -852,7 +848,7 @@ ParamVariation249=ParameterName=Type|VariantValue=Resistor
 ParamDesignator249=R14A
 ParamVariation250=ParameterName=Value|VariantValue=0R
 ParamDesignator250=R14A
-Variation54=Designator=R19A|UniqueId=\1TYAXSBJQ\YMMJSVGJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation53=Designator=R19A|UniqueId=\1TYAXSBJQ\YMMJSVGJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation251=ParameterName=Comment|VariantValue==Value
 ParamDesignator251=R19A
 ParamVariation252=ParameterName=Component Kind|VariantValue=Standard
@@ -875,7 +871,7 @@ ParamVariation260=ParameterName=Device Package|VariantValue=0603
 ParamDesignator260=R19A
 ParamVariation261=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator261=R19A
-ParamVariation262=ParameterName=Ibis Model|VariantValue= 
+ParamVariation262=ParameterName=Ibis Model|VariantValue=
 ParamDesignator262=R19A
 ParamVariation263=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator263=R19A
@@ -893,13 +889,13 @@ ParamVariation269=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator269=R19A
 ParamVariation270=ParameterName=PartID|VariantValue=1
 ParamDesignator270=R19A
-ParamVariation271=ParameterName=PCB3D|VariantValue= 
+ParamVariation271=ParameterName=PCB3D|VariantValue=
 ParamDesignator271=R19A
-ParamVariation272=ParameterName=Pin Info|VariantValue= 
+ParamVariation272=ParameterName=Pin Info|VariantValue=
 ParamDesignator272=R19A
-ParamVariation273=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation273=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator273=R19A
-ParamVariation274=ParameterName=Simulation|VariantValue= 
+ParamVariation274=ParameterName=Simulation|VariantValue=
 ParamDesignator274=R19A
 ParamVariation275=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator275=R19A
@@ -917,7 +913,7 @@ ParamVariation281=ParameterName=Type|VariantValue=Resistor
 ParamDesignator281=R19A
 ParamVariation282=ParameterName=Value|VariantValue=0R
 ParamDesignator282=R19A
-Variation55=Designator=R22A|UniqueId=\1TYAXSBJQ\IYHFVHVH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation54=Designator=R22A|UniqueId=\1TYAXSBJQ\IYHFVHVH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation283=ParameterName=Comment|VariantValue==Value
 ParamDesignator283=R22A
 ParamVariation284=ParameterName=Component Kind|VariantValue=Standard
@@ -940,7 +936,7 @@ ParamVariation292=ParameterName=Device Package|VariantValue=0603
 ParamDesignator292=R22A
 ParamVariation293=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator293=R22A
-ParamVariation294=ParameterName=Ibis Model|VariantValue= 
+ParamVariation294=ParameterName=Ibis Model|VariantValue=
 ParamDesignator294=R22A
 ParamVariation295=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator295=R22A
@@ -958,13 +954,13 @@ ParamVariation301=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator301=R22A
 ParamVariation302=ParameterName=PartID|VariantValue=1
 ParamDesignator302=R22A
-ParamVariation303=ParameterName=PCB3D|VariantValue= 
+ParamVariation303=ParameterName=PCB3D|VariantValue=
 ParamDesignator303=R22A
-ParamVariation304=ParameterName=Pin Info|VariantValue= 
+ParamVariation304=ParameterName=Pin Info|VariantValue=
 ParamDesignator304=R22A
-ParamVariation305=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation305=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator305=R22A
-ParamVariation306=ParameterName=Simulation|VariantValue= 
+ParamVariation306=ParameterName=Simulation|VariantValue=
 ParamDesignator306=R22A
 ParamVariation307=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator307=R22A
@@ -982,7 +978,7 @@ ParamVariation313=ParameterName=Type|VariantValue=Resistor
 ParamDesignator313=R22A
 ParamVariation314=ParameterName=Value|VariantValue=0R
 ParamDesignator314=R22A
-Variation56=Designator=R21A|UniqueId=\1TYAXSBJQ\HKDKBMLV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation55=Designator=R21A|UniqueId=\1TYAXSBJQ\HKDKBMLV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation315=ParameterName=Comment|VariantValue==Value
 ParamDesignator315=R21A
 ParamVariation316=ParameterName=Component Kind|VariantValue=Standard
@@ -1005,7 +1001,7 @@ ParamVariation324=ParameterName=Device Package|VariantValue=0603
 ParamDesignator324=R21A
 ParamVariation325=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator325=R21A
-ParamVariation326=ParameterName=Ibis Model|VariantValue= 
+ParamVariation326=ParameterName=Ibis Model|VariantValue=
 ParamDesignator326=R21A
 ParamVariation327=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator327=R21A
@@ -1023,13 +1019,13 @@ ParamVariation333=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator333=R21A
 ParamVariation334=ParameterName=PartID|VariantValue=1
 ParamDesignator334=R21A
-ParamVariation335=ParameterName=PCB3D|VariantValue= 
+ParamVariation335=ParameterName=PCB3D|VariantValue=
 ParamDesignator335=R21A
-ParamVariation336=ParameterName=Pin Info|VariantValue= 
+ParamVariation336=ParameterName=Pin Info|VariantValue=
 ParamDesignator336=R21A
-ParamVariation337=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation337=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator337=R21A
-ParamVariation338=ParameterName=Simulation|VariantValue= 
+ParamVariation338=ParameterName=Simulation|VariantValue=
 ParamDesignator338=R21A
 ParamVariation339=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator339=R21A
@@ -1047,7 +1043,7 @@ ParamVariation345=ParameterName=Type|VariantValue=Resistor
 ParamDesignator345=R21A
 ParamVariation346=ParameterName=Value|VariantValue=0R
 ParamDesignator346=R21A
-Variation57=Designator=R20A|UniqueId=\1TYAXSBJQ\QQIPBLXD|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation56=Designator=R20A|UniqueId=\1TYAXSBJQ\QQIPBLXD|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation347=ParameterName=Comment|VariantValue==Value
 ParamDesignator347=R20A
 ParamVariation348=ParameterName=Component Kind|VariantValue=Standard
@@ -1070,7 +1066,7 @@ ParamVariation356=ParameterName=Device Package|VariantValue=0603
 ParamDesignator356=R20A
 ParamVariation357=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator357=R20A
-ParamVariation358=ParameterName=Ibis Model|VariantValue= 
+ParamVariation358=ParameterName=Ibis Model|VariantValue=
 ParamDesignator358=R20A
 ParamVariation359=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator359=R20A
@@ -1088,13 +1084,13 @@ ParamVariation365=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator365=R20A
 ParamVariation366=ParameterName=PartID|VariantValue=1
 ParamDesignator366=R20A
-ParamVariation367=ParameterName=PCB3D|VariantValue= 
+ParamVariation367=ParameterName=PCB3D|VariantValue=
 ParamDesignator367=R20A
-ParamVariation368=ParameterName=Pin Info|VariantValue= 
+ParamVariation368=ParameterName=Pin Info|VariantValue=
 ParamDesignator368=R20A
-ParamVariation369=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation369=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator369=R20A
-ParamVariation370=ParameterName=Simulation|VariantValue= 
+ParamVariation370=ParameterName=Simulation|VariantValue=
 ParamDesignator370=R20A
 ParamVariation371=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator371=R20A
@@ -1112,7 +1108,7 @@ ParamVariation377=ParameterName=Type|VariantValue=Resistor
 ParamDesignator377=R20A
 ParamVariation378=ParameterName=Value|VariantValue=0R
 ParamDesignator378=R20A
-Variation58=Designator=R17A|UniqueId=\1TYAXSBJQ\PCOSOUXU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation57=Designator=R17A|UniqueId=\1TYAXSBJQ\PCOSOUXU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation379=ParameterName=Comment|VariantValue==Value
 ParamDesignator379=R17A
 ParamVariation380=ParameterName=Component Kind|VariantValue=Standard
@@ -1135,7 +1131,7 @@ ParamVariation388=ParameterName=Device Package|VariantValue=0603
 ParamDesignator388=R17A
 ParamVariation389=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator389=R17A
-ParamVariation390=ParameterName=Ibis Model|VariantValue= 
+ParamVariation390=ParameterName=Ibis Model|VariantValue=
 ParamDesignator390=R17A
 ParamVariation391=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator391=R17A
@@ -1153,13 +1149,13 @@ ParamVariation397=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator397=R17A
 ParamVariation398=ParameterName=PartID|VariantValue=1
 ParamDesignator398=R17A
-ParamVariation399=ParameterName=PCB3D|VariantValue= 
+ParamVariation399=ParameterName=PCB3D|VariantValue=
 ParamDesignator399=R17A
-ParamVariation400=ParameterName=Pin Info|VariantValue= 
+ParamVariation400=ParameterName=Pin Info|VariantValue=
 ParamDesignator400=R17A
-ParamVariation401=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation401=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator401=R17A
-ParamVariation402=ParameterName=Simulation|VariantValue= 
+ParamVariation402=ParameterName=Simulation|VariantValue=
 ParamDesignator402=R17A
 ParamVariation403=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator403=R17A
@@ -1177,7 +1173,7 @@ ParamVariation409=ParameterName=Type|VariantValue=Resistor
 ParamDesignator409=R17A
 ParamVariation410=ParameterName=Value|VariantValue=0R
 ParamDesignator410=R17A
-Variation59=Designator=R16A|UniqueId=\1TYAXSBJQ\WAINVYMO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation58=Designator=R16A|UniqueId=\1TYAXSBJQ\WAINVYMO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation411=ParameterName=Comment|VariantValue==Value
 ParamDesignator411=R16A
 ParamVariation412=ParameterName=Component Kind|VariantValue=Standard
@@ -1200,7 +1196,7 @@ ParamVariation420=ParameterName=Device Package|VariantValue=0603
 ParamDesignator420=R16A
 ParamVariation421=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator421=R16A
-ParamVariation422=ParameterName=Ibis Model|VariantValue= 
+ParamVariation422=ParameterName=Ibis Model|VariantValue=
 ParamDesignator422=R16A
 ParamVariation423=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator423=R16A
@@ -1218,13 +1214,13 @@ ParamVariation429=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator429=R16A
 ParamVariation430=ParameterName=PartID|VariantValue=1
 ParamDesignator430=R16A
-ParamVariation431=ParameterName=PCB3D|VariantValue= 
+ParamVariation431=ParameterName=PCB3D|VariantValue=
 ParamDesignator431=R16A
-ParamVariation432=ParameterName=Pin Info|VariantValue= 
+ParamVariation432=ParameterName=Pin Info|VariantValue=
 ParamDesignator432=R16A
-ParamVariation433=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation433=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator433=R16A
-ParamVariation434=ParameterName=Simulation|VariantValue= 
+ParamVariation434=ParameterName=Simulation|VariantValue=
 ParamDesignator434=R16A
 ParamVariation435=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator435=R16A
@@ -1242,7 +1238,7 @@ ParamVariation441=ParameterName=Type|VariantValue=Resistor
 ParamDesignator441=R16A
 ParamVariation442=ParameterName=Value|VariantValue=0R
 ParamDesignator442=R16A
-Variation60=Designator=R18A|UniqueId=\1TYAXSBJQ\GBSQHGRU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation59=Designator=R18A|UniqueId=\1TYAXSBJQ\GBSQHGRU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation443=ParameterName=Comment|VariantValue==Value
 ParamDesignator443=R18A
 ParamVariation444=ParameterName=Component Kind|VariantValue=Standard
@@ -1265,7 +1261,7 @@ ParamVariation452=ParameterName=Device Package|VariantValue=0603
 ParamDesignator452=R18A
 ParamVariation453=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator453=R18A
-ParamVariation454=ParameterName=Ibis Model|VariantValue= 
+ParamVariation454=ParameterName=Ibis Model|VariantValue=
 ParamDesignator454=R18A
 ParamVariation455=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator455=R18A
@@ -1283,13 +1279,13 @@ ParamVariation461=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator461=R18A
 ParamVariation462=ParameterName=PartID|VariantValue=1
 ParamDesignator462=R18A
-ParamVariation463=ParameterName=PCB3D|VariantValue= 
+ParamVariation463=ParameterName=PCB3D|VariantValue=
 ParamDesignator463=R18A
-ParamVariation464=ParameterName=Pin Info|VariantValue= 
+ParamVariation464=ParameterName=Pin Info|VariantValue=
 ParamDesignator464=R18A
-ParamVariation465=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation465=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator465=R18A
-ParamVariation466=ParameterName=Simulation|VariantValue= 
+ParamVariation466=ParameterName=Simulation|VariantValue=
 ParamDesignator466=R18A
 ParamVariation467=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator467=R18A
@@ -1307,7 +1303,7 @@ ParamVariation473=ParameterName=Type|VariantValue=Resistor
 ParamDesignator473=R18A
 ParamVariation474=ParameterName=Value|VariantValue=0R
 ParamDesignator474=R18A
-Variation61=Designator=R15A|UniqueId=\1TYAXSBJQ\LDBHUBHI|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation60=Designator=R15A|UniqueId=\1TYAXSBJQ\LDBHUBHI|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation475=ParameterName=Comment|VariantValue==Value
 ParamDesignator475=R15A
 ParamVariation476=ParameterName=Component Kind|VariantValue=Standard
@@ -1330,7 +1326,7 @@ ParamVariation484=ParameterName=Device Package|VariantValue=0603
 ParamDesignator484=R15A
 ParamVariation485=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator485=R15A
-ParamVariation486=ParameterName=Ibis Model|VariantValue= 
+ParamVariation486=ParameterName=Ibis Model|VariantValue=
 ParamDesignator486=R15A
 ParamVariation487=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator487=R15A
@@ -1348,13 +1344,13 @@ ParamVariation493=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator493=R15A
 ParamVariation494=ParameterName=PartID|VariantValue=1
 ParamDesignator494=R15A
-ParamVariation495=ParameterName=PCB3D|VariantValue= 
+ParamVariation495=ParameterName=PCB3D|VariantValue=
 ParamDesignator495=R15A
-ParamVariation496=ParameterName=Pin Info|VariantValue= 
+ParamVariation496=ParameterName=Pin Info|VariantValue=
 ParamDesignator496=R15A
-ParamVariation497=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation497=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator497=R15A
-ParamVariation498=ParameterName=Simulation|VariantValue= 
+ParamVariation498=ParameterName=Simulation|VariantValue=
 ParamDesignator498=R15A
 ParamVariation499=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator499=R15A
@@ -1372,7 +1368,7 @@ ParamVariation505=ParameterName=Type|VariantValue=Resistor
 ParamDesignator505=R15A
 ParamVariation506=ParameterName=Value|VariantValue=0R
 ParamDesignator506=R15A
-Variation62=Designator=R8B|UniqueId=\2TYAXSBJQ\OIZVWCGW|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation61=Designator=R8B|UniqueId=\2TYAXSBJQ\OIZVWCGW|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation507=ParameterName=Comment|VariantValue==Value
 ParamDesignator507=R8B
 ParamVariation508=ParameterName=Component Kind|VariantValue=Standard
@@ -1395,7 +1391,7 @@ ParamVariation516=ParameterName=Device Package|VariantValue=0603
 ParamDesignator516=R8B
 ParamVariation517=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator517=R8B
-ParamVariation518=ParameterName=Ibis Model|VariantValue= 
+ParamVariation518=ParameterName=Ibis Model|VariantValue=
 ParamDesignator518=R8B
 ParamVariation519=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator519=R8B
@@ -1413,13 +1409,13 @@ ParamVariation525=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator525=R8B
 ParamVariation526=ParameterName=PartID|VariantValue=1
 ParamDesignator526=R8B
-ParamVariation527=ParameterName=PCB3D|VariantValue= 
+ParamVariation527=ParameterName=PCB3D|VariantValue=
 ParamDesignator527=R8B
-ParamVariation528=ParameterName=Pin Info|VariantValue= 
+ParamVariation528=ParameterName=Pin Info|VariantValue=
 ParamDesignator528=R8B
-ParamVariation529=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation529=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator529=R8B
-ParamVariation530=ParameterName=Simulation|VariantValue= 
+ParamVariation530=ParameterName=Simulation|VariantValue=
 ParamDesignator530=R8B
 ParamVariation531=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator531=R8B
@@ -1437,7 +1433,7 @@ ParamVariation537=ParameterName=Type|VariantValue=Resistor
 ParamDesignator537=R8B
 ParamVariation538=ParameterName=Value|VariantValue=0R
 ParamDesignator538=R8B
-Variation63=Designator=R11B|UniqueId=\2TYAXSBJQ\BFWKPMTL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation62=Designator=R11B|UniqueId=\2TYAXSBJQ\BFWKPMTL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation539=ParameterName=Comment|VariantValue==Value
 ParamDesignator539=R11B
 ParamVariation540=ParameterName=Component Kind|VariantValue=Standard
@@ -1460,7 +1456,7 @@ ParamVariation548=ParameterName=Device Package|VariantValue=0603
 ParamDesignator548=R11B
 ParamVariation549=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator549=R11B
-ParamVariation550=ParameterName=Ibis Model|VariantValue= 
+ParamVariation550=ParameterName=Ibis Model|VariantValue=
 ParamDesignator550=R11B
 ParamVariation551=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator551=R11B
@@ -1478,13 +1474,13 @@ ParamVariation557=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator557=R11B
 ParamVariation558=ParameterName=PartID|VariantValue=1
 ParamDesignator558=R11B
-ParamVariation559=ParameterName=PCB3D|VariantValue= 
+ParamVariation559=ParameterName=PCB3D|VariantValue=
 ParamDesignator559=R11B
-ParamVariation560=ParameterName=Pin Info|VariantValue= 
+ParamVariation560=ParameterName=Pin Info|VariantValue=
 ParamDesignator560=R11B
-ParamVariation561=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation561=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator561=R11B
-ParamVariation562=ParameterName=Simulation|VariantValue= 
+ParamVariation562=ParameterName=Simulation|VariantValue=
 ParamDesignator562=R11B
 ParamVariation563=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator563=R11B
@@ -1502,7 +1498,7 @@ ParamVariation569=ParameterName=Type|VariantValue=Resistor
 ParamDesignator569=R11B
 ParamVariation570=ParameterName=Value|VariantValue=0R
 ParamDesignator570=R11B
-Variation64=Designator=R21B|UniqueId=\2TYAXSBJQ\HKDKBMLV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation63=Designator=R21B|UniqueId=\2TYAXSBJQ\HKDKBMLV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation571=ParameterName=Comment|VariantValue==Value
 ParamDesignator571=R21B
 ParamVariation572=ParameterName=Component Kind|VariantValue=Standard
@@ -1525,7 +1521,7 @@ ParamVariation580=ParameterName=Device Package|VariantValue=0603
 ParamDesignator580=R21B
 ParamVariation581=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator581=R21B
-ParamVariation582=ParameterName=Ibis Model|VariantValue= 
+ParamVariation582=ParameterName=Ibis Model|VariantValue=
 ParamDesignator582=R21B
 ParamVariation583=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator583=R21B
@@ -1543,13 +1539,13 @@ ParamVariation589=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator589=R21B
 ParamVariation590=ParameterName=PartID|VariantValue=1
 ParamDesignator590=R21B
-ParamVariation591=ParameterName=PCB3D|VariantValue= 
+ParamVariation591=ParameterName=PCB3D|VariantValue=
 ParamDesignator591=R21B
-ParamVariation592=ParameterName=Pin Info|VariantValue= 
+ParamVariation592=ParameterName=Pin Info|VariantValue=
 ParamDesignator592=R21B
-ParamVariation593=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation593=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator593=R21B
-ParamVariation594=ParameterName=Simulation|VariantValue= 
+ParamVariation594=ParameterName=Simulation|VariantValue=
 ParamDesignator594=R21B
 ParamVariation595=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator595=R21B
@@ -1567,7 +1563,7 @@ ParamVariation601=ParameterName=Type|VariantValue=Resistor
 ParamDesignator601=R21B
 ParamVariation602=ParameterName=Value|VariantValue=0R
 ParamDesignator602=R21B
-Variation65=Designator=R9B|UniqueId=\2TYAXSBJQ\CVRAQRDZ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation64=Designator=R9B|UniqueId=\2TYAXSBJQ\CVRAQRDZ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation603=ParameterName=Comment|VariantValue==Value
 ParamDesignator603=R9B
 ParamVariation604=ParameterName=Component Kind|VariantValue=Standard
@@ -1590,7 +1586,7 @@ ParamVariation612=ParameterName=Device Package|VariantValue=0603
 ParamDesignator612=R9B
 ParamVariation613=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator613=R9B
-ParamVariation614=ParameterName=Ibis Model|VariantValue= 
+ParamVariation614=ParameterName=Ibis Model|VariantValue=
 ParamDesignator614=R9B
 ParamVariation615=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator615=R9B
@@ -1608,13 +1604,13 @@ ParamVariation621=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator621=R9B
 ParamVariation622=ParameterName=PartID|VariantValue=1
 ParamDesignator622=R9B
-ParamVariation623=ParameterName=PCB3D|VariantValue= 
+ParamVariation623=ParameterName=PCB3D|VariantValue=
 ParamDesignator623=R9B
-ParamVariation624=ParameterName=Pin Info|VariantValue= 
+ParamVariation624=ParameterName=Pin Info|VariantValue=
 ParamDesignator624=R9B
-ParamVariation625=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation625=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator625=R9B
-ParamVariation626=ParameterName=Simulation|VariantValue= 
+ParamVariation626=ParameterName=Simulation|VariantValue=
 ParamDesignator626=R9B
 ParamVariation627=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator627=R9B
@@ -1632,7 +1628,7 @@ ParamVariation633=ParameterName=Type|VariantValue=Resistor
 ParamDesignator633=R9B
 ParamVariation634=ParameterName=Value|VariantValue=0R
 ParamDesignator634=R9B
-Variation66=Designator=R17B|UniqueId=\2TYAXSBJQ\PCOSOUXU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation65=Designator=R17B|UniqueId=\2TYAXSBJQ\PCOSOUXU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation635=ParameterName=Comment|VariantValue==Value
 ParamDesignator635=R17B
 ParamVariation636=ParameterName=Component Kind|VariantValue=Standard
@@ -1655,7 +1651,7 @@ ParamVariation644=ParameterName=Device Package|VariantValue=0603
 ParamDesignator644=R17B
 ParamVariation645=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator645=R17B
-ParamVariation646=ParameterName=Ibis Model|VariantValue= 
+ParamVariation646=ParameterName=Ibis Model|VariantValue=
 ParamDesignator646=R17B
 ParamVariation647=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator647=R17B
@@ -1673,13 +1669,13 @@ ParamVariation653=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator653=R17B
 ParamVariation654=ParameterName=PartID|VariantValue=1
 ParamDesignator654=R17B
-ParamVariation655=ParameterName=PCB3D|VariantValue= 
+ParamVariation655=ParameterName=PCB3D|VariantValue=
 ParamDesignator655=R17B
-ParamVariation656=ParameterName=Pin Info|VariantValue= 
+ParamVariation656=ParameterName=Pin Info|VariantValue=
 ParamDesignator656=R17B
-ParamVariation657=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation657=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator657=R17B
-ParamVariation658=ParameterName=Simulation|VariantValue= 
+ParamVariation658=ParameterName=Simulation|VariantValue=
 ParamDesignator658=R17B
 ParamVariation659=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator659=R17B
@@ -1697,7 +1693,7 @@ ParamVariation665=ParameterName=Type|VariantValue=Resistor
 ParamDesignator665=R17B
 ParamVariation666=ParameterName=Value|VariantValue=0R
 ParamDesignator666=R17B
-Variation67=Designator=R22B|UniqueId=\2TYAXSBJQ\IYHFVHVH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation66=Designator=R22B|UniqueId=\2TYAXSBJQ\IYHFVHVH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation667=ParameterName=Comment|VariantValue==Value
 ParamDesignator667=R22B
 ParamVariation668=ParameterName=Component Kind|VariantValue=Standard
@@ -1720,7 +1716,7 @@ ParamVariation676=ParameterName=Device Package|VariantValue=0603
 ParamDesignator676=R22B
 ParamVariation677=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator677=R22B
-ParamVariation678=ParameterName=Ibis Model|VariantValue= 
+ParamVariation678=ParameterName=Ibis Model|VariantValue=
 ParamDesignator678=R22B
 ParamVariation679=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator679=R22B
@@ -1738,13 +1734,13 @@ ParamVariation685=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator685=R22B
 ParamVariation686=ParameterName=PartID|VariantValue=1
 ParamDesignator686=R22B
-ParamVariation687=ParameterName=PCB3D|VariantValue= 
+ParamVariation687=ParameterName=PCB3D|VariantValue=
 ParamDesignator687=R22B
-ParamVariation688=ParameterName=Pin Info|VariantValue= 
+ParamVariation688=ParameterName=Pin Info|VariantValue=
 ParamDesignator688=R22B
-ParamVariation689=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation689=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator689=R22B
-ParamVariation690=ParameterName=Simulation|VariantValue= 
+ParamVariation690=ParameterName=Simulation|VariantValue=
 ParamDesignator690=R22B
 ParamVariation691=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator691=R22B
@@ -1762,7 +1758,7 @@ ParamVariation697=ParameterName=Type|VariantValue=Resistor
 ParamDesignator697=R22B
 ParamVariation698=ParameterName=Value|VariantValue=0R
 ParamDesignator698=R22B
-Variation68=Designator=R18B|UniqueId=\2TYAXSBJQ\GBSQHGRU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation67=Designator=R18B|UniqueId=\2TYAXSBJQ\GBSQHGRU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation699=ParameterName=Comment|VariantValue==Value
 ParamDesignator699=R18B
 ParamVariation700=ParameterName=Component Kind|VariantValue=Standard
@@ -1785,7 +1781,7 @@ ParamVariation708=ParameterName=Device Package|VariantValue=0603
 ParamDesignator708=R18B
 ParamVariation709=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator709=R18B
-ParamVariation710=ParameterName=Ibis Model|VariantValue= 
+ParamVariation710=ParameterName=Ibis Model|VariantValue=
 ParamDesignator710=R18B
 ParamVariation711=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator711=R18B
@@ -1803,13 +1799,13 @@ ParamVariation717=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator717=R18B
 ParamVariation718=ParameterName=PartID|VariantValue=1
 ParamDesignator718=R18B
-ParamVariation719=ParameterName=PCB3D|VariantValue= 
+ParamVariation719=ParameterName=PCB3D|VariantValue=
 ParamDesignator719=R18B
-ParamVariation720=ParameterName=Pin Info|VariantValue= 
+ParamVariation720=ParameterName=Pin Info|VariantValue=
 ParamDesignator720=R18B
-ParamVariation721=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation721=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator721=R18B
-ParamVariation722=ParameterName=Simulation|VariantValue= 
+ParamVariation722=ParameterName=Simulation|VariantValue=
 ParamDesignator722=R18B
 ParamVariation723=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator723=R18B
@@ -1827,7 +1823,7 @@ ParamVariation729=ParameterName=Type|VariantValue=Resistor
 ParamDesignator729=R18B
 ParamVariation730=ParameterName=Value|VariantValue=0R
 ParamDesignator730=R18B
-Variation69=Designator=R19B|UniqueId=\2TYAXSBJQ\YMMJSVGJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation68=Designator=R19B|UniqueId=\2TYAXSBJQ\YMMJSVGJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation731=ParameterName=Comment|VariantValue==Value
 ParamDesignator731=R19B
 ParamVariation732=ParameterName=Component Kind|VariantValue=Standard
@@ -1850,7 +1846,7 @@ ParamVariation740=ParameterName=Device Package|VariantValue=0603
 ParamDesignator740=R19B
 ParamVariation741=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator741=R19B
-ParamVariation742=ParameterName=Ibis Model|VariantValue= 
+ParamVariation742=ParameterName=Ibis Model|VariantValue=
 ParamDesignator742=R19B
 ParamVariation743=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator743=R19B
@@ -1868,13 +1864,13 @@ ParamVariation749=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator749=R19B
 ParamVariation750=ParameterName=PartID|VariantValue=1
 ParamDesignator750=R19B
-ParamVariation751=ParameterName=PCB3D|VariantValue= 
+ParamVariation751=ParameterName=PCB3D|VariantValue=
 ParamDesignator751=R19B
-ParamVariation752=ParameterName=Pin Info|VariantValue= 
+ParamVariation752=ParameterName=Pin Info|VariantValue=
 ParamDesignator752=R19B
-ParamVariation753=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation753=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator753=R19B
-ParamVariation754=ParameterName=Simulation|VariantValue= 
+ParamVariation754=ParameterName=Simulation|VariantValue=
 ParamDesignator754=R19B
 ParamVariation755=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator755=R19B
@@ -1892,7 +1888,7 @@ ParamVariation761=ParameterName=Type|VariantValue=Resistor
 ParamDesignator761=R19B
 ParamVariation762=ParameterName=Value|VariantValue=0R
 ParamDesignator762=R19B
-Variation70=Designator=R14B|UniqueId=\2TYAXSBJQ\WKSSTOMP|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation69=Designator=R14B|UniqueId=\2TYAXSBJQ\WKSSTOMP|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation763=ParameterName=Comment|VariantValue==Value
 ParamDesignator763=R14B
 ParamVariation764=ParameterName=Component Kind|VariantValue=Standard
@@ -1915,7 +1911,7 @@ ParamVariation772=ParameterName=Device Package|VariantValue=0603
 ParamDesignator772=R14B
 ParamVariation773=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator773=R14B
-ParamVariation774=ParameterName=Ibis Model|VariantValue= 
+ParamVariation774=ParameterName=Ibis Model|VariantValue=
 ParamDesignator774=R14B
 ParamVariation775=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator775=R14B
@@ -1933,13 +1929,13 @@ ParamVariation781=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator781=R14B
 ParamVariation782=ParameterName=PartID|VariantValue=1
 ParamDesignator782=R14B
-ParamVariation783=ParameterName=PCB3D|VariantValue= 
+ParamVariation783=ParameterName=PCB3D|VariantValue=
 ParamDesignator783=R14B
-ParamVariation784=ParameterName=Pin Info|VariantValue= 
+ParamVariation784=ParameterName=Pin Info|VariantValue=
 ParamDesignator784=R14B
-ParamVariation785=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation785=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator785=R14B
-ParamVariation786=ParameterName=Simulation|VariantValue= 
+ParamVariation786=ParameterName=Simulation|VariantValue=
 ParamDesignator786=R14B
 ParamVariation787=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator787=R14B
@@ -1957,7 +1953,7 @@ ParamVariation793=ParameterName=Type|VariantValue=Resistor
 ParamDesignator793=R14B
 ParamVariation794=ParameterName=Value|VariantValue=0R
 ParamDesignator794=R14B
-Variation71=Designator=R12B|UniqueId=\2TYAXSBJQ\NIFXZSYO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation70=Designator=R12B|UniqueId=\2TYAXSBJQ\NIFXZSYO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation795=ParameterName=Comment|VariantValue==Value
 ParamDesignator795=R12B
 ParamVariation796=ParameterName=Component Kind|VariantValue=Standard
@@ -1980,7 +1976,7 @@ ParamVariation804=ParameterName=Device Package|VariantValue=0603
 ParamDesignator804=R12B
 ParamVariation805=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator805=R12B
-ParamVariation806=ParameterName=Ibis Model|VariantValue= 
+ParamVariation806=ParameterName=Ibis Model|VariantValue=
 ParamDesignator806=R12B
 ParamVariation807=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator807=R12B
@@ -1998,13 +1994,13 @@ ParamVariation813=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator813=R12B
 ParamVariation814=ParameterName=PartID|VariantValue=1
 ParamDesignator814=R12B
-ParamVariation815=ParameterName=PCB3D|VariantValue= 
+ParamVariation815=ParameterName=PCB3D|VariantValue=
 ParamDesignator815=R12B
-ParamVariation816=ParameterName=Pin Info|VariantValue= 
+ParamVariation816=ParameterName=Pin Info|VariantValue=
 ParamDesignator816=R12B
-ParamVariation817=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation817=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator817=R12B
-ParamVariation818=ParameterName=Simulation|VariantValue= 
+ParamVariation818=ParameterName=Simulation|VariantValue=
 ParamDesignator818=R12B
 ParamVariation819=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator819=R12B
@@ -2022,7 +2018,7 @@ ParamVariation825=ParameterName=Type|VariantValue=Resistor
 ParamDesignator825=R12B
 ParamVariation826=ParameterName=Value|VariantValue=0R
 ParamDesignator826=R12B
-Variation72=Designator=R16B|UniqueId=\2TYAXSBJQ\WAINVYMO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation71=Designator=R16B|UniqueId=\2TYAXSBJQ\WAINVYMO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation827=ParameterName=Comment|VariantValue==Value
 ParamDesignator827=R16B
 ParamVariation828=ParameterName=Component Kind|VariantValue=Standard
@@ -2045,7 +2041,7 @@ ParamVariation836=ParameterName=Device Package|VariantValue=0603
 ParamDesignator836=R16B
 ParamVariation837=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator837=R16B
-ParamVariation838=ParameterName=Ibis Model|VariantValue= 
+ParamVariation838=ParameterName=Ibis Model|VariantValue=
 ParamDesignator838=R16B
 ParamVariation839=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator839=R16B
@@ -2063,13 +2059,13 @@ ParamVariation845=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator845=R16B
 ParamVariation846=ParameterName=PartID|VariantValue=1
 ParamDesignator846=R16B
-ParamVariation847=ParameterName=PCB3D|VariantValue= 
+ParamVariation847=ParameterName=PCB3D|VariantValue=
 ParamDesignator847=R16B
-ParamVariation848=ParameterName=Pin Info|VariantValue= 
+ParamVariation848=ParameterName=Pin Info|VariantValue=
 ParamDesignator848=R16B
-ParamVariation849=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation849=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator849=R16B
-ParamVariation850=ParameterName=Simulation|VariantValue= 
+ParamVariation850=ParameterName=Simulation|VariantValue=
 ParamDesignator850=R16B
 ParamVariation851=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator851=R16B
@@ -2087,7 +2083,7 @@ ParamVariation857=ParameterName=Type|VariantValue=Resistor
 ParamDesignator857=R16B
 ParamVariation858=ParameterName=Value|VariantValue=0R
 ParamDesignator858=R16B
-Variation73=Designator=R15B|UniqueId=\2TYAXSBJQ\LDBHUBHI|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation72=Designator=R15B|UniqueId=\2TYAXSBJQ\LDBHUBHI|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation859=ParameterName=Comment|VariantValue==Value
 ParamDesignator859=R15B
 ParamVariation860=ParameterName=Component Kind|VariantValue=Standard
@@ -2110,7 +2106,7 @@ ParamVariation868=ParameterName=Device Package|VariantValue=0603
 ParamDesignator868=R15B
 ParamVariation869=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator869=R15B
-ParamVariation870=ParameterName=Ibis Model|VariantValue= 
+ParamVariation870=ParameterName=Ibis Model|VariantValue=
 ParamDesignator870=R15B
 ParamVariation871=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator871=R15B
@@ -2128,13 +2124,13 @@ ParamVariation877=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator877=R15B
 ParamVariation878=ParameterName=PartID|VariantValue=1
 ParamDesignator878=R15B
-ParamVariation879=ParameterName=PCB3D|VariantValue= 
+ParamVariation879=ParameterName=PCB3D|VariantValue=
 ParamDesignator879=R15B
-ParamVariation880=ParameterName=Pin Info|VariantValue= 
+ParamVariation880=ParameterName=Pin Info|VariantValue=
 ParamDesignator880=R15B
-ParamVariation881=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation881=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator881=R15B
-ParamVariation882=ParameterName=Simulation|VariantValue= 
+ParamVariation882=ParameterName=Simulation|VariantValue=
 ParamDesignator882=R15B
 ParamVariation883=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator883=R15B
@@ -2152,7 +2148,7 @@ ParamVariation889=ParameterName=Type|VariantValue=Resistor
 ParamDesignator889=R15B
 ParamVariation890=ParameterName=Value|VariantValue=0R
 ParamDesignator890=R15B
-Variation74=Designator=R10B|UniqueId=\2TYAXSBJQ\AQZQPOCK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation73=Designator=R10B|UniqueId=\2TYAXSBJQ\AQZQPOCK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation891=ParameterName=Comment|VariantValue==Value
 ParamDesignator891=R10B
 ParamVariation892=ParameterName=Component Kind|VariantValue=Standard
@@ -2175,7 +2171,7 @@ ParamVariation900=ParameterName=Device Package|VariantValue=0603
 ParamDesignator900=R10B
 ParamVariation901=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator901=R10B
-ParamVariation902=ParameterName=Ibis Model|VariantValue= 
+ParamVariation902=ParameterName=Ibis Model|VariantValue=
 ParamDesignator902=R10B
 ParamVariation903=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator903=R10B
@@ -2193,13 +2189,13 @@ ParamVariation909=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator909=R10B
 ParamVariation910=ParameterName=PartID|VariantValue=1
 ParamDesignator910=R10B
-ParamVariation911=ParameterName=PCB3D|VariantValue= 
+ParamVariation911=ParameterName=PCB3D|VariantValue=
 ParamDesignator911=R10B
-ParamVariation912=ParameterName=Pin Info|VariantValue= 
+ParamVariation912=ParameterName=Pin Info|VariantValue=
 ParamDesignator912=R10B
-ParamVariation913=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation913=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator913=R10B
-ParamVariation914=ParameterName=Simulation|VariantValue= 
+ParamVariation914=ParameterName=Simulation|VariantValue=
 ParamDesignator914=R10B
 ParamVariation915=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator915=R10B
@@ -2217,7 +2213,7 @@ ParamVariation921=ParameterName=Type|VariantValue=Resistor
 ParamDesignator921=R10B
 ParamVariation922=ParameterName=Value|VariantValue=0R
 ParamDesignator922=R10B
-Variation75=Designator=R20B|UniqueId=\2TYAXSBJQ\QQIPBLXD|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation74=Designator=R20B|UniqueId=\2TYAXSBJQ\QQIPBLXD|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation923=ParameterName=Comment|VariantValue==Value
 ParamDesignator923=R20B
 ParamVariation924=ParameterName=Component Kind|VariantValue=Standard
@@ -2240,7 +2236,7 @@ ParamVariation932=ParameterName=Device Package|VariantValue=0603
 ParamDesignator932=R20B
 ParamVariation933=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator933=R20B
-ParamVariation934=ParameterName=Ibis Model|VariantValue= 
+ParamVariation934=ParameterName=Ibis Model|VariantValue=
 ParamDesignator934=R20B
 ParamVariation935=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator935=R20B
@@ -2258,13 +2254,13 @@ ParamVariation941=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator941=R20B
 ParamVariation942=ParameterName=PartID|VariantValue=1
 ParamDesignator942=R20B
-ParamVariation943=ParameterName=PCB3D|VariantValue= 
+ParamVariation943=ParameterName=PCB3D|VariantValue=
 ParamDesignator943=R20B
-ParamVariation944=ParameterName=Pin Info|VariantValue= 
+ParamVariation944=ParameterName=Pin Info|VariantValue=
 ParamDesignator944=R20B
-ParamVariation945=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation945=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator945=R20B
-ParamVariation946=ParameterName=Simulation|VariantValue= 
+ParamVariation946=ParameterName=Simulation|VariantValue=
 ParamDesignator946=R20B
 ParamVariation947=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator947=R20B
@@ -2282,7 +2278,7 @@ ParamVariation953=ParameterName=Type|VariantValue=Resistor
 ParamDesignator953=R20B
 ParamVariation954=ParameterName=Value|VariantValue=0R
 ParamDesignator954=R20B
-Variation76=Designator=R13B|UniqueId=\2TYAXSBJQ\PMHUKBAJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation75=Designator=R13B|UniqueId=\2TYAXSBJQ\PMHUKBAJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation955=ParameterName=Comment|VariantValue==Value
 ParamDesignator955=R13B
 ParamVariation956=ParameterName=Component Kind|VariantValue=Standard
@@ -2305,7 +2301,7 @@ ParamVariation964=ParameterName=Device Package|VariantValue=0603
 ParamDesignator964=R13B
 ParamVariation965=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator965=R13B
-ParamVariation966=ParameterName=Ibis Model|VariantValue= 
+ParamVariation966=ParameterName=Ibis Model|VariantValue=
 ParamDesignator966=R13B
 ParamVariation967=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator967=R13B
@@ -2323,13 +2319,13 @@ ParamVariation973=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator973=R13B
 ParamVariation974=ParameterName=PartID|VariantValue=1
 ParamDesignator974=R13B
-ParamVariation975=ParameterName=PCB3D|VariantValue= 
+ParamVariation975=ParameterName=PCB3D|VariantValue=
 ParamDesignator975=R13B
-ParamVariation976=ParameterName=Pin Info|VariantValue= 
+ParamVariation976=ParameterName=Pin Info|VariantValue=
 ParamDesignator976=R13B
-ParamVariation977=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation977=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator977=R13B
-ParamVariation978=ParameterName=Simulation|VariantValue= 
+ParamVariation978=ParameterName=Simulation|VariantValue=
 ParamDesignator978=R13B
 ParamVariation979=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator979=R13B
@@ -2347,7 +2343,7 @@ ParamVariation985=ParameterName=Type|VariantValue=Resistor
 ParamDesignator985=R13B
 ParamVariation986=ParameterName=Value|VariantValue=0R
 ParamDesignator986=R13B
-Variation77=Designator=R8C|UniqueId=\3TYAXSBJQ\OIZVWCGW|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation76=Designator=R8C|UniqueId=\3TYAXSBJQ\OIZVWCGW|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation987=ParameterName=Comment|VariantValue==Value
 ParamDesignator987=R8C
 ParamVariation988=ParameterName=Component Kind|VariantValue=Standard
@@ -2370,7 +2366,7 @@ ParamVariation996=ParameterName=Device Package|VariantValue=0603
 ParamDesignator996=R8C
 ParamVariation997=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator997=R8C
-ParamVariation998=ParameterName=Ibis Model|VariantValue= 
+ParamVariation998=ParameterName=Ibis Model|VariantValue=
 ParamDesignator998=R8C
 ParamVariation999=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator999=R8C
@@ -2388,13 +2384,13 @@ ParamVariation1005=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1005=R8C
 ParamVariation1006=ParameterName=PartID|VariantValue=1
 ParamDesignator1006=R8C
-ParamVariation1007=ParameterName=PCB3D|VariantValue= 
+ParamVariation1007=ParameterName=PCB3D|VariantValue=
 ParamDesignator1007=R8C
-ParamVariation1008=ParameterName=Pin Info|VariantValue= 
+ParamVariation1008=ParameterName=Pin Info|VariantValue=
 ParamDesignator1008=R8C
-ParamVariation1009=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1009=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1009=R8C
-ParamVariation1010=ParameterName=Simulation|VariantValue= 
+ParamVariation1010=ParameterName=Simulation|VariantValue=
 ParamDesignator1010=R8C
 ParamVariation1011=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1011=R8C
@@ -2412,7 +2408,7 @@ ParamVariation1017=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1017=R8C
 ParamVariation1018=ParameterName=Value|VariantValue=0R
 ParamDesignator1018=R8C
-Variation78=Designator=R11C|UniqueId=\3TYAXSBJQ\BFWKPMTL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation77=Designator=R11C|UniqueId=\3TYAXSBJQ\BFWKPMTL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1019=ParameterName=Comment|VariantValue==Value
 ParamDesignator1019=R11C
 ParamVariation1020=ParameterName=Component Kind|VariantValue=Standard
@@ -2435,7 +2431,7 @@ ParamVariation1028=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1028=R11C
 ParamVariation1029=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1029=R11C
-ParamVariation1030=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1030=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1030=R11C
 ParamVariation1031=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1031=R11C
@@ -2453,13 +2449,13 @@ ParamVariation1037=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1037=R11C
 ParamVariation1038=ParameterName=PartID|VariantValue=1
 ParamDesignator1038=R11C
-ParamVariation1039=ParameterName=PCB3D|VariantValue= 
+ParamVariation1039=ParameterName=PCB3D|VariantValue=
 ParamDesignator1039=R11C
-ParamVariation1040=ParameterName=Pin Info|VariantValue= 
+ParamVariation1040=ParameterName=Pin Info|VariantValue=
 ParamDesignator1040=R11C
-ParamVariation1041=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1041=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1041=R11C
-ParamVariation1042=ParameterName=Simulation|VariantValue= 
+ParamVariation1042=ParameterName=Simulation|VariantValue=
 ParamDesignator1042=R11C
 ParamVariation1043=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1043=R11C
@@ -2477,7 +2473,7 @@ ParamVariation1049=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1049=R11C
 ParamVariation1050=ParameterName=Value|VariantValue=0R
 ParamDesignator1050=R11C
-Variation79=Designator=R17C|UniqueId=\3TYAXSBJQ\PCOSOUXU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation78=Designator=R17C|UniqueId=\3TYAXSBJQ\PCOSOUXU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1051=ParameterName=Comment|VariantValue==Value
 ParamDesignator1051=R17C
 ParamVariation1052=ParameterName=Component Kind|VariantValue=Standard
@@ -2500,7 +2496,7 @@ ParamVariation1060=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1060=R17C
 ParamVariation1061=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1061=R17C
-ParamVariation1062=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1062=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1062=R17C
 ParamVariation1063=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1063=R17C
@@ -2518,13 +2514,13 @@ ParamVariation1069=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1069=R17C
 ParamVariation1070=ParameterName=PartID|VariantValue=1
 ParamDesignator1070=R17C
-ParamVariation1071=ParameterName=PCB3D|VariantValue= 
+ParamVariation1071=ParameterName=PCB3D|VariantValue=
 ParamDesignator1071=R17C
-ParamVariation1072=ParameterName=Pin Info|VariantValue= 
+ParamVariation1072=ParameterName=Pin Info|VariantValue=
 ParamDesignator1072=R17C
-ParamVariation1073=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1073=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1073=R17C
-ParamVariation1074=ParameterName=Simulation|VariantValue= 
+ParamVariation1074=ParameterName=Simulation|VariantValue=
 ParamDesignator1074=R17C
 ParamVariation1075=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1075=R17C
@@ -2542,7 +2538,7 @@ ParamVariation1081=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1081=R17C
 ParamVariation1082=ParameterName=Value|VariantValue=0R
 ParamDesignator1082=R17C
-Variation80=Designator=R22C|UniqueId=\3TYAXSBJQ\IYHFVHVH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation79=Designator=R22C|UniqueId=\3TYAXSBJQ\IYHFVHVH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1083=ParameterName=Comment|VariantValue==Value
 ParamDesignator1083=R22C
 ParamVariation1084=ParameterName=Component Kind|VariantValue=Standard
@@ -2565,7 +2561,7 @@ ParamVariation1092=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1092=R22C
 ParamVariation1093=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1093=R22C
-ParamVariation1094=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1094=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1094=R22C
 ParamVariation1095=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1095=R22C
@@ -2583,13 +2579,13 @@ ParamVariation1101=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1101=R22C
 ParamVariation1102=ParameterName=PartID|VariantValue=1
 ParamDesignator1102=R22C
-ParamVariation1103=ParameterName=PCB3D|VariantValue= 
+ParamVariation1103=ParameterName=PCB3D|VariantValue=
 ParamDesignator1103=R22C
-ParamVariation1104=ParameterName=Pin Info|VariantValue= 
+ParamVariation1104=ParameterName=Pin Info|VariantValue=
 ParamDesignator1104=R22C
-ParamVariation1105=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1105=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1105=R22C
-ParamVariation1106=ParameterName=Simulation|VariantValue= 
+ParamVariation1106=ParameterName=Simulation|VariantValue=
 ParamDesignator1106=R22C
 ParamVariation1107=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1107=R22C
@@ -2607,7 +2603,7 @@ ParamVariation1113=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1113=R22C
 ParamVariation1114=ParameterName=Value|VariantValue=0R
 ParamDesignator1114=R22C
-Variation81=Designator=R21C|UniqueId=\3TYAXSBJQ\HKDKBMLV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation80=Designator=R21C|UniqueId=\3TYAXSBJQ\HKDKBMLV|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1115=ParameterName=Comment|VariantValue==Value
 ParamDesignator1115=R21C
 ParamVariation1116=ParameterName=Component Kind|VariantValue=Standard
@@ -2630,7 +2626,7 @@ ParamVariation1124=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1124=R21C
 ParamVariation1125=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1125=R21C
-ParamVariation1126=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1126=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1126=R21C
 ParamVariation1127=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1127=R21C
@@ -2648,13 +2644,13 @@ ParamVariation1133=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1133=R21C
 ParamVariation1134=ParameterName=PartID|VariantValue=1
 ParamDesignator1134=R21C
-ParamVariation1135=ParameterName=PCB3D|VariantValue= 
+ParamVariation1135=ParameterName=PCB3D|VariantValue=
 ParamDesignator1135=R21C
-ParamVariation1136=ParameterName=Pin Info|VariantValue= 
+ParamVariation1136=ParameterName=Pin Info|VariantValue=
 ParamDesignator1136=R21C
-ParamVariation1137=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1137=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1137=R21C
-ParamVariation1138=ParameterName=Simulation|VariantValue= 
+ParamVariation1138=ParameterName=Simulation|VariantValue=
 ParamDesignator1138=R21C
 ParamVariation1139=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1139=R21C
@@ -2672,7 +2668,7 @@ ParamVariation1145=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1145=R21C
 ParamVariation1146=ParameterName=Value|VariantValue=0R
 ParamDesignator1146=R21C
-Variation82=Designator=R19C|UniqueId=\3TYAXSBJQ\YMMJSVGJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation81=Designator=R19C|UniqueId=\3TYAXSBJQ\YMMJSVGJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1147=ParameterName=Comment|VariantValue==Value
 ParamDesignator1147=R19C
 ParamVariation1148=ParameterName=Component Kind|VariantValue=Standard
@@ -2695,7 +2691,7 @@ ParamVariation1156=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1156=R19C
 ParamVariation1157=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1157=R19C
-ParamVariation1158=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1158=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1158=R19C
 ParamVariation1159=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1159=R19C
@@ -2713,13 +2709,13 @@ ParamVariation1165=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1165=R19C
 ParamVariation1166=ParameterName=PartID|VariantValue=1
 ParamDesignator1166=R19C
-ParamVariation1167=ParameterName=PCB3D|VariantValue= 
+ParamVariation1167=ParameterName=PCB3D|VariantValue=
 ParamDesignator1167=R19C
-ParamVariation1168=ParameterName=Pin Info|VariantValue= 
+ParamVariation1168=ParameterName=Pin Info|VariantValue=
 ParamDesignator1168=R19C
-ParamVariation1169=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1169=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1169=R19C
-ParamVariation1170=ParameterName=Simulation|VariantValue= 
+ParamVariation1170=ParameterName=Simulation|VariantValue=
 ParamDesignator1170=R19C
 ParamVariation1171=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1171=R19C
@@ -2737,7 +2733,7 @@ ParamVariation1177=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1177=R19C
 ParamVariation1178=ParameterName=Value|VariantValue=0R
 ParamDesignator1178=R19C
-Variation83=Designator=R13C|UniqueId=\3TYAXSBJQ\PMHUKBAJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation82=Designator=R13C|UniqueId=\3TYAXSBJQ\PMHUKBAJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1179=ParameterName=Comment|VariantValue==Value
 ParamDesignator1179=R13C
 ParamVariation1180=ParameterName=Component Kind|VariantValue=Standard
@@ -2760,7 +2756,7 @@ ParamVariation1188=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1188=R13C
 ParamVariation1189=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1189=R13C
-ParamVariation1190=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1190=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1190=R13C
 ParamVariation1191=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1191=R13C
@@ -2778,13 +2774,13 @@ ParamVariation1197=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1197=R13C
 ParamVariation1198=ParameterName=PartID|VariantValue=1
 ParamDesignator1198=R13C
-ParamVariation1199=ParameterName=PCB3D|VariantValue= 
+ParamVariation1199=ParameterName=PCB3D|VariantValue=
 ParamDesignator1199=R13C
-ParamVariation1200=ParameterName=Pin Info|VariantValue= 
+ParamVariation1200=ParameterName=Pin Info|VariantValue=
 ParamDesignator1200=R13C
-ParamVariation1201=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1201=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1201=R13C
-ParamVariation1202=ParameterName=Simulation|VariantValue= 
+ParamVariation1202=ParameterName=Simulation|VariantValue=
 ParamDesignator1202=R13C
 ParamVariation1203=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1203=R13C
@@ -2802,7 +2798,7 @@ ParamVariation1209=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1209=R13C
 ParamVariation1210=ParameterName=Value|VariantValue=0R
 ParamDesignator1210=R13C
-Variation84=Designator=R12C|UniqueId=\3TYAXSBJQ\NIFXZSYO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation83=Designator=R12C|UniqueId=\3TYAXSBJQ\NIFXZSYO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1211=ParameterName=Comment|VariantValue==Value
 ParamDesignator1211=R12C
 ParamVariation1212=ParameterName=Component Kind|VariantValue=Standard
@@ -2825,7 +2821,7 @@ ParamVariation1220=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1220=R12C
 ParamVariation1221=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1221=R12C
-ParamVariation1222=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1222=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1222=R12C
 ParamVariation1223=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1223=R12C
@@ -2843,13 +2839,13 @@ ParamVariation1229=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1229=R12C
 ParamVariation1230=ParameterName=PartID|VariantValue=1
 ParamDesignator1230=R12C
-ParamVariation1231=ParameterName=PCB3D|VariantValue= 
+ParamVariation1231=ParameterName=PCB3D|VariantValue=
 ParamDesignator1231=R12C
-ParamVariation1232=ParameterName=Pin Info|VariantValue= 
+ParamVariation1232=ParameterName=Pin Info|VariantValue=
 ParamDesignator1232=R12C
-ParamVariation1233=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1233=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1233=R12C
-ParamVariation1234=ParameterName=Simulation|VariantValue= 
+ParamVariation1234=ParameterName=Simulation|VariantValue=
 ParamDesignator1234=R12C
 ParamVariation1235=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1235=R12C
@@ -2867,7 +2863,7 @@ ParamVariation1241=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1241=R12C
 ParamVariation1242=ParameterName=Value|VariantValue=0R
 ParamDesignator1242=R12C
-Variation85=Designator=R20C|UniqueId=\3TYAXSBJQ\QQIPBLXD|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation84=Designator=R20C|UniqueId=\3TYAXSBJQ\QQIPBLXD|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1243=ParameterName=Comment|VariantValue==Value
 ParamDesignator1243=R20C
 ParamVariation1244=ParameterName=Component Kind|VariantValue=Standard
@@ -2890,7 +2886,7 @@ ParamVariation1252=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1252=R20C
 ParamVariation1253=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1253=R20C
-ParamVariation1254=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1254=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1254=R20C
 ParamVariation1255=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1255=R20C
@@ -2908,13 +2904,13 @@ ParamVariation1261=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1261=R20C
 ParamVariation1262=ParameterName=PartID|VariantValue=1
 ParamDesignator1262=R20C
-ParamVariation1263=ParameterName=PCB3D|VariantValue= 
+ParamVariation1263=ParameterName=PCB3D|VariantValue=
 ParamDesignator1263=R20C
-ParamVariation1264=ParameterName=Pin Info|VariantValue= 
+ParamVariation1264=ParameterName=Pin Info|VariantValue=
 ParamDesignator1264=R20C
-ParamVariation1265=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1265=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1265=R20C
-ParamVariation1266=ParameterName=Simulation|VariantValue= 
+ParamVariation1266=ParameterName=Simulation|VariantValue=
 ParamDesignator1266=R20C
 ParamVariation1267=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1267=R20C
@@ -2932,7 +2928,7 @@ ParamVariation1273=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1273=R20C
 ParamVariation1274=ParameterName=Value|VariantValue=0R
 ParamDesignator1274=R20C
-Variation86=Designator=R18C|UniqueId=\3TYAXSBJQ\GBSQHGRU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation85=Designator=R18C|UniqueId=\3TYAXSBJQ\GBSQHGRU|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1275=ParameterName=Comment|VariantValue==Value
 ParamDesignator1275=R18C
 ParamVariation1276=ParameterName=Component Kind|VariantValue=Standard
@@ -2955,7 +2951,7 @@ ParamVariation1284=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1284=R18C
 ParamVariation1285=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1285=R18C
-ParamVariation1286=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1286=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1286=R18C
 ParamVariation1287=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1287=R18C
@@ -2973,13 +2969,13 @@ ParamVariation1293=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1293=R18C
 ParamVariation1294=ParameterName=PartID|VariantValue=1
 ParamDesignator1294=R18C
-ParamVariation1295=ParameterName=PCB3D|VariantValue= 
+ParamVariation1295=ParameterName=PCB3D|VariantValue=
 ParamDesignator1295=R18C
-ParamVariation1296=ParameterName=Pin Info|VariantValue= 
+ParamVariation1296=ParameterName=Pin Info|VariantValue=
 ParamDesignator1296=R18C
-ParamVariation1297=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1297=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1297=R18C
-ParamVariation1298=ParameterName=Simulation|VariantValue= 
+ParamVariation1298=ParameterName=Simulation|VariantValue=
 ParamDesignator1298=R18C
 ParamVariation1299=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1299=R18C
@@ -2997,7 +2993,7 @@ ParamVariation1305=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1305=R18C
 ParamVariation1306=ParameterName=Value|VariantValue=0R
 ParamDesignator1306=R18C
-Variation87=Designator=R16C|UniqueId=\3TYAXSBJQ\WAINVYMO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation86=Designator=R16C|UniqueId=\3TYAXSBJQ\WAINVYMO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1307=ParameterName=Comment|VariantValue==Value
 ParamDesignator1307=R16C
 ParamVariation1308=ParameterName=Component Kind|VariantValue=Standard
@@ -3020,7 +3016,7 @@ ParamVariation1316=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1316=R16C
 ParamVariation1317=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1317=R16C
-ParamVariation1318=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1318=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1318=R16C
 ParamVariation1319=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1319=R16C
@@ -3038,13 +3034,13 @@ ParamVariation1325=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1325=R16C
 ParamVariation1326=ParameterName=PartID|VariantValue=1
 ParamDesignator1326=R16C
-ParamVariation1327=ParameterName=PCB3D|VariantValue= 
+ParamVariation1327=ParameterName=PCB3D|VariantValue=
 ParamDesignator1327=R16C
-ParamVariation1328=ParameterName=Pin Info|VariantValue= 
+ParamVariation1328=ParameterName=Pin Info|VariantValue=
 ParamDesignator1328=R16C
-ParamVariation1329=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1329=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1329=R16C
-ParamVariation1330=ParameterName=Simulation|VariantValue= 
+ParamVariation1330=ParameterName=Simulation|VariantValue=
 ParamDesignator1330=R16C
 ParamVariation1331=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1331=R16C
@@ -3062,7 +3058,7 @@ ParamVariation1337=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1337=R16C
 ParamVariation1338=ParameterName=Value|VariantValue=0R
 ParamDesignator1338=R16C
-Variation88=Designator=R15C|UniqueId=\3TYAXSBJQ\LDBHUBHI|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation87=Designator=R15C|UniqueId=\3TYAXSBJQ\LDBHUBHI|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1339=ParameterName=Comment|VariantValue==Value
 ParamDesignator1339=R15C
 ParamVariation1340=ParameterName=Component Kind|VariantValue=Standard
@@ -3085,7 +3081,7 @@ ParamVariation1348=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1348=R15C
 ParamVariation1349=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1349=R15C
-ParamVariation1350=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1350=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1350=R15C
 ParamVariation1351=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1351=R15C
@@ -3103,13 +3099,13 @@ ParamVariation1357=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1357=R15C
 ParamVariation1358=ParameterName=PartID|VariantValue=1
 ParamDesignator1358=R15C
-ParamVariation1359=ParameterName=PCB3D|VariantValue= 
+ParamVariation1359=ParameterName=PCB3D|VariantValue=
 ParamDesignator1359=R15C
-ParamVariation1360=ParameterName=Pin Info|VariantValue= 
+ParamVariation1360=ParameterName=Pin Info|VariantValue=
 ParamDesignator1360=R15C
-ParamVariation1361=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1361=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1361=R15C
-ParamVariation1362=ParameterName=Simulation|VariantValue= 
+ParamVariation1362=ParameterName=Simulation|VariantValue=
 ParamDesignator1362=R15C
 ParamVariation1363=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1363=R15C
@@ -3127,7 +3123,7 @@ ParamVariation1369=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1369=R15C
 ParamVariation1370=ParameterName=Value|VariantValue=0R
 ParamDesignator1370=R15C
-Variation89=Designator=R9C|UniqueId=\3TYAXSBJQ\CVRAQRDZ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation88=Designator=R9C|UniqueId=\3TYAXSBJQ\CVRAQRDZ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1371=ParameterName=Comment|VariantValue==Value
 ParamDesignator1371=R9C
 ParamVariation1372=ParameterName=Component Kind|VariantValue=Standard
@@ -3150,7 +3146,7 @@ ParamVariation1380=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1380=R9C
 ParamVariation1381=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1381=R9C
-ParamVariation1382=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1382=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1382=R9C
 ParamVariation1383=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1383=R9C
@@ -3168,13 +3164,13 @@ ParamVariation1389=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1389=R9C
 ParamVariation1390=ParameterName=PartID|VariantValue=1
 ParamDesignator1390=R9C
-ParamVariation1391=ParameterName=PCB3D|VariantValue= 
+ParamVariation1391=ParameterName=PCB3D|VariantValue=
 ParamDesignator1391=R9C
-ParamVariation1392=ParameterName=Pin Info|VariantValue= 
+ParamVariation1392=ParameterName=Pin Info|VariantValue=
 ParamDesignator1392=R9C
-ParamVariation1393=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1393=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1393=R9C
-ParamVariation1394=ParameterName=Simulation|VariantValue= 
+ParamVariation1394=ParameterName=Simulation|VariantValue=
 ParamDesignator1394=R9C
 ParamVariation1395=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1395=R9C
@@ -3192,7 +3188,7 @@ ParamVariation1401=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1401=R9C
 ParamVariation1402=ParameterName=Value|VariantValue=0R
 ParamDesignator1402=R9C
-Variation90=Designator=R14C|UniqueId=\3TYAXSBJQ\WKSSTOMP|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation89=Designator=R14C|UniqueId=\3TYAXSBJQ\WKSSTOMP|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1403=ParameterName=Comment|VariantValue==Value
 ParamDesignator1403=R14C
 ParamVariation1404=ParameterName=Component Kind|VariantValue=Standard
@@ -3215,7 +3211,7 @@ ParamVariation1412=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1412=R14C
 ParamVariation1413=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1413=R14C
-ParamVariation1414=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1414=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1414=R14C
 ParamVariation1415=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1415=R14C
@@ -3233,13 +3229,13 @@ ParamVariation1421=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1421=R14C
 ParamVariation1422=ParameterName=PartID|VariantValue=1
 ParamDesignator1422=R14C
-ParamVariation1423=ParameterName=PCB3D|VariantValue= 
+ParamVariation1423=ParameterName=PCB3D|VariantValue=
 ParamDesignator1423=R14C
-ParamVariation1424=ParameterName=Pin Info|VariantValue= 
+ParamVariation1424=ParameterName=Pin Info|VariantValue=
 ParamDesignator1424=R14C
-ParamVariation1425=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1425=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1425=R14C
-ParamVariation1426=ParameterName=Simulation|VariantValue= 
+ParamVariation1426=ParameterName=Simulation|VariantValue=
 ParamDesignator1426=R14C
 ParamVariation1427=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1427=R14C
@@ -3257,7 +3253,7 @@ ParamVariation1433=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1433=R14C
 ParamVariation1434=ParameterName=Value|VariantValue=0R
 ParamDesignator1434=R14C
-Variation91=Designator=R10C|UniqueId=\3TYAXSBJQ\AQZQPOCK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation90=Designator=R10C|UniqueId=\3TYAXSBJQ\AQZQPOCK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1435=ParameterName=Comment|VariantValue==Value
 ParamDesignator1435=R10C
 ParamVariation1436=ParameterName=Component Kind|VariantValue=Standard
@@ -3280,7 +3276,7 @@ ParamVariation1444=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1444=R10C
 ParamVariation1445=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1445=R10C
-ParamVariation1446=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1446=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1446=R10C
 ParamVariation1447=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1447=R10C
@@ -3298,13 +3294,13 @@ ParamVariation1453=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1453=R10C
 ParamVariation1454=ParameterName=PartID|VariantValue=1
 ParamDesignator1454=R10C
-ParamVariation1455=ParameterName=PCB3D|VariantValue= 
+ParamVariation1455=ParameterName=PCB3D|VariantValue=
 ParamDesignator1455=R10C
-ParamVariation1456=ParameterName=Pin Info|VariantValue= 
+ParamVariation1456=ParameterName=Pin Info|VariantValue=
 ParamDesignator1456=R10C
-ParamVariation1457=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1457=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1457=R10C
-ParamVariation1458=ParameterName=Simulation|VariantValue= 
+ParamVariation1458=ParameterName=Simulation|VariantValue=
 ParamDesignator1458=R10C
 ParamVariation1459=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1459=R10C
@@ -3322,7 +3318,7 @@ ParamVariation1465=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1465=R10C
 ParamVariation1466=ParameterName=Value|VariantValue=0R
 ParamDesignator1466=R10C
-Variation92=Designator=R9A|UniqueId=\1TYAXSBJQ\CVRAQRDZ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation91=Designator=R9A|UniqueId=\1TYAXSBJQ\CVRAQRDZ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1467=ParameterName=Comment|VariantValue==Value
 ParamDesignator1467=R9A
 ParamVariation1468=ParameterName=Component Kind|VariantValue=Standard
@@ -3345,7 +3341,7 @@ ParamVariation1476=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1476=R9A
 ParamVariation1477=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1477=R9A
-ParamVariation1478=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1478=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1478=R9A
 ParamVariation1479=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1479=R9A
@@ -3363,13 +3359,13 @@ ParamVariation1485=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1485=R9A
 ParamVariation1486=ParameterName=PartID|VariantValue=1
 ParamDesignator1486=R9A
-ParamVariation1487=ParameterName=PCB3D|VariantValue= 
+ParamVariation1487=ParameterName=PCB3D|VariantValue=
 ParamDesignator1487=R9A
-ParamVariation1488=ParameterName=Pin Info|VariantValue= 
+ParamVariation1488=ParameterName=Pin Info|VariantValue=
 ParamDesignator1488=R9A
-ParamVariation1489=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1489=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1489=R9A
-ParamVariation1490=ParameterName=Simulation|VariantValue= 
+ParamVariation1490=ParameterName=Simulation|VariantValue=
 ParamDesignator1490=R9A
 ParamVariation1491=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1491=R9A
@@ -3387,7 +3383,7 @@ ParamVariation1497=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1497=R9A
 ParamVariation1498=ParameterName=Value|VariantValue=0R
 ParamDesignator1498=R9A
-Variation93=Designator=R12A|UniqueId=\1TYAXSBJQ\NIFXZSYO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation92=Designator=R12A|UniqueId=\1TYAXSBJQ\NIFXZSYO|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1499=ParameterName=Comment|VariantValue==Value
 ParamDesignator1499=R12A
 ParamVariation1500=ParameterName=Component Kind|VariantValue=Standard
@@ -3410,7 +3406,7 @@ ParamVariation1508=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1508=R12A
 ParamVariation1509=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1509=R12A
-ParamVariation1510=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1510=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1510=R12A
 ParamVariation1511=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1511=R12A
@@ -3428,13 +3424,13 @@ ParamVariation1517=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1517=R12A
 ParamVariation1518=ParameterName=PartID|VariantValue=1
 ParamDesignator1518=R12A
-ParamVariation1519=ParameterName=PCB3D|VariantValue= 
+ParamVariation1519=ParameterName=PCB3D|VariantValue=
 ParamDesignator1519=R12A
-ParamVariation1520=ParameterName=Pin Info|VariantValue= 
+ParamVariation1520=ParameterName=Pin Info|VariantValue=
 ParamDesignator1520=R12A
-ParamVariation1521=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1521=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1521=R12A
-ParamVariation1522=ParameterName=Simulation|VariantValue= 
+ParamVariation1522=ParameterName=Simulation|VariantValue=
 ParamDesignator1522=R12A
 ParamVariation1523=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1523=R12A
@@ -3452,7 +3448,7 @@ ParamVariation1529=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1529=R12A
 ParamVariation1530=ParameterName=Value|VariantValue=0R
 ParamDesignator1530=R12A
-Variation94=Designator=R13A|UniqueId=\1TYAXSBJQ\PMHUKBAJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation93=Designator=R13A|UniqueId=\1TYAXSBJQ\PMHUKBAJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1531=ParameterName=Comment|VariantValue==Value
 ParamDesignator1531=R13A
 ParamVariation1532=ParameterName=Component Kind|VariantValue=Standard
@@ -3475,7 +3471,7 @@ ParamVariation1540=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1540=R13A
 ParamVariation1541=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1541=R13A
-ParamVariation1542=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1542=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1542=R13A
 ParamVariation1543=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1543=R13A
@@ -3493,13 +3489,13 @@ ParamVariation1549=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1549=R13A
 ParamVariation1550=ParameterName=PartID|VariantValue=1
 ParamDesignator1550=R13A
-ParamVariation1551=ParameterName=PCB3D|VariantValue= 
+ParamVariation1551=ParameterName=PCB3D|VariantValue=
 ParamDesignator1551=R13A
-ParamVariation1552=ParameterName=Pin Info|VariantValue= 
+ParamVariation1552=ParameterName=Pin Info|VariantValue=
 ParamDesignator1552=R13A
-ParamVariation1553=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1553=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1553=R13A
-ParamVariation1554=ParameterName=Simulation|VariantValue= 
+ParamVariation1554=ParameterName=Simulation|VariantValue=
 ParamDesignator1554=R13A
 ParamVariation1555=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1555=R13A
@@ -3517,7 +3513,7 @@ ParamVariation1561=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1561=R13A
 ParamVariation1562=ParameterName=Value|VariantValue=0R
 ParamDesignator1562=R13A
-Variation95=Designator=R10A|UniqueId=\1TYAXSBJQ\AQZQPOCK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation94=Designator=R10A|UniqueId=\1TYAXSBJQ\AQZQPOCK|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1563=ParameterName=Comment|VariantValue==Value
 ParamDesignator1563=R10A
 ParamVariation1564=ParameterName=Component Kind|VariantValue=Standard
@@ -3540,7 +3536,7 @@ ParamVariation1572=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1572=R10A
 ParamVariation1573=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1573=R10A
-ParamVariation1574=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1574=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1574=R10A
 ParamVariation1575=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1575=R10A
@@ -3558,13 +3554,13 @@ ParamVariation1581=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1581=R10A
 ParamVariation1582=ParameterName=PartID|VariantValue=1
 ParamDesignator1582=R10A
-ParamVariation1583=ParameterName=PCB3D|VariantValue= 
+ParamVariation1583=ParameterName=PCB3D|VariantValue=
 ParamDesignator1583=R10A
-ParamVariation1584=ParameterName=Pin Info|VariantValue= 
+ParamVariation1584=ParameterName=Pin Info|VariantValue=
 ParamDesignator1584=R10A
-ParamVariation1585=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1585=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1585=R10A
-ParamVariation1586=ParameterName=Simulation|VariantValue= 
+ParamVariation1586=ParameterName=Simulation|VariantValue=
 ParamDesignator1586=R10A
 ParamVariation1587=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1587=R10A
@@ -3582,7 +3578,7 @@ ParamVariation1593=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1593=R10A
 ParamVariation1594=ParameterName=Value|VariantValue=0R
 ParamDesignator1594=R10A
-Variation96=Designator=R11A|UniqueId=\1TYAXSBJQ\BFWKPMTL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
+Variation95=Designator=R11A|UniqueId=\1TYAXSBJQ\BFWKPMTL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\GIT\UltraZohm\pcb_design\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RC0603JR-070RL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RES 0603_1608|AltLibLink_IsSameFootprint=True
 ParamVariation1595=ParameterName=Comment|VariantValue==Value
 ParamDesignator1595=R11A
 ParamVariation1596=ParameterName=Component Kind|VariantValue=Standard
@@ -3605,7 +3601,7 @@ ParamVariation1604=ParameterName=Device Package|VariantValue=0603
 ParamDesignator1604=R11A
 ParamVariation1605=ParameterName=Footprint|VariantValue=RES 0603_1608
 ParamDesignator1605=R11A
-ParamVariation1606=ParameterName=Ibis Model|VariantValue= 
+ParamVariation1606=ParameterName=Ibis Model|VariantValue=
 ParamDesignator1606=R11A
 ParamVariation1607=ParameterName=Last Updated|VariantValue=04.03.2021 09:09:42
 ParamDesignator1607=R11A
@@ -3623,13 +3619,13 @@ ParamVariation1613=ParameterName=Mounting Type|VariantValue=SMD
 ParamDesignator1613=R11A
 ParamVariation1614=ParameterName=PartID|VariantValue=1
 ParamDesignator1614=R11A
-ParamVariation1615=ParameterName=PCB3D|VariantValue= 
+ParamVariation1615=ParameterName=PCB3D|VariantValue=
 ParamDesignator1615=R11A
-ParamVariation1616=ParameterName=Pin Info|VariantValue= 
+ParamVariation1616=ParameterName=Pin Info|VariantValue=
 ParamDesignator1616=R11A
-ParamVariation1617=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation1617=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator1617=R11A
-ParamVariation1618=ParameterName=Simulation|VariantValue= 
+ParamVariation1618=ParameterName=Simulation|VariantValue=
 ParamDesignator1618=R11A
 ParamVariation1619=ParameterName=Stock number|VariantValue=Labor SMD Container
 ParamDesignator1619=R11A
@@ -3647,8 +3643,6 @@ ParamVariation1625=ParameterName=Type|VariantValue=Resistor
 ParamDesignator1625=R11A
 ParamVariation1626=ParameterName=Value|VariantValue=0R
 ParamDesignator1626=R11A
-Variation97=Designator=R71|UniqueId=\LGUSEKVC\HCRWMFRV|Kind=1|AlternatePart= 
-Variation98=Designator=R74|UniqueId=\LGUSEKVC\RKASVALO|Kind=1|AlternatePart= 
 ParamVariationCount=1626
 
 [GeneratedDocument1]
@@ -3893,42 +3887,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=Mixed Sim Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=ECOSYS P6026cdn
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -4015,18 +3979,6 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=PCBDrawing
-OutputName14=Draftsman
-OutputDocumentPath14=
-OutputVariantName14=[No Variations]
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType15=PCBDrawing
-OutputName15=Draftsman
-OutputDocumentPath15=
-OutputVariantName15=[No Variations]
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -4049,6 +4001,11 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -4202,6 +4159,11 @@ OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=BOM_ReportManufacturing
+OutputName10=Manufacturing Data
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -4214,102 +4176,6 @@ OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=Text Print
-OutputName2=Text Print
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Text Print
-OutputName3=Text Print
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Text Print
-OutputName4=Text Print
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Text Print
-OutputName5=Text Print
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType6=Text Print
-OutputName6=Text Print
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType7=Text Print
-OutputName7=Text Print
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=Text Print
-OutputName8=Text Print
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Text Print
-OutputName9=Text Print
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=Text Print
-OutputName10=Text Print
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Text Print
-OutputName11=Text Print
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Text Print
-OutputName12=Text Print
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Text Print
-OutputName13=Text Print
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=Text Print
-OutputName14=Text Print
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType15=Text Print
-OutputName15=Text Print
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType16=Text Print
-OutputName16=Text Print
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType17=Text Print
-OutputName17=Text Print
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -4420,36 +4286,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -4601,6 +4437,29 @@ Type135=1
 Type136=1
 Type137=1
 Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
+Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
+Type159=1
+Type160=1
+Type161=1
 
 [Difference Levels]
 Type1=1
@@ -4677,6 +4536,20 @@ Type71=1
 Type72=1
 Type73=1
 Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+Type88=1
 
 [Electrical Rules Check]
 Type1=1
@@ -4832,6 +4705,18 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
+Type154=0
+Type155=0
+Type156=0
+Type157=0
+Type158=0
+Type159=0
+Type160=0
+Type161=0
+Type162=1
+Type163=1
+Type164=1
+Type165=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
